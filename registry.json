@@ -1,0 +1,2649 @@
+{
+  "version": "1.0.0",
+  "generated_at": 1788450784905,
+  "total_plugins": 168,
+  "required_count": 168,
+  "optional_count": 0,
+  "total_lib_files": 17,
+  "total_default_files": 1,
+  "plugins": [
+    {
+      "id": "ai",
+      "name": "ai",
+      "category": "ai",
+      "description": "Chat with Gemini AI (main AI assistant)",
+      "commands": [
+        "ai",
+        "gemini",
+        "ask"
+      ],
+      "usage": "• .ai <question> - Ask Gemini AI anything\\n• .ask <question> - Alternative command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/ai.js",
+      "sha256": "805df8001ce1108aecf89c9afcd113fc8ee539cf6c1f634aea28b9021d143ba1"
+    },
+    {
+      "id": "claude",
+      "name": "claude",
+      "category": "ai",
+      "description": "Chat with Claude AI model",
+      "commands": [
+        "claude",
+        "anthropic"
+      ],
+      "usage": "• .claude <question> - Ask Claude AI anything\\n• .anthropic <question> - Alternative command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/claude.js",
+      "sha256": "1e06539a19a42325f47a931c9ec423fdf9095b8afc80aafda70ad96e1e2defa8"
+    },
+    {
+      "id": "copilot",
+      "name": "copilot",
+      "category": "ai",
+      "description": "Chat with Microsoft Copilot AI (with Think Mode)",
+      "commands": [
+        "copilot",
+        "bing",
+        "bingai"
+      ],
+      "usage": "• .copilot <question> - Ask Copilot AI\\n• .copilot think <question> - Use Think Mode with sources",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/copilot.js",
+      "sha256": "6bfdb939eca090798d5214bef2d446f3596f943bcb6063bfb936196e79bd5713"
+    },
+    {
+      "id": "describe",
+      "name": "describe",
+      "category": "ai",
+      "description": "Analyze and describe images using AI vision",
+      "commands": [
+        "describe",
+        "whatisthis",
+        "analyze",
+        "vision"
+      ],
+      "usage": "• .describe - Reply to an image to get description\\n• Send image with caption: .describe\\n• .describe <image_url>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/describe.js",
+      "sha256": "79997a65008f2415b9c566c28eed7e97d530c8eab5111ef7bc04bd3538181433"
+    },
+    {
+      "id": "felo",
+      "name": "felo",
+      "category": "ai",
+      "description": "Research-focused AI with cited sources",
+      "commands": [
+        "felo",
+        "research",
+        "search"
+      ],
+      "usage": "• .felo <question> - Get researched answers with sources\\n• .research <question> - Alternative command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/felo.js",
+      "sha256": "e206b7b7255f7832290ffb052c214ac4a0a222271b13badbd4f2b9bca27d72d8"
+    },
+    {
+      "id": "gpt",
+      "name": "gpt",
+      "category": "ai",
+      "description": "Chat with GPT-4o AI model",
+      "commands": [
+        "gpt",
+        "gpt4",
+        "gpt4o",
+        "openai"
+      ],
+      "usage": "• .gpt <question> - Ask GPT-4o anything\\n• .gpt4o <question> - Alternative command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/gpt.js",
+      "sha256": "83250692b13ab400db8cfcfd967bae98db17983a3f40da860fb3e262cac10cb0"
+    },
+    {
+      "id": "llama",
+      "name": "llama",
+      "category": "ai",
+      "description": "Chat with Llama 3.3-70b AI model",
+      "commands": [
+        "llama",
+        "llama3",
+        "meta"
+      ],
+      "usage": "• .llama <question> - Ask Llama AI anything\\n• .llama3 <question> - Alternative command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/llama.js",
+      "sha256": "1498bea2be937a9f9a570b7cb74f831514820176119447348551adbc4d949e29"
+    },
+    {
+      "id": "nsfwcheck",
+      "name": "nsfwcheck",
+      "category": "ai",
+      "description": "Check if an image contains NSFW content",
+      "commands": [
+        "nsfwcheck",
+        "nsfw",
+        "safe",
+        "checknsfw"
+      ],
+      "usage": "• .nsfwcheck - Reply to an image to check\\n• Send image with caption: .nsfwcheck",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/nsfwcheck.js",
+      "sha256": "544823074532859c2162660dcb2a0473497eb7f85e5cab291e7a6fef11469eff"
+    },
+    {
+      "id": "texttoimg",
+      "name": "imagine",
+      "category": "ai",
+      "description": "Generate images from text descriptions",
+      "commands": [
+        "imagine",
+        "img",
+        "generate",
+        "draw"
+      ],
+      "usage": "• .imagine <description> - Generate image from text\\n• .img <description> - Alternative command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/texttoimg.js",
+      "sha256": "0b689d1f112d9d7d77fc3b7790c00f67dc6236a9d2434bbceda9b56c2476d0fb"
+    },
+    {
+      "id": "texttovid",
+      "name": "vgen",
+      "category": "ai",
+      "description": "Generate videos from text descriptions using Sora AI",
+      "commands": [
+        "vgen",
+        "video",
+        "sora",
+        "genvideo"
+      ],
+      "usage": "• .vgen <description> - Generate video from text\\n• .sora <description> - Alternative command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/texttovid.js",
+      "sha256": "96f90f79458625a6d56bf3de181332d7a674b0ccbd9f640a2c18776059d7a344"
+    },
+    {
+      "id": "aimenu",
+      "name": "aimenu",
+      "category": "aimenu",
+      "description": "Display AI and artificial intelligence commands menu",
+      "commands": [
+        "aimenu"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "aimenu/aimenu.js",
+      "sha256": "45e9a4824cde64e35cb0e47f9bff5eb707f4b5ff7955b3405d926a15f25c41bf"
+    },
+    {
+      "id": "channel",
+      "name": "channeljid",
+      "category": "both",
+      "description": "Get WhatsApp channel JID for your channels",
+      "commands": [
+        "listchannels",
+        "channelfromlink",
+        "joinchannel"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/channel.js",
+      "sha256": "651f5fc17ca1911b68e44aa2c4e7829614bb3730f2ebd2f3fcabb428249fa3f2"
+    },
+    {
+      "id": "vv",
+      "name": "ViewOnce Retrieval",
+      "category": "both",
+      "description": "Reply to a ViewOnce message with .vv to retrieve it",
+      "commands": [
+        "vv"
+      ],
+      "usage": "• Reply to a ViewOnce message with \\",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/vv.js",
+      "sha256": "ba8fb5be8c087b0171fb512599d51dc91c811063be4838ce8db6f4793104ead7"
+    },
+    {
+      "id": "androidcrash",
+      "name": "androidcrash",
+      "category": "bugmenu",
+      "description": "Send Android Crash bugs",
+      "commands": [
+        "androidcrash",
+        "acrash"
+      ],
+      "usage": ".androidcrash <phone number>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "bugmenu/androidcrash.js",
+      "sha256": "d9ed179a44860b038f3749e5656abae87fa01fffe9dc76aff92d853cde23894e"
+    },
+    {
+      "id": "bugmenu",
+      "name": "bugmenu",
+      "category": "bugmenu",
+      "description": "Display bug attack commands menu",
+      "commands": [
+        "bugmenu",
+        "bugs"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "bugmenu/bugmenu.js",
+      "sha256": "28a2eaa351d977b7b30495f2f89179b07fbf4ea1e3c037837ef99a01c804fca8"
+    },
+    {
+      "id": "gccrash",
+      "name": "gccrash",
+      "category": "bugmenu",
+      "description": "Send group crash bugs",
+      "commands": [
+        "gccrash",
+        "gcc",
+        "gcrash"
+      ],
+      "usage": ".gccrash <group_link or group_id>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "bugmenu/gccrash.js",
+      "sha256": "97a21ed0cda82cf07f34785a6c95fe37cff94ead244e0ab890ddd9f9a25479fb"
+    },
+    {
+      "id": "iphonecrash",
+      "name": "iosfc",
+      "category": "bugmenu",
+      "description": "Send iOS + ForceClose bugs",
+      "commands": [
+        "iosfc",
+        "ifc",
+        "iphonecrash"
+      ],
+      "usage": ".iosfc <phone number>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "bugmenu/iphonecrash.js",
+      "sha256": "9bc8876adc9d61aa418cff550cde38c928a0daa2a71a8e685dd141e3ed47367b"
+    },
+    {
+      "id": "convertmenu",
+      "name": "convertmenu",
+      "category": "convertmenu",
+      "description": "Display file conversion and utility commands menu",
+      "commands": [
+        "convertmenu",
+        "convert",
+        "conv"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/convertmenu.js",
+      "sha256": "edbbc55aba072b1316faa88fd4215fc40fc8e35ba19a6dafa645494a63292d27"
+    },
+    {
+      "id": "smeme",
+      "name": "smeme",
+      "category": "convertmenu",
+      "description": "Create meme sticker with text",
+      "commands": [
+        "smeme"
+      ],
+      "usage": "Reply to image with .smeme top text|bottom text",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/smeme.js",
+      "sha256": "666677539e25e2ec3f70790d4b083b2f66bc5b17cb87fc52815342d983a123bf"
+    },
+    {
+      "id": "sticker",
+      "name": "sticker",
+      "category": "convertmenu",
+      "description": "Convert image/video to sticker",
+      "commands": [
+        "sticker"
+      ],
+      "usage": "Reply to image/video with .sticker",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/sticker.js",
+      "sha256": "ab6057a467f158d8b23163bbdf25226fda952cdce0e5ed8da48850f063861feb"
+    },
+    {
+      "id": "take",
+      "name": "steal",
+      "category": "convertmenu",
+      "description": "Take sticker and change packname/author",
+      "commands": [
+        "take"
+      ],
+      "usage": "Reply to sticker with .steal packname|author",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/take.js",
+      "sha256": "a71a6eb7e0d3bc9a5f6ddb9075786ff00907641a9cc8431fe5378b80f9797656"
+    },
+    {
+      "id": "telesticker",
+      "name": "telesticker",
+      "category": "convertmenu",
+      "description": "Import Telegram sticker pack to WhatsApp",
+      "commands": [
+        "telesticker"
+      ],
+      "usage": ".telesticker <telegram sticker url> [custom pack name]",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/telesticker.js",
+      "sha256": "f3fdaa302514dc28505570f649a48873990818d453884c95189bf575a59a7a55"
+    },
+    {
+      "id": "toaudio",
+      "name": "toaudio",
+      "category": "convertmenu",
+      "description": "Convert video/audio to audio format",
+      "commands": [
+        "toaudio"
+      ],
+      "usage": "Reply to video/audio with .toaudio",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/toaudio.js",
+      "sha256": "b6c79b718e0006161a2b7e1cf9e877973bc2ff17d209a0239dd0b19a1f1c8e3a"
+    },
+    {
+      "id": "togif",
+      "name": "togif",
+      "category": "convertmenu",
+      "description": "Convert animated sticker to GIF",
+      "commands": [
+        "togif"
+      ],
+      "usage": "Reply to animated sticker with .togif",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/togif.js",
+      "sha256": "ca6c33debb27df71e04b6436c24e2d61dac58dc37ec586c9119a6b5081041dbc"
+    },
+    {
+      "id": "toimage",
+      "name": "toimage",
+      "category": "convertmenu",
+      "description": "Convert sticker to image",
+      "commands": [
+        "toimage"
+      ],
+      "usage": "Reply to sticker with .toimage",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/toimage.js",
+      "sha256": "71cf787e8b340a5cd351d24ea51b657bac7f48bd791a882461441ed71531add0"
+    },
+    {
+      "id": "tomp3",
+      "name": "tomp3",
+      "category": "convertmenu",
+      "description": "Convert video/audio to MP3 document",
+      "commands": [
+        "tomp3"
+      ],
+      "usage": "Reply to video/audio with .tomp3",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/tomp3.js",
+      "sha256": "c91ebf95b330168429a4876dd0c1feb26644ebd0248641c27362f9c9e92de221"
+    },
+    {
+      "id": "tourl",
+      "name": "tourl",
+      "category": "convertmenu",
+      "description": "Upload media and get URL",
+      "commands": [
+        "tourl"
+      ],
+      "usage": "Reply to image/video/document with .tourl",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/tourl.js",
+      "sha256": "91e2ce401c01cb37b89380a83347d44227e8a4580f234b244d9ef4a5a2104bff"
+    },
+    {
+      "id": "tovideo",
+      "name": "tovideo",
+      "category": "convertmenu",
+      "description": "Convert sticker to video",
+      "commands": [
+        "tovideo"
+      ],
+      "usage": "Reply to animated sticker with .tovideo",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/tovideo.js",
+      "sha256": "aa0afbdeaad7e1a84953fdaec6a758c3f88d694b25c7149cb3102d5c7b9cdbe6"
+    },
+    {
+      "id": "tovn",
+      "name": "tovn",
+      "category": "convertmenu",
+      "description": "Convert video/audio to voice note",
+      "commands": [
+        "tovn"
+      ],
+      "usage": "Reply to video/audio with .tovn",
+      "required": true,
+      "version": "1.0.0",
+      "path": "convertmenu/tovn.js",
+      "sha256": "5196ead9a59f1597d22e22e96d2ed3ac84b64a4ef27c0a8e7dc1e0009d5468fb"
+    },
+    {
+      "id": "applemusicdl",
+      "name": "applemusic",
+      "category": "download",
+      "description": "Download Apple Music tracks",
+      "commands": [
+        "applemusic",
+        "am",
+        "amdl",
+        "applemusicdl"
+      ],
+      "usage": "• .applemusic <url> - Download Apple Music track\\n• .am <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/applemusicdl.js",
+      "sha256": "15028e319cc57da8042985e9f1ff5d8413ad5bc8394be93e0c2f56609086f633"
+    },
+    {
+      "id": "capcutdl",
+      "name": "capcut",
+      "category": "download",
+      "description": "Download Capcut templates",
+      "commands": [
+        "capcut",
+        "cc",
+        "ccdl",
+        "capcutdl"
+      ],
+      "usage": "• .capcut <url> - Download Capcut template\\n• .cc <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/capcutdl.js",
+      "sha256": "4353d48db87f2a191228c3bb37766b90308af4d5923452334b141f1b8190bf9e"
+    },
+    {
+      "id": "download",
+      "name": "aio",
+      "category": "download",
+      "description": "Universal downloader - auto-detects platform",
+      "commands": [
+        "dl",
+        "download",
+        "aio"
+      ],
+      "usage": "• .dl <url> - Download from any supported platform\\n• .download <url> - Universal download",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/download.js",
+      "sha256": "55334b15691ede280382cdfbd324cd0143b90be4d4e3899fb0de9c1ae551ce71"
+    },
+    {
+      "id": "fbdl",
+      "name": "facebook",
+      "category": "download",
+      "description": "Download Facebook videos",
+      "commands": [
+        "fb",
+        "fbdl",
+        "facebook"
+      ],
+      "usage": "• .fb <url> - Download Facebook video\\n• .fbdl <url> - Download video",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/fbdl.js",
+      "sha256": "5c44e97f361530c774f56077ec76a8aa35e95bc67149dcf6d2f09a465dbb972d"
+    },
+    {
+      "id": "gdrive",
+      "name": "gdrive",
+      "category": "download",
+      "description": "Download files from Google Drive",
+      "commands": [
+        "gdrive",
+        "gd",
+        "googledrive"
+      ],
+      "usage": "• .gdrive <url> - Download Google Drive file\\n• .gd <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/gdrive.js",
+      "sha256": "b2c1d089f922ca0e69fadf4ff180837e471bf3d903d5709d54d3e9d64a8aa92c"
+    },
+    {
+      "id": "igdl",
+      "name": "instagram",
+      "category": "download",
+      "description": "Download Instagram posts, reels, and stories",
+      "commands": [
+        "ig",
+        "igdl",
+        "instagram",
+        "igdownload"
+      ],
+      "usage": "• .ig <url> - Download Instagram content",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/igdl.js",
+      "sha256": "615411743d4f03c9b7b24d3c4e6b6eaeaf37149ac81778dd3038a97d53d9f02b"
+    },
+    {
+      "id": "mediafire",
+      "name": "mediafire",
+      "category": "download",
+      "description": "Download files from MediaFire",
+      "commands": [
+        "mediafire",
+        "mf",
+        "mfdl"
+      ],
+      "usage": "• .mediafire <url> - Download MediaFire file\\n• .mf <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/mediafire.js",
+      "sha256": "196077d2d3cc911771df2961960f053ce511d2a7f2f45cec56e0a9baa12f7bc9"
+    },
+    {
+      "id": "movies",
+      "name": "movies",
+      "category": "download",
+      "description": "Search and download movies or TV series",
+      "commands": [
+        "movie",
+        "movies",
+        "film",
+        "series",
+        "tvshow"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/movies.js",
+      "sha256": "28fa1a8c3ff80224f38ad89a9705b32362bc3134f94e3b9e1f924e43952c2077"
+    },
+    {
+      "id": "pinterest",
+      "name": "pinterest",
+      "category": "download",
+      "description": "Download Pinterest images and videos",
+      "commands": [
+        "pinterest",
+        "pindl"
+      ],
+      "usage": "• .pinterest <url> - Download Pinterest content\\n• .pin <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/pinterest.js",
+      "sha256": "d182bb717c1c8486c8b51aa25656433c79cd3dcf1339f808c420704ffa4a129d"
+    },
+    {
+      "id": "play",
+      "name": "play",
+      "category": "download",
+      "description": "Search and play YouTube videos",
+      "commands": [
+        "play",
+        "song"
+      ],
+      "usage": "• .play <song name> - Search and download audio",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/play.js",
+      "sha256": "fe948ddd679ac9095ff9155fb5b654a7da14c3c21c7dbb604a5d8a2687af48bb"
+    },
+    {
+      "id": "soundcloud",
+      "name": "soundcloud",
+      "category": "download",
+      "description": "Download SoundCloud tracks",
+      "commands": [
+        "soundcloud",
+        "sc",
+        "scdl"
+      ],
+      "usage": "• .soundcloud <url> - Download SoundCloud track\\n• .sc <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/soundcloud.js",
+      "sha256": "1457fd6c04d695dc885f6a920612a8bae6c2f27737023c959f5cfcfb63a6a4da"
+    },
+    {
+      "id": "spotifydl",
+      "name": "spotify",
+      "category": "download",
+      "description": "Download Spotify tracks",
+      "commands": [
+        "spotify",
+        "spot",
+        "spotdl",
+        "spotifydl"
+      ],
+      "usage": "• .spotify <url> - Download Spotify track\\n• .spot <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/spotifydl.js",
+      "sha256": "5bafcc27acd2334b29725df7bd15b4077a1cc6ef65882060c5ea2928635ba7b6"
+    },
+    {
+      "id": "tiktokdl",
+      "name": "tiktok",
+      "category": "download",
+      "description": "Download TikTok videos without watermark",
+      "commands": [
+        "tiktok",
+        "tt",
+        "ttdl",
+        "tiktokdl"
+      ],
+      "usage": "• .tiktok <url> - Download TikTok video\\n• .tt <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/tiktokdl.js",
+      "sha256": "936a70a33fb16200c9b94645a8fafb9ed7a1c3206964ff7fb03f5011cf90cd2a"
+    },
+    {
+      "id": "twitterdl",
+      "name": "twitter",
+      "category": "download",
+      "description": "Download Twitter/X videos",
+      "commands": [
+        "twitter",
+        "tw",
+        "twdl",
+        "x",
+        "twitterdl"
+      ],
+      "usage": "• .twitter <url> - Download Twitter video\\n• .x <url> - Download from X",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/twitterdl.js",
+      "sha256": "aa1588f31b9d4c7845f58f53fc5f65368f6a7098413ef010bf407ad48f3a0937"
+    },
+    {
+      "id": "xnxxdl",
+      "name": "xnxxdl",
+      "category": "download",
+      "description": "Download XNXX videos (18+)",
+      "commands": [
+        "xnxxdl",
+        "xnxxdownload"
+      ],
+      "usage": "• .xnxxdl <url or query> - Download XNXX video",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/xnxxdl.js",
+      "sha256": "8e71c702b0db40d76068cb384c9a8e7bb46302279b9db2704a5d437cacfe60d6"
+    },
+    {
+      "id": "xvidoesdl",
+      "name": "xvdl",
+      "category": "download",
+      "description": "Download XVideos (18+)",
+      "commands": [
+        "xvdl",
+        "xvideosdownload"
+      ],
+      "usage": "• .xvdl <url or query> - Download XVideos video",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/xvidoesdl.js",
+      "sha256": "7825c926e6dbe3745a53a1e1f29bf15ab7aa00281b9df2c52d4a652d520e1ac4"
+    },
+    {
+      "id": "ytdl",
+      "name": "youtube",
+      "category": "download",
+      "description": "Download YouTube videos and audio",
+      "commands": [
+        "yt",
+        "ytdl",
+        "youtube"
+      ],
+      "usage": "• .yt <url> - Download YouTube video\\n• .ytdl <url> - Direct download",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/ytdl.js",
+      "sha256": "b5bedf7b88c123b813c5a8b4e249e0924be881096f93a8a6dc1e9f1a73581403"
+    },
+    {
+      "id": "downloadmenu",
+      "name": "downloadmenu",
+      "category": "downloadmenu",
+      "description": "Display download and media commands menu",
+      "commands": [
+        "downloadmenu"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "downloadmenu/downloadmenu.js",
+      "sha256": "9e4525f1dada39a3af711021a0fb439b5f807f142e3ead2b8bc2428edd4320e8"
+    },
+    {
+      "id": "activegames",
+      "name": "games",
+      "category": "gamemenu",
+      "description": "🎮 Show active games and gaming statistics",
+      "commands": [
+        "games",
+        "gamelist",
+        "activegames"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/activegames.js",
+      "sha256": "b8bd5c30cca14b38c7807761c1d9778e3d6d1ad792d68dc931bf38676641a9eb"
+    },
+    {
+      "id": "endgame",
+      "name": "endgame",
+      "category": "gamemenu",
+      "description": "🛑 End active games in this group",
+      "commands": [
+        "endgame",
+        "stopgame",
+        "gamestop"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/endgame.js",
+      "sha256": "735468210181cda2f45c1f88fdea5f30a076a2e54257b43c59439eb935277afc"
+    },
+    {
+      "id": "gamemenu",
+      "name": "gamemenu",
+      "category": "gamemenu",
+      "description": "Display gaming and entertainment commands menu",
+      "commands": [
+        "gamemenu"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/gamemenu.js",
+      "sha256": "453e8ff786de0098af8c3c866d1a20acc247d6ef637f826987fbfc7e61f6ce93"
+    },
+    {
+      "id": "guess",
+      "name": "numguess",
+      "category": "gamemenu",
+      "description": "🔢 Start a number guessing game - Guess the secret number!",
+      "commands": [
+        "numguess",
+        "numberguess",
+        "guessnum"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/guess.js",
+      "sha256": "46c48e29978a922f119dafb768d976cd35b7e33467032e2f267ff436eb63e7a1"
+    },
+    {
+      "id": "quiz",
+      "name": "mathquiz",
+      "category": "gamemenu",
+      "description": "🧮 Start a math quiz game - Test your calculation skills!",
+      "commands": [
+        "mathquiz",
+        "math",
+        "quiz"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/quiz.js",
+      "sha256": "7023eb5ee36b8c79c11455b67a26a0da30c98ad14c6369b1fbcf04840f3c9803"
+    },
+    {
+      "id": "reaction",
+      "name": "reaction",
+      "category": "gamemenu",
+      "description": "⚡ Start a reaction speed game - Test your lightning reflexes!",
+      "commands": [
+        "reaction",
+        "speed",
+        "reflex"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/reaction.js",
+      "sha256": "20c5ef03d92cfcf06a3fb6a76f63a269c7d9215df86f1d109ff12f4f02ee00d6"
+    },
+    {
+      "id": "rockpaperscissors",
+      "name": "rps",
+      "category": "gamemenu",
+      "description": "✂️ Start a Rock Paper Scissors tournament - Battle for supremacy!",
+      "commands": [
+        "rps",
+        "rockpaperscissors",
+        "tournament"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/rockpaperscissors.js",
+      "sha256": "7473a3238fa423696080bac216203a20ac158aecab25e8f88b2ab48fe4e56111"
+    },
+    {
+      "id": "tictactoe",
+      "name": "tictactoe",
+      "category": "gamemenu",
+      "description": "⭕ Start a TicTacToe game - Classic 3x3 grid battle vs human or bot!",
+      "commands": [
+        "tictactoe",
+        "ttt",
+        "xo"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/tictactoe.js",
+      "sha256": "3bc00af5bfb98aedeb8f94dc419636bb488f3218e26802c29ad03ad014532c36"
+    },
+    {
+      "id": "trivia",
+      "name": "trivia",
+      "category": "gamemenu",
+      "description": "🧠 Start a trivia quiz game - Test your knowledge across multiple categories!",
+      "commands": [
+        "trivia",
+        "knowledge"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/trivia.js",
+      "sha256": "29b006c40a753d62bfc9685c9ccce00304422120fa201220758e058f7cedac5d"
+    },
+    {
+      "id": "wordguess",
+      "name": "wordguess",
+      "category": "gamemenu",
+      "description": "🔤 Start a word guessing game - Players guess letters or words based on clues!",
+      "commands": [
+        "wordguess",
+        "wordgame",
+        "guessword"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "gamemenu/wordguess.js",
+      "sha256": "5096f2e61d773006cbb901731460e7fd8494aa808a22ba8c6f1e27e51890a6a6"
+    },
+    {
+      "id": "antiadd",
+      "name": "Anti-Add",
+      "category": "group",
+      "description": "Prevent unauthorized member additions to the group",
+      "commands": [
+        "antiadd"
+      ],
+      "usage": "• `.antiadd on` - Enable anti-add protection\\n• `.antiadd off` - Disable protection\\n• `.antiadd status` - Check protection status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antiadd.js",
+      "sha256": "9ebf200e7f081425dc9a4c941d583ec2ca58cf24db9ff77bc3ba7b2e3ea1bc41"
+    },
+    {
+      "id": "antibot",
+      "name": "Anti-Bot",
+      "category": "group",
+      "description": "Detect and remove Baileys/WhatsApp bots from the group (excludes all admins)",
+      "commands": [
+        "antibot"
+      ],
+      "usage": "• `.antibot on` - Enable bot protection\\n• `.antibot off` - Disable bot protection\\n• `.antibot status` - Check protection status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antibot.js",
+      "sha256": "280f2c4497d2d8339f773bed8058fb09d8ee5c6707b831ea19dc96fa624406d0"
+    },
+    {
+      "id": "antidemote",
+      "name": "Anti-Demote",
+      "category": "group",
+      "description": "Prevent unauthorized demotions in the group",
+      "commands": [
+        "antidemote"
+      ],
+      "usage": "• `.antidemote on` - Enable anti-demote protection\\n• `.antidemote off` - Disable protection\\n• `.antidemote status` - Check protection status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antidemote.js",
+      "sha256": "3a84cbe38033c844ed3c1880cd050e8574d447f17d92dc4675678675d37dcf5b"
+    },
+    {
+      "id": "antigroupmention",
+      "name": "Anti-Group-Mention",
+      "category": "group",
+      "description": "Prevent mentioning the group in WhatsApp Status",
+      "commands": [
+        "antigroupmention",
+        "angm"
+      ],
+      "usage": "• `.antigroupmention on` - Enable group status mention protection\\n• `.antigroupmention off` - Disable protection\\n• `.antigroupmention status` - Check protection status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antigroupmention.js",
+      "sha256": "fa3d0ecd7ffd211e31d42cff4beaa311a5e65cc09bf499a6dc3335dfbca3c483"
+    },
+    {
+      "id": "antiimage",
+      "name": "Anti-Image",
+      "category": "group",
+      "description": "Detect and remove images with warning system",
+      "commands": [
+        "antiimage"
+      ],
+      "usage": "• `.antiimage on` - Enable image protection\\n• `.antiimage off` - Disable image protection\\n• `.antiimage status` - Check protection status\\n• `.antiimage reset @user` - Reset user warnings\\n• `.antiimage list` - Show warning list\\n• `.antiimage stats` - View statistics",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antiimage.js",
+      "sha256": "e324e00ba23f55c1da6cfbb93d70e69d14036ad5fbc19505a7098d2dbdaba235"
+    },
+    {
+      "id": "antikick",
+      "name": "Anti-Remove",
+      "category": "group",
+      "description": "Prevent unauthorized member removals in the group",
+      "commands": [
+        "antiremove",
+        "antikick"
+      ],
+      "usage": "• `.antiremove on` - Enable anti-remove protection\\n• `.antiremove off` - Disable protection\\n• `.antiremove status` - Check protection status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antikick.js",
+      "sha256": "88272aaa6e73a49d758a66460cac3681321b2f507d73006115d08a1134ee518b"
+    },
+    {
+      "id": "antipromote",
+      "name": "Anti-Promote",
+      "category": "group",
+      "description": "Prevent unauthorized promotions in the group",
+      "commands": [
+        "antipromote"
+      ],
+      "usage": "• `.antipromote on` - Enable anti-promote protection\\n• `.antipromote off` - Disable protection\\n• `.antipromote status` - Check protection status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antipromote.js",
+      "sha256": "083d12e86ecd79ba629968267d7314a0d76989c3079b9c8b692bc6a2adf43f51"
+    },
+    {
+      "id": "antitag",
+      "name": "Anti-Tag",
+      "category": "group",
+      "description": "Detect and prevent excessive tagging of users",
+      "commands": [
+        "antitag"
+      ],
+      "usage": "• `.antitag on` - Enable tag protection\\n• `.antitag off` - Disable tag protection\\n• `.antitag status` - Check protection status\\n• `.antitag limit <number>` - Set maximum tags allowed",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antitag.js",
+      "sha256": "eb492e931bdf22a41a69217acc7fca2bf5606f3a2b3840647b6ca1c1a524c5e4"
+    },
+    {
+      "id": "antitagadmin",
+      "name": "Anti-Tag-Admin",
+      "category": "group",
+      "description": "Prevent non-admins from tagging admins excessively",
+      "commands": [
+        "antitagadmin"
+      ],
+      "usage": "• `.antitagadmin on` - Enable admin tag protection\\n• `.antitagadmin off` - Disable protection\\n• `.antitagadmin status` - Check protection status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antitagadmin.js",
+      "sha256": "0f1210559fc759b8fb3d7cac60f6e96d88f7934ec55e13806ed48a75b6c8a66b"
+    },
+    {
+      "id": "antivirtex",
+      "name": "Anti-Virtex",
+      "category": "group",
+      "description": "Detect and remove malicious messages with warning system",
+      "commands": [
+        "antivirtex"
+      ],
+      "usage": "• `.antivirtex on/off` - Toggle protection\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antivirtex.js",
+      "sha256": "eb4b5e8eec8001c5e83b6ea8bb562ca908a6ba62f3c56654ec6642e07c8495c6"
+    },
+    {
+      "id": "approveall",
+      "name": "Approve All",
+      "category": "group",
+      "description": "Approve all pending join requests in the group",
+      "commands": [
+        "approveall"
+      ],
+      "usage": "• `.approveall` - Approve all pending join requests\\n• `.approveall status` - Check pending requests count",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/approveall.js",
+      "sha256": "d27bf284d5c2a8fb7d7fa4633abc4e0fa1971f7e5fae10351e1aabe1e5d92e8b"
+    },
+    {
+      "id": "closetime",
+      "name": "Close Time Group",
+      "category": "group",
+      "description": "Set recurring daily time to automatically close group (Africa/Lagos timezone)",
+      "commands": [
+        "closetime"
+      ],
+      "usage": "• `.closetime <time>` - Set daily close time (e.g., 11pm, 23:00)\\n• `.closetime off` - Disable scheduled close\\n• `.closetime` - Show current schedule",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/closetime.js",
+      "sha256": "f480ff31ad799ea8447139026d5f262f7e438fd82172a3b0a38074f76502be3b"
+    },
+    {
+      "id": "disapproveall",
+      "name": "Disapprove All",
+      "category": "group",
+      "description": "Reject all pending join requests in the group",
+      "commands": [
+        "disapproveall"
+      ],
+      "usage": "• `.disapproveall` - Reject all pending join requests\\n• `.disapproveall status` - Check pending requests count",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/disapproveall.js",
+      "sha256": "f2995def181589118058332fdcb80cdf842c5236fb8f438552c3787c935b6db3"
+    },
+    {
+      "id": "goodbye",
+      "name": "Goodbye Settings",
+      "category": "group",
+      "description": "Enable/disable goodbye messages when members leave or are removed",
+      "commands": [
+        "goodbye",
+        "left"
+      ],
+      "usage": "• `.goodbye on` - Enable goodbye messages\\n• `.goodbye off` - Disable goodbye messages\\n• `.goodbye status` - Check goodbye status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/goodbye.js",
+      "sha256": "6f2ce36197aaff80711e5d75853bc073976fbd4e41c4439263fd728916b744fe"
+    },
+    {
+      "id": "grouplink",
+      "name": "Group-Link",
+      "category": "group",
+      "description": "Get or reset group invite link",
+      "commands": [
+        "grouplink",
+        "link",
+        "gc"
+      ],
+      "usage": "• `.grouplink` - Get group invite link\\n• `.grouplink reset` - Reset group invite link\\n• `.grouplink info` - Show detailed group info",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/grouplink.js",
+      "sha256": "149a0570cc46b8921eb471b669d19c4d1b22066ba226a5140208e75b4d45da2c"
+    },
+    {
+      "id": "grouponly",
+      "name": "GroupOnly",
+      "category": "group",
+      "description": "Control bot responses in groups - enable/disable group commands",
+      "commands": [
+        "grouponly",
+        "go"
+      ],
+      "usage": "• `.grouponly on` - Enable bot responses in group\\n• `.grouponly off` - Disable bot responses in group\\n• `.grouponly status` - Check current status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/grouponly.js",
+      "sha256": "79225915f73bb58b2f79c21f4eac0c563c1b59f6dad2448d36f37927bca32427"
+    },
+    {
+      "id": "hidetag",
+      "name": "HideTag",
+      "category": "group",
+      "description": "Send a message that tags everyone without showing the tags",
+      "commands": [
+        "hidetag",
+        "h",
+        "ht",
+        "hiddentag",
+        "tag"
+      ],
+      "usage": "• `.hidetag [message]` - Send hidden tag message\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/hidetag.js",
+      "sha256": "0d9009e008e26039d446b3d5678549f1229934b5bd0ea681e61ded9ded5d640f"
+    },
+    {
+      "id": "kickall",
+      "name": "Kick All",
+      "category": "group",
+      "description": "Remove all non-admin members from the group with warning period",
+      "commands": [
+        "kickall"
+      ],
+      "usage": "• `.kickall` - Initiate kick all non-admins (3 min warning)\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/kickall.js",
+      "sha256": "ba2f57e46f7863b626eca54158fbc0eeffb221a0711e5633e1308ab3d6138b23"
+    },
+    {
+      "id": "kickforeign",
+      "name": "Remove Foreign",
+      "category": "group",
+      "description": "Remove members from specific country codes",
+      "commands": [
+        "remove",
+        "removeforeign",
+        "kickforeign"
+      ],
+      "usage": "• `.remove <country_code>` - Remove all members with that country code\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/kickforeign.js",
+      "sha256": "2a7daca55066bfc30f5323c6753cd0fd38fa449d6136288ac48207767f1a25da"
+    },
+    {
+      "id": "left",
+      "name": "Left",
+      "category": "group",
+      "description": "Leave a group immediately",
+      "commands": [
+        "left",
+        "leave",
+        "bye"
+      ],
+      "usage": "• `.left` - Leave the current group immediately",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/left.js",
+      "sha256": "26a3e61d0a4825eb2dc3054d3eb3f3dae2e5ba81303c731cbaa3c3b28e375192"
+    },
+    {
+      "id": "mediatag",
+      "name": "Media Tag",
+      "category": "group",
+      "description": "Tag all members with a media message",
+      "commands": [
+        "mediatag"
+      ],
+      "usage": "• `.mediatag` - Tag all members with a media message\\n• Reply to a media message with this command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/mediatag.js",
+      "sha256": "d1a7ec3033b9218df9e37648939d61581792333030ee939cac81f7f8f0092786"
+    },
+    {
+      "id": "mute",
+      "name": "Close Group",
+      "category": "group",
+      "description": "Set group to admin-only mode immediately",
+      "commands": [
+        "close",
+        "mute"
+      ],
+      "usage": "• `.close` - Close group immediately (only admins can send messages)",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/mute.js",
+      "sha256": "64d1c3783a466863911695e74c7e831238c444bd07e7567f92eb8cea2cceb9a5"
+    },
+    {
+      "id": "opentime",
+      "name": "Open Time Group",
+      "category": "group",
+      "description": "Set recurring daily time to automatically open group (Africa/Lagos timezone)",
+      "commands": [
+        "opentime"
+      ],
+      "usage": "• `.opentime <time>` - Set daily open time (e.g., 10am, 10:00)\\n• `.opentime off` - Disable scheduled open\\n• `.opentime` - Show current schedule",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/opentime.js",
+      "sha256": "9c4024f29947915da8afd27f124e633a1217b5a6c213b53c544fbde5616208cb"
+    },
+    {
+      "id": "setgroupbio",
+      "name": "Set Group Description",
+      "category": "group",
+      "description": "Change the group",
+      "commands": [
+        "setgroupbio",
+        "setdesc",
+        "setdescription"
+      ],
+      "usage": "• `.setgroupbio <new description>` - Change the group description\\n• `.setgroupbio clear` - Clear the group description",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/setgroupbio.js",
+      "sha256": "303a1932e2c34ff3261ad6f576d6931d215e0f952ce06d052428b55904e6bc91"
+    },
+    {
+      "id": "setgroupname",
+      "name": "Set Group Name",
+      "category": "group",
+      "description": "Change the group",
+      "commands": [
+        "setgroupname",
+        "setname",
+        "setsubject",
+        "setgcname"
+      ],
+      "usage": "• `.setgroupname <new name>` - Change the group name",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/setgroupname.js",
+      "sha256": "22acc9d804f3cc187bbfadfc78e62366bc922fbaf5cb99b59cb6c3148ef3eadd"
+    },
+    {
+      "id": "setgrouppp",
+      "name": "Set Group Profile Picture",
+      "category": "group",
+      "description": "Change the group",
+      "commands": [
+        "setgrouppp",
+        "setpp",
+        "setgroupicon",
+        "setgcpp"
+      ],
+      "usage": "• Reply to an image with `.setgrouppp` - Set that image as group profile picture\\n• `.setgrouppp` with attached image - Set attached image as group profile picture",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/setgrouppp.js",
+      "sha256": "6d4800337eee11d704d1f9d8c89ac286496e3ae4ce0fcde048845f08b3be7049"
+    },
+    {
+      "id": "tagadmin",
+      "name": "Tag Admin",
+      "category": "group",
+      "description": "Mention all group admins",
+      "commands": [
+        "tagadmin",
+        "admins",
+        "admin"
+      ],
+      "usage": "• `.tagadmin` - Mention all group admins",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/tagadmin.js",
+      "sha256": "52fc5c127319c518042950b70adfb597aa545aedd43bd99f63b6faffc8b29e43"
+    },
+    {
+      "id": "tagall",
+      "name": "TagAll",
+      "category": "group",
+      "description": "Tag all group members",
+      "commands": [
+        "tagall",
+        "mentionall",
+        "everyone"
+      ],
+      "usage": "• `.tagall` - Tag all members\\n• `.tagall [message]` - Tag all with custom message",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/tagall.js",
+      "sha256": "d3746474af2dfe0070a405486329aff5bd03df1223bbd9ad0e90adaf4ce8f217"
+    },
+    {
+      "id": "tagonline",
+      "name": "TagOnline",
+      "category": "group",
+      "description": "Tag all online group members",
+      "commands": [
+        "tagonline",
+        "tagactive",
+        "online"
+      ],
+      "usage": "• `.tagonline` - Tag online members\\n• `.tagonline [message]` - Tag online members with custom message",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/tagonline.js",
+      "sha256": "7a8716f5fbf622c997a0e249cbf7940403e89b58106799796c4ad8105fab2a1d"
+    },
+    {
+      "id": "tagpoll",
+      "name": "TagPoll",
+      "category": "group",
+      "description": "Create polls that tag all group members",
+      "commands": [
+        "tagpoll",
+        "tpoll",
+        "pollmention"
+      ],
+      "usage": "• `.tagpoll question, option1, option2, option3` - Create poll with hidden tags\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/tagpoll.js",
+      "sha256": "11de9a1d624bf6f89eb70875978ff9720e707f68185ad2c7936d5f9121711cc2"
+    },
+    {
+      "id": "unmute",
+      "name": "Open Group",
+      "category": "group",
+      "description": "Reopen group immediately so all members can send messages",
+      "commands": [
+        "open",
+        "unmute"
+      ],
+      "usage": "• `.open` - Open group immediately (all members can send messages)",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/unmute.js",
+      "sha256": "1542973714ad5e332c55f227a222d0d7e8fd833c374998eb2490b6162651c5f4"
+    },
+    {
+      "id": "welcome",
+      "name": "Welcome Settings",
+      "category": "group",
+      "description": "Enable/disable welcome messages for new members and promotions",
+      "commands": [
+        "welcome"
+      ],
+      "usage": "• `.welcome on` - Enable welcome messages\\n• `.welcome off` - Disable welcome messages\\n• `.welcome status` - Check welcome status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/welcome.js",
+      "sha256": "9c61dbeef696d68945009d14e1b995cda34c75e9a9697378708756fbf7002605"
+    },
+    {
+      "id": "add",
+      "name": "add",
+      "category": "groupmenu",
+      "description": "Add a member to the group",
+      "commands": [
+        "add"
+      ],
+      "usage": "add <number> or reply to user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/add.js",
+      "sha256": "7c70e8a53349f6fb9f2e2924892b9f3b8a52d2e3277fedfde76363b3b3193023"
+    },
+    {
+      "id": "antilink",
+      "name": "Anti-Link",
+      "category": "groupmenu",
+      "description": "Detect and remove links with configurable warning system",
+      "commands": [
+        "antilink"
+      ],
+      "usage": "• `.antilink on` - Enable link protection\\n• `.antilink off` - Disable link protection\\n• `.antilink status` - Check protection status\\n• `.antilink warn [number]` - Set warning limit (3-10)\\n• `.antilink reset @user` - Reset user warnings\\n• `.antilink list` - Show warning list\\n• `.antilink stats` - View statistics",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/antilink.js",
+      "sha256": "e7199ed54672a60569db546811a7813d4243d5024f48aa0ebc3c059abde397ee"
+    },
+    {
+      "id": "delete",
+      "name": "del",
+      "category": "groupmenu",
+      "description": "Delete a message by replying to it",
+      "commands": [
+        "delete"
+      ],
+      "usage": "Reply to a message with .del",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/delete.js",
+      "sha256": "1d2023d8425220192663ccbf065cfc7ecbc17451db5691286c9bc21c753ad342"
+    },
+    {
+      "id": "demote",
+      "name": "demote",
+      "category": "groupmenu",
+      "description": "Demote a group admin to regular member",
+      "commands": [
+        "demote"
+      ],
+      "usage": "demote <number> or reply to user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/demote.js",
+      "sha256": "7ed1d261672b38f9bdadc76662d9dce1c916002a48efc636b68e9ef7ab67386b"
+    },
+    {
+      "id": "demoteall",
+      "name": "demoteall",
+      "category": "groupmenu",
+      "description": "Demote all group admins to regular members (Owner only)",
+      "commands": [
+        "demoteall"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/demoteall.js",
+      "sha256": "6ea63ef5e5529ed39286397b6eca0255117c51f4d6c8b7a9bce5c40429d3196d"
+    },
+    {
+      "id": "groupmenu",
+      "name": "groupmenu",
+      "category": "groupmenu",
+      "description": "Display group management commands menu",
+      "commands": [
+        "groupmenu"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/groupmenu.js",
+      "sha256": "5c6a028811c246b661d08c98fc4b8980a82a1ae48c1d7eb83b7f5c868f265c47"
+    },
+    {
+      "id": "kick",
+      "name": "kick",
+      "category": "groupmenu",
+      "description": "Remove a member from the group",
+      "commands": [
+        "kick"
+      ],
+      "usage": "kick <number> or reply to user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/kick.js",
+      "sha256": "eb6271e7916a1f93dc221b960d9dc1b795f2a0ebeb74599d10ac1a112460f9ae"
+    },
+    {
+      "id": "listactive",
+      "name": "listactive",
+      "category": "groupmenu",
+      "description": "Show active group members",
+      "commands": [
+        "listactive"
+      ],
+      "usage": "listactive",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/listactive.js",
+      "sha256": "4a2b4fcda8326aa7b6e5cc5e74bcd3489b210a53da5300ba315767b65ac1a505"
+    },
+    {
+      "id": "listinactive",
+      "name": "listinactive",
+      "category": "groupmenu",
+      "description": "Show inactive group members",
+      "commands": [
+        "listinactive"
+      ],
+      "usage": "listinactive",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/listinactive.js",
+      "sha256": "59cef93c2ada09264475937b1e4b53e0a9ec371117192fbec554b85240e324f7"
+    },
+    {
+      "id": "promote",
+      "name": "promote",
+      "category": "groupmenu",
+      "description": "Promote a member to group admin",
+      "commands": [
+        "promote"
+      ],
+      "usage": "promote <number> or reply to user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/promote.js",
+      "sha256": "0d9bab4839797de268584a867717a16da85ab3951d4e1481420900c643b2d27c"
+    },
+    {
+      "id": "promoteall",
+      "name": "promoteall",
+      "category": "groupmenu",
+      "description": "Promote all group members to admin (Owner only)",
+      "commands": [
+        "promoteall"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/promoteall.js",
+      "sha256": "8e74b5157a555b14995ccaf8ec5a6d9a45a378be33789152222bbda0b01eead1"
+    },
+    {
+      "id": "setwarn",
+      "name": "setwarn",
+      "category": "groupmenu",
+      "description": "Set warning limit before kick (3-10 warnings)",
+      "commands": [
+        "setwarn"
+      ],
+      "usage": "setwarn <3-10> or setwarn status",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/setwarn.js",
+      "sha256": "9ff457242b8b9adf0fe44786958597a3ca2aeb05a23c43b8d73ea120359e2d9e"
+    },
+    {
+      "id": "unwarn",
+      "name": "unwarn",
+      "category": "groupmenu",
+      "description": "Remove warnings from a user",
+      "commands": [
+        "unwarn"
+      ],
+      "usage": "unwarn <number> or reply to user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/unwarn.js",
+      "sha256": "1887454827c8d37a4d89a346f9669185afe513d582e285af9f56e12e1da52c5c"
+    },
+    {
+      "id": "warn",
+      "name": "warn",
+      "category": "groupmenu",
+      "description": "Warn a group member (configurable warnings = kick)",
+      "commands": [
+        "warn"
+      ],
+      "usage": "warn <number> or reply to user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/warn.js",
+      "sha256": "651c89efd7b683ff33512ef9a70705724a36c1e26d7c0f5b5dc2e2fcb52cbd58"
+    },
+    {
+      "id": "allcommands",
+      "name": "AllCommands",
+      "category": "mainmenu",
+      "description": "Display all available commands organized by category",
+      "commands": [
+        "allcommands",
+        "commands",
+        "help",
+        "allmenu",
+        "mainmenu"
+      ],
+      "usage": "• `.allcommands` - Show all available commands\\n• `.commands` - Alias for allcommands\\n• `.help` - Alias for allcommands",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/allcommands.js",
+      "sha256": "8dd97384c270907e55ab54670deaac014bf69670718e7e5d56fe03385792eb97"
+    },
+    {
+      "id": "botlink",
+      "name": "BotLink",
+      "category": "mainmenu",
+      "description": "Get bot connection links and information",
+      "commands": [
+        "botlink",
+        "connect",
+        "botinfo",
+        "repo",
+        "getbot"
+      ],
+      "usage": "• `.botlink` - Show bot connection links\\n• `.connect` - Alias for botlink\\n• `.botinfo` - Alias for botlink",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/botlink.js",
+      "sha256": "2f5bbcb80907990802773d0c014ba2ad1dbe3520c394bb6233fc93c1b29c93a0"
+    },
+    {
+      "id": "menu",
+      "name": "Menu",
+      "category": "mainmenu",
+      "description": "Show main bot menu with all available categories",
+      "commands": [
+        "menu",
+        "start",
+        "bot",
+        "help"
+      ],
+      "usage": "• .menu - Show complete menu with all categories",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/menu.js",
+      "sha256": "159c1f3b148c16b1f321f11a8e32f899338da2e806d090ee3a450548e71d2eb0"
+    },
+    {
+      "id": "pin",
+      "name": "Pin",
+      "category": "mainmenu",
+      "description": "Pin a message in the chat",
+      "commands": [
+        "pin"
+      ],
+      "usage": "• `.pin` (reply to message) - Pin the replied message\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/pin.js",
+      "sha256": "4e963e3328d1140d222b9fb1d256fc68d0c5adbcf22dcea829e7ad07a3aed454"
+    },
+    {
+      "id": "ping",
+      "name": "status",
+      "category": "mainmenu",
+      "description": "Display basic bot status",
+      "commands": [
+        "status",
+        "ping",
+        "alive"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/ping.js",
+      "sha256": "e68bc05f424ba332569c861c9e65db11f67d870f8bf99e0742cff7c531a03c77"
+    },
+    {
+      "id": "inspect",
+      "name": "inspectsock",
+      "category": "owner",
+      "description": "Deep inspect sock object and save to JSON file",
+      "commands": [
+        "inspectsock",
+        "sockinfo",
+        "debugsock"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/inspect.js",
+      "sha256": "ab612b3cc666988b294f6af31c65bc0df19b38244c5a5512db25c135e572ca80"
+    },
+    {
+      "id": "list-owners",
+      "name": "listowners",
+      "category": "owner",
+      "description": "List all bot owners (Owner only)",
+      "commands": [
+        "listowners",
+        "owners"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/list-owners.js",
+      "sha256": "b7bc6a728bda498dbc38c3b7349e31dd0c370e308d6c06008072dc794cbdb46f"
+    },
+    {
+      "id": "remove-owner",
+      "name": "removeowner",
+      "category": "owner",
+      "description": "Remove a bot owner (Owner only)",
+      "commands": [
+        "removeowner",
+        "delowner"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/remove-owner.js",
+      "sha256": "07816c26ae5d106838b17458578fd068fd63755558cf4af426ab5a983e88d583"
+    },
+    {
+      "id": "add-owner",
+      "name": "addowner",
+      "category": "ownermenu",
+      "description": "Add a new bot owner (Owner only)",
+      "commands": [
+        "addowner",
+        "makeowner"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/add-owner.js",
+      "sha256": "d5410e4ad85f516943bf9abd428485bf872b4435ecf3eedb337028df1237917f"
+    },
+    {
+      "id": "antidelete",
+      "name": "Anti-Deleted",
+      "category": "ownermenu",
+      "description": "Enable or disable automatic deleted message recovery and forwarding to your personal chat",
+      "commands": [
+        "antidelete",
+        "adon",
+        "adoff",
+        "antideleted"
+      ],
+      "usage": "• \\",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/antidelete.js",
+      "sha256": "13b2bddf1c7b79756061bdc2fbfd2d93e5d0058865b55a0cfa9bd110b449fbbd"
+    },
+    {
+      "id": "antiviewonce",
+      "name": "Anti-ViewOnce",
+      "category": "ownermenu",
+      "description": "Enable or disable automatic ViewOnce message forwarding to your personal chat",
+      "commands": [
+        "antiviewonce",
+        "avon",
+        "avoff"
+      ],
+      "usage": "• \\",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/antiviewonce.js",
+      "sha256": "c3942d0c4152c538c43998c91e002b208a8648234b1dde3955ef65d45dcbc7c4"
+    },
+    {
+      "id": "autoonline",
+      "name": "Auto-Online",
+      "category": "ownermenu",
+      "description": "Automatically stay online or appear offline",
+      "commands": [
+        "autoonline",
+        "ao"
+      ],
+      "usage": "• .autoonline on/off - Enable/disable\\n• .autoonline status - Check status\\n• .autoonline - Show interactive menu",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/autoonline.js",
+      "sha256": "5a20a4423e9ca29b9ebc088d99329c5d9f51463a3ca2f10cf9b66d2bec60d22e"
+    },
+    {
+      "id": "autorecording",
+      "name": "Auto-Recording",
+      "category": "ownermenu",
+      "description": "Automatically show recording indicator when receiving messages",
+      "commands": [
+        "autorecording",
+        "autorecord",
+        "ar"
+      ],
+      "usage": "• .autorecording on/off - Enable/disable\\n• .autorecording status - Check status\\n• .autorecording - Show interactive menu",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/autorecording.js",
+      "sha256": "1771af25d7baf35a7fb9b69521458ccc18f682bb8d207a56d84dc328987473c7"
+    },
+    {
+      "id": "autostatuslike",
+      "name": "Auto-Status-Like",
+      "category": "ownermenu",
+      "description": "Automatically react to WhatsApp statuses with random emojis",
+      "commands": [
+        "autostatuslike",
+        "autolike",
+        "asl"
+      ],
+      "usage": "• .autostatuslike on/off - Enable/disable\\n• .autostatuslike status - Check status\\n• .autostatuslike - Show interactive menu",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/autostatuslike.js",
+      "sha256": "9408504d13f284ee75f05a5f376dd9d963d624fc900fcd690adc8d8c45581367"
+    },
+    {
+      "id": "autostatusview",
+      "name": "Auto-Status-View",
+      "category": "ownermenu",
+      "description": "Automatically view WhatsApp statuses",
+      "commands": [
+        "autostatusview",
+        "autoview",
+        "asv"
+      ],
+      "usage": "• .autostatusview on/off - Enable/disable\\n• .autostatusview status - Check status\\n• .autostatusview - Show interactive menu",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/autostatusview.js",
+      "sha256": "1534fecb551f18315825ae056b12b7af4e7543777f909b6f49ca061973cc4f75"
+    },
+    {
+      "id": "autotyping",
+      "name": "Auto-Typing",
+      "category": "ownermenu",
+      "description": "Automatically show typing indicator when receiving messages",
+      "commands": [
+        "autotyping",
+        "at"
+      ],
+      "usage": "• .autotyping on/off - Enable/disable\\n• .autotyping status - Check status\\n• .autotyping - Show interactive menu",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/autotyping.js",
+      "sha256": "1ba913a3e01986c41051d915d490f0a4f72fa22f61e0c82b8fa1840b077f2933"
+    },
+    {
+      "id": "block",
+      "name": "Block",
+      "category": "ownermenu",
+      "description": "Block a user from contacting the bot",
+      "commands": [
+        "block",
+        "blokir",
+        "blockuser"
+      ],
+      "usage": "• `.block` - Block current chat\\n• `.block <number>` - Block specific number\\n• Reply to user and type `.block`",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/block.js",
+      "sha256": "9ed0871c3f0791ef98604d85f33f7b43d4b8c6ac9f99928fb174c81860595fa0"
+    },
+    {
+      "id": "creategc",
+      "name": "creategc",
+      "category": "ownermenu",
+      "description": "Create a new WhatsApp group",
+      "commands": [
+        "creategc"
+      ],
+      "usage": "creategc <group name>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/creategc.js",
+      "sha256": "8ed52bb41233c6a49b982aa80b80eec2fc17797a945f78775e33ee7f289e4198"
+    },
+    {
+      "id": "delplugin",
+      "name": "DelPlugin",
+      "category": "ownermenu",
+      "description": "Uninstall and remove an optional plugin",
+      "commands": [
+        "delplugin",
+        "uninstallplugin",
+        "removeplugin",
+        "deleteplugin"
+      ],
+      "usage": "• .delplugin <plugin_id> - Uninstall an optional plugin\\n• Example: .delplugin weather",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/delplugin.js",
+      "sha256": "22eb8116fb27bd0b8a1f4e2c57c8ca071c353f439438bd038b2fdc059353c848"
+    },
+    {
+      "id": "disconnect",
+      "name": "disconnect",
+      "category": "ownermenu",
+      "description": "Disconnect your session (or, for the owner, another paired user)",
+      "commands": [
+        "disconnect"
+      ],
+      "usage": ".disconnect [phone_number]",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/disconnect.js",
+      "sha256": "8252137924e020ae6fcc2d83158c2bdfa0389867a88d9d42d4e61cfb56eed5a2"
+    },
+    {
+      "id": "gcstatus",
+      "name": "gcstatus",
+      "category": "ownermenu",
+      "description": "Post a status to a group",
+      "commands": [
+        "gcstatus"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/gcstatus.js",
+      "sha256": "dbc44f906f69cfbec2d2e200990b99ffee5e2a73958aff2926028f3799b35497"
+    },
+    {
+      "id": "getplugin",
+      "name": "GetPlugin",
+      "category": "ownermenu",
+      "description": "Download and install an optional plugin from GitHub",
+      "commands": [
+        "getplugin",
+        "installplugin",
+        "addplugin",
+        "pullplugin"
+      ],
+      "usage": "• .getplugin <plugin_id> - Download and install plugin\\n• Example: .getplugin weather",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/getplugin.js",
+      "sha256": "afdac132572c919b97c4ccdeb0885878299827b68a6e4f62891a0a95ed8ab09b"
+    },
+    {
+      "id": "getpp",
+      "name": "Get Profile Picture",
+      "category": "ownermenu",
+      "description": "Get profile picture of user or group",
+      "commands": [
+        "getpp",
+        "pp",
+        "profilepic"
+      ],
+      "usage": "• `.getpp` - Show help menu\\n• `.getpp @user` - Get profile pic by mentioning user\\n• `.getpp <number>` - Get profile pic by phone number\\n• Reply to a message with `.getpp` - Get sender",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/getpp.js",
+      "sha256": "948328265beaf5f6c1642d5cc57517ea54c15fba0275b7e69187a8e7839a05cd"
+    },
+    {
+      "id": "join",
+      "name": "join",
+      "category": "ownermenu",
+      "description": "Join a WhatsApp group using invite link",
+      "commands": [
+        "join"
+      ],
+      "usage": "join <group_invite_link>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/join.js",
+      "sha256": "eee555cbd53f134f12c24f97fd62d2c49ac7444e29d59faac8cd3a82a5d43dbd"
+    },
+    {
+      "id": "leave",
+      "name": "leave",
+      "category": "ownermenu",
+      "description": "Leave the current group",
+      "commands": [
+        "leave"
+      ],
+      "usage": "leave",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/leave.js",
+      "sha256": "d4527d899b2a7e6dd30e17e8d144e293cfaf9b95b810de1a5c6cb0559a6bbfb9"
+    },
+    {
+      "id": "listgc",
+      "name": "listgc",
+      "category": "ownermenu",
+      "description": "List all groups the bot is in",
+      "commands": [
+        "listgc"
+      ],
+      "usage": "listgc",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/listgc.js",
+      "sha256": "aeba1d349dcadcdad4688156d2c03b7fbfaef826445d69d97e6dd03185095a2d"
+    },
+    {
+      "id": "listpc",
+      "name": "listpc",
+      "category": "ownermenu",
+      "description": "List all private chats the bot is in",
+      "commands": [
+        "listpc"
+      ],
+      "usage": "listpc",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/listpc.js",
+      "sha256": "3771a1e9b4a17a679484af39113dd4debc181ed3ca46c054036dc2876818adf7"
+    },
+    {
+      "id": "listplugin",
+      "name": "ListPlugin",
+      "category": "ownermenu",
+      "description": "List all plugins from the Nexus plugin repository",
+      "commands": [
+        "listplugin",
+        "pluginlist",
+        "pluginslist",
+        "store"
+      ],
+      "usage": "• .listplugin - View all available plugins\\n• .listplugin <category> - Filter by category",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/listplugin.js",
+      "sha256": "0fb5fbcbe137fd21932728ac2d26d77f02a5423a0046739553e021904f9c87b0"
+    },
+    {
+      "id": "mode",
+      "name": "Mode",
+      "category": "ownermenu",
+      "description": "Switch between self and public mode",
+      "commands": [
+        "mode",
+        "botmode",
+        "privacy"
+      ],
+      "usage": "• .mode self - Only owner can use\\n• .mode public - Everyone can use\\n• .mode status - Check current mode\\n• .mode - Show interactive menu",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/mode.js",
+      "sha256": "38f4132760abfb8d19f2668217338e2453bc839f8efa40c2a18741a25a1332e7"
+    },
+    {
+      "id": "ownermenu",
+      "name": "ownermenu",
+      "category": "ownermenu",
+      "description": "Display owner-only commands menu",
+      "commands": [
+        "ownermenu",
+        "owner"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/ownermenu.js",
+      "sha256": "8493a87766995e198bbe345562963ae161d4412f78071896e87c1a5c231e922e"
+    },
+    {
+      "id": "setbio",
+      "name": "setbio",
+      "category": "ownermenu",
+      "description": "Change bot",
+      "commands": [
+        "setbio"
+      ],
+      "usage": "setbio <new bio text>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/setbio.js",
+      "sha256": "10b64e7ef63049734c7d01bd175e875312d9ddf251016a0f0572100fd34f341f"
+    },
+    {
+      "id": "setprefix",
+      "name": "Set Prefix",
+      "category": "ownermenu",
+      "description": "Set custom command prefix for your bot session",
+      "commands": [
+        "setprefix"
+      ],
+      "usage": "• `.setprefix <prefix>` - Set custom prefix (e.g., `.setprefix !`)\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/setprefix.js",
+      "sha256": "2be6a8e631f4292f5fda4c3ed88fc40998a46a8e4037cc3e286bd0f747552c30"
+    },
+    {
+      "id": "unban",
+      "name": "WhatsApp Unban",
+      "category": "ownermenu",
+      "description": "Submit unban request to WhatsApp for banned numbers",
+      "commands": [
+        "unbanwa",
+        "waunban"
+      ],
+      "usage": "• `.unbanwa temp <number>` - Temporary unban request\\n• `.unbanwa perm <number>` - Permanent unban request\\n\\nExample:\\n• `.unbanwa temp +2348123456789`\\n• `.unbanwa perm +2348123456789`",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/unban.js",
+      "sha256": "7530816ca8941fce3d1f26ebfac751f7cefba999eee0b1adc752144205c5e1bd"
+    },
+    {
+      "id": "unblock",
+      "name": "Unblock",
+      "category": "ownermenu",
+      "description": "Unblock a user from contacting the bot",
+      "commands": [
+        "unblock",
+        "unblokir",
+        "unblockuser"
+      ],
+      "usage": "• `.unblock` - Unblock current chat\\n• `.unblock <number>` - Unblock specific number\\n• Reply to user and type `.unblock`",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/unblock.js",
+      "sha256": "a1bcff7b7f60760ee1a9e0e6ee888a33421792c4fc616322db0d85b204d51d1a"
+    },
+    {
+      "id": "searchmenu",
+      "name": "searchmenu",
+      "category": "searchmenu",
+      "description": "Display search and lookup commands menu",
+      "commands": [
+        "searchmenu"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "searchmenu/searchmenu.js",
+      "sha256": "80870b5847204625a95121e1313fad78e363abe0191d5c70ea8f84c019c32371"
+    },
+    {
+      "id": "xnxx",
+      "name": "xnxx",
+      "category": "searchmenu",
+      "description": "Search XNXX videos (18+)",
+      "commands": [
+        "xnxx",
+        "xnxxsearch"
+      ],
+      "usage": "• .xnxx <query> - Search XNXX videos",
+      "required": true,
+      "version": "1.0.0",
+      "path": "searchmenu/xnxx.js",
+      "sha256": "deeeea0f471f9b25949b690933073c77b3873d4c507cece4f048aaa14a245062"
+    },
+    {
+      "id": "xvideos",
+      "name": "xvideos",
+      "category": "searchmenu",
+      "description": "Search XVideos (18+)",
+      "commands": [
+        "xvideos",
+        "xvsearch"
+      ],
+      "usage": "• .xvideos <query> - Search XVideos",
+      "required": true,
+      "version": "1.0.0",
+      "path": "searchmenu/xvideos.js",
+      "sha256": "f6263f8ae99651f11ddaa16700709f1207219097ee3b0f2a16c8a72af0ea5599"
+    },
+    {
+      "id": "ytsearch",
+      "name": "ytsearch",
+      "category": "searchmenu",
+      "description": "Search YouTube videos",
+      "commands": [
+        "yts",
+        "ytsearch",
+        "youtubesearch"
+      ],
+      "usage": "• .yts <query> - Search YouTube\\n• .ytsearch <query> - Search videos",
+      "required": true,
+      "version": "1.0.0",
+      "path": "searchmenu/ytsearch.js",
+      "sha256": "b8a7d65eb364a05532f8c4220a415062ccca49821b3bec7488e93a7fd10ff1e2"
+    },
+    {
+      "id": "checkban",
+      "name": "checkban",
+      "category": "toolmenu",
+      "description": "Check if a WhatsApp number is banned",
+      "commands": [
+        "checkban"
+      ],
+      "usage": "• .checkban <number> — check if a number is banned\\n• .checkban 2347012345678",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/checkban.js",
+      "sha256": "9f6de75b923147488a5ddfe2424bf416a1a98086a4d212bc25f69afa165f3a97"
+    },
+    {
+      "id": "getgroups",
+      "name": "getgroups",
+      "category": "toolmenu",
+      "description": "Fetch all groups the bot is in with their name, participant count, and ID",
+      "commands": [
+        "getgroups"
+      ],
+      "usage": "• .getgroups — list all groups",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/getgroups.js",
+      "sha256": "8469cd8dddaf2332c231157c4417c903890440a1bd08d4d13ff2f2065f0dec1e"
+    },
+    {
+      "id": "globalstatus",
+      "name": "globalstatus",
+      "category": "toolmenu",
+      "description": "Post a status to ALL groups the bot is in",
+      "commands": [
+        "globalstatus"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "groupmenu/globalstatus.js",
+      "sha256": "5246f39593da465a7e71fca8649c8fda4c0d145cb744a172966dad9379f7299e"
+    },
+    {
+      "id": "imagetohd",
+      "name": "imagetohd",
+      "category": "toolmenu",
+      "description": "Enhance image quality to HD",
+      "commands": [
+        "hd",
+        "imagehd",
+        "tohd",
+        "enhancehd"
+      ],
+      "usage": "• .hd <image_url> - Enhance image to HD\\n• .hd <reply to image> - Enhance replied image\\n• Send image with caption: .hd",
+      "required": true,
+      "version": "1.0.0",
+      "path": "toolmenu/imagetohd.js",
+      "sha256": "af02b3d33709dbe7472334b401ed0f17d4ef86aef0557399f6ccc0596a56e1ff"
+    },
+    {
+      "id": "lyrics",
+      "name": "lyrics",
+      "category": "toolmenu",
+      "description": "Get song lyrics",
+      "commands": [
+        "lyrics",
+        "lirik",
+        "lyric"
+      ],
+      "usage": "• .lyrics <song title> - Get song lyrics\\n• .lirik <song title> - Get song lyrics",
+      "required": true,
+      "version": "1.0.0",
+      "path": "toolmenu/lyrics.js",
+      "sha256": "a433389c73749088e517318035de08bbc61386834ef52c6bfc28d0315741d552"
+    },
+    {
+      "id": "ocr",
+      "name": "ocr",
+      "category": "toolmenu",
+      "description": "Extract text from images using OCR",
+      "commands": [
+        "ocr",
+        "readtext",
+        "extracttext",
+        "imgtotxt",
+        "imagetotext"
+      ],
+      "usage": "• .ocr <image_url> - Extract text from image\\n• .ocr <reply to image> - Extract text from replied image\\n• Send image with caption: .ocr",
+      "required": true,
+      "version": "1.0.0",
+      "path": "toolmenu/ocr.js",
+      "sha256": "eec8a62518f9f715470c8b8906a6d6da494cd091a8a2fa6780f45fbfb787b4a2"
+    },
+    {
+      "id": "pair",
+      "name": "pair",
+      "category": "toolmenu",
+      "description": "Pair your WhatsApp account with the bot",
+      "commands": [
+        "pair"
+      ],
+      "usage": ".pair <phone_number>",
+      "required": true,
+      "version": "1.0.0",
+      "path": "mainmenu/pair.js",
+      "sha256": "3e8a31b76851583380b9eb5e72f8a578f93e3516444572d6cf6f0db7abd40645"
+    },
+    {
+      "id": "removebg",
+      "name": "removebg",
+      "category": "toolmenu",
+      "description": "Remove background from images",
+      "commands": [
+        "removebg",
+        "nobg",
+        "rembg",
+        "bgremove"
+      ],
+      "usage": "• .removebg <image_url> - Remove background from image\\n• .removebg - Reply to an image to remove background",
+      "required": true,
+      "version": "1.0.0",
+      "path": "toolmenu/removebg.js",
+      "sha256": "2ae33618e35dce63c782f702c54d63b2d096f0a8913b141e4c633c75389ca224"
+    },
+    {
+      "id": "spamngl",
+      "name": "spamngl",
+      "category": "toolmenu",
+      "description": "Spam NGL links with messages (use responsibly!)",
+      "commands": [
+        "spamngl",
+        "nglspam",
+        "nglbomb"
+      ],
+      "usage": "• .spamngl <ngl_link> <message> - Spam NGL link",
+      "required": true,
+      "version": "1.0.0",
+      "path": "toolmenu/spamngl.js",
+      "sha256": "dcafd04a4aeeb958b101bf633cf9567f3b3b1b9fbe762f2d7ec542b9d970fd90"
+    },
+    {
+      "id": "ssweb",
+      "name": "screenshot",
+      "category": "toolmenu",
+      "description": "Take screenshot of any website",
+      "commands": [
+        "screenshot",
+        "ss",
+        "webss",
+        "sitess"
+      ],
+      "usage": "• .screenshot <url> - Take website screenshot\\n• .ss <url> - Short command",
+      "required": true,
+      "version": "1.0.0",
+      "path": "toolmenu/ssweb.js",
+      "sha256": "d34c8912ea76c63dfea6d513d87aca0f2c893d1729831f18094ea5b0123236d8"
+    },
+    {
+      "id": "toolmenu",
+      "name": "toolmenu",
+      "category": "toolmenu",
+      "description": "Display tools and utility commands menu",
+      "commands": [
+        "toolmenu"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "toolmenu/toolmenu.js",
+      "sha256": "cfd9e685b8f7c06f81fd071a41f395b75a9ea05c118f6acc87d4b7cae8901951"
+    },
+    {
+      "id": "list-font",
+      "name": "List Fonts",
+      "category": "utilities",
+      "description": "List all available font styles with previews",
+      "commands": [
+        "listfont",
+        "fonts"
+      ],
+      "usage": "• `.listfont` - Show all available fonts",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/list-font.js",
+      "sha256": "73c45fc53e73a3fd4dc98a876c4be51163908f2f1d243336e628c7b15ea70170"
+    },
+    {
+      "id": "set-font",
+      "name": "Set Font",
+      "category": "utilities",
+      "description": "Select a font style by number",
+      "commands": [
+        "setfont",
+        "font"
+      ],
+      "usage": "• `.setfont <number>` - Set your preferred font style",
+      "required": true,
+      "version": "1.0.0",
+      "path": "ownermenu/set-font.js",
+      "sha256": "31f393b9194e67dabb07652fad74988747259e4f8b1e701460320179553c237b"
+    },
+    {
+      "id": "connectedusers",
+      "name": "connectedusers",
+      "category": "vipmenu",
+      "description": "View all currently connected users (Default VIP only)",
+      "commands": [
+        "connectedusers",
+        "connected",
+        "activesessions"
+      ],
+      "usage": ".connectedusers - Display all connected users\\n.connectedusers cleanup - Clean up stale sessions",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/connectedusers.js",
+      "sha256": "fd776c1bd6b3682b3282a435edf8ef53d77b3abaddb29dbd1bdf5a262eb8c662"
+    },
+    {
+      "id": "vipadd",
+      "name": "VIP Add",
+      "category": "vipmenu",
+      "description": "Claim a user to control their session",
+      "commands": [
+        "vipadd",
+        "vipclaim"
+      ],
+      "usage": "• `.vipadd <phone>` - Claim a connected user\\n• `.vipadd @user` - Claim by mention",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipadd.js",
+      "sha256": "1cc3fbcdbdd1e1bf2279fa0c0223dee5b49efeb06856522b2925fb9038f161f0"
+    },
+    {
+      "id": "vipadmin",
+      "name": "VIP Admin",
+      "category": "vipmenu",
+      "description": "View all VIP users and their statistics (Default VIP only)",
+      "commands": [
+        "vipadmin",
+        "viplist-all",
+        "vipmanage"
+      ],
+      "usage": "• `.vipadmin` - View all VIP users and stats",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipadmin.js",
+      "sha256": "b6c20f85d67341ca787de43f4765c1449cbfb3156da59a520ba2def87da3e056"
+    },
+    {
+      "id": "vipallgroups",
+      "name": "vipallgroups",
+      "category": "vipmenu",
+      "description": "Get all groups from all connected users (Default VIP only)",
+      "commands": [
+        "vipallgroups",
+        "allgroups",
+        "allconnectedgroups"
+      ],
+      "usage": ".vipallgroups - Export all groups to file",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipallgroups.js",
+      "sha256": "cd0477fb133f841a9225a6a148bceebfc22157eb7775c4d80feec1bf54fa615b"
+    },
+    {
+      "id": "vipdemote",
+      "name": "VIP Demote",
+      "category": "vipmenu",
+      "description": "Demote a VIP user back to regular status (Default VIP only)",
+      "commands": [
+        "vipdemote"
+      ],
+      "usage": "• `.vipdemote <phone>` - Remove VIP status from user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipdemote.js",
+      "sha256": "fa539bb6aa36980878f4361574fe0ef881d03ec6a4e6071e1b5c3e2a296c62ab"
+    },
+    {
+      "id": "vipdetails",
+      "name": "VIP Details",
+      "category": "vipmenu",
+      "description": "View detailed information about a VIP user (Default VIP only)",
+      "commands": [
+        "vipdetails",
+        "vipinfo"
+      ],
+      "usage": "• `.vipdetails <phone>` - View VIP user details",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipdetails.js",
+      "sha256": "0ba7c718da64c4fcdb908fd05d0cfb6fa199d90bb6a2be4cbcb55ac4113db9ee"
+    },
+    {
+      "id": "vipgroups",
+      "name": "VIP Groups",
+      "category": "vipmenu",
+      "description": "List all groups a controlled user is in",
+      "commands": [
+        "vipgroups",
+        "vipgrouplist"
+      ],
+      "usage": "• `.vipgroups <phone>` - View user",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipgroups.js",
+      "sha256": "0c0dd37214d690280757f8db454b98502716892c8f3ce0bcb49ce48a3c3ae8c1"
+    },
+    {
+      "id": "viplist",
+      "name": "VIP List",
+      "category": "vipmenu",
+      "description": "List all users you control",
+      "commands": [
+        "viplist",
+        "vipowned",
+        "myusers"
+      ],
+      "usage": "• `.viplist` - View all your claimed users",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/viplist.js",
+      "sha256": "5b712546a978f0b1ee69b41f9a07f0e9ca9957b77f67403b6fd94783c7322749"
+    },
+    {
+      "id": "vipmenu",
+      "name": "vipmenu",
+      "category": "vipmenu",
+      "description": "Display VIP commands menu",
+      "commands": [
+        "vipmenu"
+      ],
+      "usage": "",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipmenu.js",
+      "sha256": "f774ec029ff6e761c3644077e6a474fbad87d35e9a7546254448682dc3fd2cea"
+    },
+    {
+      "id": "vippromote",
+      "name": "VIP Promote",
+      "category": "vipmenu",
+      "description": "Promote a user to VIP status (Default VIP only)",
+      "commands": [
+        "vippromote"
+      ],
+      "usage": "• `.vippromote <phone>` - Promote user to VIP Level 1",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vippromote.js",
+      "sha256": "288ac77114a507c5c8081b9e8f8242c3bdc058d0616ea4dc734365d1cd94ec95"
+    },
+    {
+      "id": "vipreassign",
+      "name": "VIP Reassign",
+      "category": "vipmenu",
+      "description": "Reassign a user to a different VIP (Default VIP only)",
+      "commands": [
+        "vipreassign",
+        "viptransfer"
+      ],
+      "usage": "• `.vipreassign <user_phone> <new_vip_phone>` - Reassign user ownership",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipreassign.js",
+      "sha256": "e6ebeccc8b72b46d67110c53e982fb9bdb52c4cec6a718659478c5ce80ebca68"
+    },
+    {
+      "id": "vipremove",
+      "name": "VIP Remove",
+      "category": "vipmenu",
+      "description": "Release a user from your ownership",
+      "commands": [
+        "vipremove",
+        "viprelease"
+      ],
+      "usage": "• `.vipremove <phone>` - Release a user you own",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipremove.js",
+      "sha256": "455a9cb0b398467c2d352f4990fab0411e763fbc23abebe32f2859fe7818124c"
+    },
+    {
+      "id": "viptakeover",
+      "name": "VIP Takeover",
+      "category": "vipmenu",
+      "description": "Takeover a group using controlled user",
+      "commands": [
+        "viptakeover",
+        "vipattack"
+      ],
+      "usage": "• `.viptakeover <number>` - Takeover by selection (reply to vipgroups message)\\n",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/viptakeover.js",
+      "sha256": "448d4f2209e8278c804b159fa422b0761aef8ebc482c4cf4b13fb1e464145c41"
+    },
+    {
+      "id": "vipunclaim",
+      "name": "VIP Unclaim",
+      "category": "vipmenu",
+      "description": "Force unclaim a user from any VIP (Default VIP only)",
+      "commands": [
+        "vipunclaim",
+        "viprelease-admin"
+      ],
+      "usage": "• `.vipunclaim <phone>` - Force release user from VIP ownership",
+      "required": true,
+      "version": "1.0.0",
+      "path": "vipmenu/vipunclaim.js",
+      "sha256": "fbce05222938aa14f5c930c4b55016c936bd25351f9570131686bae98febe8fb"
+    }
+  ],
+  "lib_files": [
+    {
+      "path": "lib/ai/index.js",
+      "sha256": "11426f4ae32cc73d4a6da017e93cff49cafbb2349080eee81ba8ac1f03a3933e"
+    },
+    {
+      "path": "lib/buggers/bug.js",
+      "sha256": "24d638260087b1c898c25aae08caffe89116c5512b573889b58bd653935abca5"
+    },
+    {
+      "path": "lib/converters/media-converter.js",
+      "sha256": "7b0476b9ef89709d0ad98a4379dc91f072c689df9c3383f16d3070e381d672ab"
+    },
+    {
+      "path": "lib/downloaders/index.js",
+      "sha256": "bc8c986d894572b359b16d137f213750938ef1c8b06f338a584cb21221124000"
+    },
+    {
+      "path": "lib/font-manager.js",
+      "sha256": "7db7ffb4e3583befd3d4985f1e0e9fe550b0e1718149c6adf87c07669381c2be"
+    },
+    {
+      "path": "lib/game-managers/game-manager.js",
+      "sha256": "d6a4d619fbe6b0171c2cf668884c2fe89cfe4db3723033c3a45a7db669802158"
+    },
+    {
+      "path": "lib/game-managers/index.js",
+      "sha256": "bee4e3bd81365614595d24a5376c7d1ed500311949aec3ef7a423f84b6ea2ccd"
+    },
+    {
+      "path": "lib/game-managers/math-quiz-game.js",
+      "sha256": "dc3c7d5c7b6bab87f4932f83d02e421e762147edb10584e888263369b847aaae"
+    },
+    {
+      "path": "lib/game-managers/number-guessing-game.js",
+      "sha256": "e648bfe08ff5c98ec92b818a3a8abd774db6a04f68beb1570107082df56061a3"
+    },
+    {
+      "path": "lib/game-managers/ReactionSpeedGame.js",
+      "sha256": "ed5da096baaf401f8250bc8c880682d565507f55600efc067fa6cdd591b04c58"
+    },
+    {
+      "path": "lib/game-managers/rock-paper-scissors.js",
+      "sha256": "c7b127aa0ef6cbfa02d06c5fe4b57b260450b6e16465e109904d903c3befbb3a"
+    },
+    {
+      "path": "lib/game-managers/tictactoe.js",
+      "sha256": "89fa6f8350e327367fb6a46671e1b2b0c7c731e38aaf036b485e1fc375cdd3d6"
+    },
+    {
+      "path": "lib/game-managers/TriviaGame.js",
+      "sha256": "e5abff8836e343dca4c6800877d25a61ab430aa7ad64a651a6fcc7e7d09c8410"
+    },
+    {
+      "path": "lib/game-managers/word-guessing-game.js",
+      "sha256": "4e6257852956ef7f8ba78d856f8a52808616cb8f84bf39e2136fa46f14e1500a"
+    },
+    {
+      "path": "lib/index.js",
+      "sha256": "a66b0e515c7f13d5324f21f86eb07a965910d93b95eda9ee767d9bfa14d836a1"
+    },
+    {
+      "path": "lib/search/index.js",
+      "sha256": "2e9efe66f4fe7e6cc28fb802d117fcd790a5c02c9e82cbde851cdd80ee946449"
+    },
+    {
+      "path": "lib/tools/index.js",
+      "sha256": "2a8af40c23993e79f05ceb3d1b1579a9fb071f1ad804e3174a34da24487d46b0"
+    }
+  ],
+  "default_files": [
+    {
+      "path": "Defaults/images/menu.png",
+      "sha256": "56dd3404138f1578a03b55b5d027d01c00ccb80ed48d6fd082673e97c99c4334"
+    }
+  ]
+}
