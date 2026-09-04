@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": 1788450784905,
+  "generated_at": 1788519350804,
   "total_plugins": 168,
   "required_count": 168,
   "optional_count": 0,
@@ -2262,7 +2262,7 @@
       "required": true,
       "version": "1.0.0",
       "path": "mainmenu/pair.js",
-      "sha256": "3e8a31b76851583380b9eb5e72f8a578f93e3516444572d6cf6f0db7abd40645"
+      "sha256": "1dc3c0a82ff63a992e23e8d658ede0f154eb965c7b0f6171f28aab0c3cd9862e"
     },
     {
       "id": "removebg",
