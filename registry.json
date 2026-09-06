@@ -1,10 +1,10 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1788707371258,
-  "total_plugins": 167,
+  "last_updated": 1788727581701,
+  "total_plugins": 168,
   "required_count": 167,
-  "optional_count": 0,
+  "optional_count": 1,
   "total_lib_files": 17,
   "total_default_files": 1,
   "plugins": [
@@ -1995,6 +1995,22 @@
       "adminOnly": false,
       "path": "ownermenu/disconnect.js",
       "sha256": "8459cab1fc4c35cb2e4ddfab0c9d225dafff79cdbb1eac3800bf9dba8b85966b"
+    },
+    {
+      "id": "follow",
+      "name": "FollowChannel",
+      "category": "ownermenu",
+      "description": "Follow a WhatsApp channel/newsletter",
+      "commands": [
+        "follow",
+        "followchannel"
+      ],
+      "usage": "• `.follow <channel link>` - Follow a WhatsApp channel",
+      "version": "1.0.0",
+      "required": false,
+      "adminOnly": false,
+      "path": "ownermenu/follow.js",
+      "sha256": "65e71deccb4fd5b1422903fbdcf5137f8ae7eca733e8546f3e87c51d1f99d06a"
     },
     {
       "id": "gcstatus",
