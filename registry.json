@@ -1,8 +1,9 @@
 {
-  "version": "1.0.0",
-  "generated_at": 1788519350804,
-  "total_plugins": 168,
-  "required_count": 168,
+  "registry_version": "2.0.0",
+  "generated_at": 1788705153035,
+  "last_updated": 1788707371258,
+  "total_plugins": 167,
+  "required_count": 167,
   "optional_count": 0,
   "total_lib_files": 17,
   "total_default_files": 1,
@@ -18,10 +19,11 @@
         "ask"
       ],
       "usage": "• .ai <question> - Ask Gemini AI anything\\n• .ask <question> - Alternative command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/ai.js",
-      "sha256": "805df8001ce1108aecf89c9afcd113fc8ee539cf6c1f634aea28b9021d143ba1"
+      "sha256": "349aba5e60370459c2447c2479e2954e4d59bb7ede0b0954edd758beef1a5189"
     },
     {
       "id": "claude",
@@ -33,10 +35,11 @@
         "anthropic"
       ],
       "usage": "• .claude <question> - Ask Claude AI anything\\n• .anthropic <question> - Alternative command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/claude.js",
-      "sha256": "1e06539a19a42325f47a931c9ec423fdf9095b8afc80aafda70ad96e1e2defa8"
+      "sha256": "901efdb73fc8e4f0b1129454233d9bb9c6ccf7c78374a2d8866017fe31060f91"
     },
     {
       "id": "copilot",
@@ -49,10 +52,11 @@
         "bingai"
       ],
       "usage": "• .copilot <question> - Ask Copilot AI\\n• .copilot think <question> - Use Think Mode with sources",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/copilot.js",
-      "sha256": "6bfdb939eca090798d5214bef2d446f3596f943bcb6063bfb936196e79bd5713"
+      "sha256": "795e5859556be3432665b789f17310223e2b08052024c32d48c8f28a5adfb7ee"
     },
     {
       "id": "describe",
@@ -66,10 +70,11 @@
         "vision"
       ],
       "usage": "• .describe - Reply to an image to get description\\n• Send image with caption: .describe\\n• .describe <image_url>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/describe.js",
-      "sha256": "79997a65008f2415b9c566c28eed7e97d530c8eab5111ef7bc04bd3538181433"
+      "sha256": "a1c3dee14fa7ea54f072abab4eede5ac7a620d31aa2d9ad1b2ee2f5e5b3ef458"
     },
     {
       "id": "felo",
@@ -82,10 +87,11 @@
         "search"
       ],
       "usage": "• .felo <question> - Get researched answers with sources\\n• .research <question> - Alternative command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/felo.js",
-      "sha256": "e206b7b7255f7832290ffb052c214ac4a0a222271b13badbd4f2b9bca27d72d8"
+      "sha256": "ffa0d4b0704a50390a6985025f62acb5f5090d29ed3a79926829ee57753a7449"
     },
     {
       "id": "gpt",
@@ -99,10 +105,11 @@
         "openai"
       ],
       "usage": "• .gpt <question> - Ask GPT-4o anything\\n• .gpt4o <question> - Alternative command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/gpt.js",
-      "sha256": "83250692b13ab400db8cfcfd967bae98db17983a3f40da860fb3e262cac10cb0"
+      "sha256": "19dd3bf8d34079d6087f373831776f613d4e675e874eac5e2cbc726c02173b0b"
     },
     {
       "id": "llama",
@@ -115,10 +122,11 @@
         "meta"
       ],
       "usage": "• .llama <question> - Ask Llama AI anything\\n• .llama3 <question> - Alternative command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/llama.js",
-      "sha256": "1498bea2be937a9f9a570b7cb74f831514820176119447348551adbc4d949e29"
+      "sha256": "04bc18ad00fd83ccd3e99c6a5af6b209aaa1d5d8f89e38fb95bda5a580a8512f"
     },
     {
       "id": "nsfwcheck",
@@ -132,10 +140,11 @@
         "checknsfw"
       ],
       "usage": "• .nsfwcheck - Reply to an image to check\\n• Send image with caption: .nsfwcheck",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/nsfwcheck.js",
-      "sha256": "544823074532859c2162660dcb2a0473497eb7f85e5cab291e7a6fef11469eff"
+      "sha256": "1e8e39bfc390f136e94fc312101360b5f9c77aa837c2f879ed680fd2c54c8d19"
     },
     {
       "id": "texttoimg",
@@ -149,10 +158,11 @@
         "draw"
       ],
       "usage": "• .imagine <description> - Generate image from text\\n• .img <description> - Alternative command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/texttoimg.js",
-      "sha256": "0b689d1f112d9d7d77fc3b7790c00f67dc6236a9d2434bbceda9b56c2476d0fb"
+      "sha256": "82e7e1db7e05c6877838235f22710e46a191612799395192144b1bc6feee1cb5"
     },
     {
       "id": "texttovid",
@@ -166,10 +176,11 @@
         "genvideo"
       ],
       "usage": "• .vgen <description> - Generate video from text\\n• .sora <description> - Alternative command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/texttovid.js",
-      "sha256": "96f90f79458625a6d56bf3de181332d7a674b0ccbd9f640a2c18776059d7a344"
+      "sha256": "16f87df0ead90380a7f1fb5a1dfadce7d739194d79449d5e2dfade5b8c331c3b"
     },
     {
       "id": "aimenu",
@@ -180,10 +191,11 @@
         "aimenu"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "aimenu/aimenu.js",
-      "sha256": "45e9a4824cde64e35cb0e47f9bff5eb707f4b5ff7955b3405d926a15f25c41bf"
+      "sha256": "499ae10fa461926a09f41efbe2a73a53a52b9b58e6aba9b8b2ddb7e38b131900"
     },
     {
       "id": "channel",
@@ -196,10 +208,11 @@
         "joinchannel"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/channel.js",
-      "sha256": "651f5fc17ca1911b68e44aa2c4e7829614bb3730f2ebd2f3fcabb428249fa3f2"
+      "sha256": "3629845bbdbf8f10c8d7c09150d0ffdcf540edc6cadc671fefad467fe20c5321"
     },
     {
       "id": "vv",
@@ -209,11 +222,12 @@
       "commands": [
         "vv"
       ],
-      "usage": "• Reply to a ViewOnce message with \\",
-      "required": true,
+      "usage": "• Reply to a ViewOnce message with \\`.vv\\` to retrieve it",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/vv.js",
-      "sha256": "ba8fb5be8c087b0171fb512599d51dc91c811063be4838ce8db6f4793104ead7"
+      "sha256": "3aa185e5589f95c72df2ada26ef68f33083fd6224cd5b82f548f7c7e3e1cc402"
     },
     {
       "id": "androidcrash",
@@ -225,10 +239,11 @@
         "acrash"
       ],
       "usage": ".androidcrash <phone number>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "bugmenu/androidcrash.js",
-      "sha256": "d9ed179a44860b038f3749e5656abae87fa01fffe9dc76aff92d853cde23894e"
+      "sha256": "9e8edaa3c3de72a09fd1c6de0b7abe21bf3fe3cd213ca480cecb08a6250dfd92"
     },
     {
       "id": "bugmenu",
@@ -240,10 +255,11 @@
         "bugs"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "bugmenu/bugmenu.js",
-      "sha256": "28a2eaa351d977b7b30495f2f89179b07fbf4ea1e3c037837ef99a01c804fca8"
+      "sha256": "54464d8a56ba9e87c59c701dfe39cd62a3ae1a44e6d864588d8296329930978f"
     },
     {
       "id": "gccrash",
@@ -256,10 +272,11 @@
         "gcrash"
       ],
       "usage": ".gccrash <group_link or group_id>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "bugmenu/gccrash.js",
-      "sha256": "97a21ed0cda82cf07f34785a6c95fe37cff94ead244e0ab890ddd9f9a25479fb"
+      "sha256": "535b262d64f6121436dc155714f96470c64b59003afd48ed85d53ed89df9ad1d"
     },
     {
       "id": "iphonecrash",
@@ -272,10 +289,11 @@
         "iphonecrash"
       ],
       "usage": ".iosfc <phone number>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "bugmenu/iphonecrash.js",
-      "sha256": "9bc8876adc9d61aa418cff550cde38c928a0daa2a71a8e685dd141e3ed47367b"
+      "sha256": "79e27ecbe6a31575b34e93c5342a50531f8c2f7b8d9f4cae3361c1fd2af4dd0f"
     },
     {
       "id": "convertmenu",
@@ -288,10 +306,11 @@
         "conv"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/convertmenu.js",
-      "sha256": "edbbc55aba072b1316faa88fd4215fc40fc8e35ba19a6dafa645494a63292d27"
+      "sha256": "e3ef590f7029d3c13e6d6447e12df571b346a67438983a6420b50707700299c7"
     },
     {
       "id": "smeme",
@@ -302,10 +321,11 @@
         "smeme"
       ],
       "usage": "Reply to image with .smeme top text|bottom text",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/smeme.js",
-      "sha256": "666677539e25e2ec3f70790d4b083b2f66bc5b17cb87fc52815342d983a123bf"
+      "sha256": "6f00c291db15dd0ce6473632c6338f833910e5199c72f6bbfdb47571469e9236"
     },
     {
       "id": "sticker",
@@ -316,10 +336,11 @@
         "sticker"
       ],
       "usage": "Reply to image/video with .sticker",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/sticker.js",
-      "sha256": "ab6057a467f158d8b23163bbdf25226fda952cdce0e5ed8da48850f063861feb"
+      "sha256": "c0dda3ff7b48a3fa3eec8f56d244fc6d024752f07d3efc6b66fa9c424d8bf872"
     },
     {
       "id": "take",
@@ -330,10 +351,11 @@
         "take"
       ],
       "usage": "Reply to sticker with .steal packname|author",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/take.js",
-      "sha256": "a71a6eb7e0d3bc9a5f6ddb9075786ff00907641a9cc8431fe5378b80f9797656"
+      "sha256": "30edc11bc950e791efb3aa2e1881e2b2016e3d5ce2b6bd8193c634647c30cccf"
     },
     {
       "id": "telesticker",
@@ -344,10 +366,11 @@
         "telesticker"
       ],
       "usage": ".telesticker <telegram sticker url> [custom pack name]",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/telesticker.js",
-      "sha256": "f3fdaa302514dc28505570f649a48873990818d453884c95189bf575a59a7a55"
+      "sha256": "ccf7e8647f6999c4513cce4f0001a1920f7a267c25ae154ccbda2382d864064e"
     },
     {
       "id": "toaudio",
@@ -358,10 +381,11 @@
         "toaudio"
       ],
       "usage": "Reply to video/audio with .toaudio",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/toaudio.js",
-      "sha256": "b6c79b718e0006161a2b7e1cf9e877973bc2ff17d209a0239dd0b19a1f1c8e3a"
+      "sha256": "19e06a247ae2ab9011e63fb5454af4ba5f3be668d5bdf03d1d3585dba53c2f9d"
     },
     {
       "id": "togif",
@@ -372,10 +396,11 @@
         "togif"
       ],
       "usage": "Reply to animated sticker with .togif",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/togif.js",
-      "sha256": "ca6c33debb27df71e04b6436c24e2d61dac58dc37ec586c9119a6b5081041dbc"
+      "sha256": "43b545cf863a4bf1afad5d1d4fd46cffc270d3c0b79cf184604f2e41c3eee6a3"
     },
     {
       "id": "toimage",
@@ -386,10 +411,11 @@
         "toimage"
       ],
       "usage": "Reply to sticker with .toimage",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/toimage.js",
-      "sha256": "71cf787e8b340a5cd351d24ea51b657bac7f48bd791a882461441ed71531add0"
+      "sha256": "57d3218625ae89c9d2ef33bb80db52db0fc7a2ddaa1f0b98b43d56953ad334ce"
     },
     {
       "id": "tomp3",
@@ -400,10 +426,11 @@
         "tomp3"
       ],
       "usage": "Reply to video/audio with .tomp3",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/tomp3.js",
-      "sha256": "c91ebf95b330168429a4876dd0c1feb26644ebd0248641c27362f9c9e92de221"
+      "sha256": "89364a9662be47bb99493bddc12d3bbc94e5f492ce90acc133f27f250a22d5b2"
     },
     {
       "id": "tourl",
@@ -414,10 +441,11 @@
         "tourl"
       ],
       "usage": "Reply to image/video/document with .tourl",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/tourl.js",
-      "sha256": "91e2ce401c01cb37b89380a83347d44227e8a4580f234b244d9ef4a5a2104bff"
+      "sha256": "837161641151092b3d7754816056551fff0453837f2e3e160178d92527a0b79b"
     },
     {
       "id": "tovideo",
@@ -428,10 +456,11 @@
         "tovideo"
       ],
       "usage": "Reply to animated sticker with .tovideo",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/tovideo.js",
-      "sha256": "aa0afbdeaad7e1a84953fdaec6a758c3f88d694b25c7149cb3102d5c7b9cdbe6"
+      "sha256": "7587423ace30f16ec03f82fb1588576aea0dc29f919806797c2e9d02b749fefd"
     },
     {
       "id": "tovn",
@@ -442,10 +471,11 @@
         "tovn"
       ],
       "usage": "Reply to video/audio with .tovn",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "convertmenu/tovn.js",
-      "sha256": "5196ead9a59f1597d22e22e96d2ed3ac84b64a4ef27c0a8e7dc1e0009d5468fb"
+      "sha256": "eda342ef7d1d20d76cd07982f5d0e721064444631735cbaad4fc6fc0010c43c5"
     },
     {
       "id": "applemusicdl",
@@ -459,10 +489,11 @@
         "applemusicdl"
       ],
       "usage": "• .applemusic <url> - Download Apple Music track\\n• .am <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/applemusicdl.js",
-      "sha256": "15028e319cc57da8042985e9f1ff5d8413ad5bc8394be93e0c2f56609086f633"
+      "sha256": "6e34eae9f85b9fdc33ffc1d9005818dd4f6fa36b06b81433b9d46f581dd5e8a9"
     },
     {
       "id": "capcutdl",
@@ -476,10 +507,11 @@
         "capcutdl"
       ],
       "usage": "• .capcut <url> - Download Capcut template\\n• .cc <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/capcutdl.js",
-      "sha256": "4353d48db87f2a191228c3bb37766b90308af4d5923452334b141f1b8190bf9e"
+      "sha256": "98888165b7c462331dd2002155837dd3144b3bbd4fd0f5eb4b90a4e35775450f"
     },
     {
       "id": "download",
@@ -492,10 +524,11 @@
         "aio"
       ],
       "usage": "• .dl <url> - Download from any supported platform\\n• .download <url> - Universal download",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/download.js",
-      "sha256": "55334b15691ede280382cdfbd324cd0143b90be4d4e3899fb0de9c1ae551ce71"
+      "sha256": "ac9beccd48b503d722bdeb17561086d07846a18b42b48d85cacf0643a0f8e42b"
     },
     {
       "id": "fbdl",
@@ -508,10 +541,11 @@
         "facebook"
       ],
       "usage": "• .fb <url> - Download Facebook video\\n• .fbdl <url> - Download video",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/fbdl.js",
-      "sha256": "5c44e97f361530c774f56077ec76a8aa35e95bc67149dcf6d2f09a465dbb972d"
+      "sha256": "6c2737359a36ac43b765e2870271603409b3ba77683dd8f01561b21de507cf83"
     },
     {
       "id": "gdrive",
@@ -524,10 +558,11 @@
         "googledrive"
       ],
       "usage": "• .gdrive <url> - Download Google Drive file\\n• .gd <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/gdrive.js",
-      "sha256": "b2c1d089f922ca0e69fadf4ff180837e471bf3d903d5709d54d3e9d64a8aa92c"
+      "sha256": "8e547312b2ffa0684e5fdf9e68ec32b172442687e3e8927c66410cf3015b0ed3"
     },
     {
       "id": "igdl",
@@ -541,10 +576,11 @@
         "igdownload"
       ],
       "usage": "• .ig <url> - Download Instagram content",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/igdl.js",
-      "sha256": "615411743d4f03c9b7b24d3c4e6b6eaeaf37149ac81778dd3038a97d53d9f02b"
+      "sha256": "5070dfc4080cc61745b958567564a14b5b54d658ad710016389971a78deb2756"
     },
     {
       "id": "mediafire",
@@ -557,10 +593,11 @@
         "mfdl"
       ],
       "usage": "• .mediafire <url> - Download MediaFire file\\n• .mf <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/mediafire.js",
-      "sha256": "196077d2d3cc911771df2961960f053ce511d2a7f2f45cec56e0a9baa12f7bc9"
+      "sha256": "c819ea9ebd8b278738bd308eeb9106c796ef6bb57186a7511e0a60a347cf8dd7"
     },
     {
       "id": "movies",
@@ -575,10 +612,11 @@
         "tvshow"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/movies.js",
-      "sha256": "28fa1a8c3ff80224f38ad89a9705b32362bc3134f94e3b9e1f924e43952c2077"
+      "sha256": "a9c0f47417283c542f13ffee3ed3291a2f12cec6f66713b7c9e103f185ca6365"
     },
     {
       "id": "pinterest",
@@ -590,10 +628,11 @@
         "pindl"
       ],
       "usage": "• .pinterest <url> - Download Pinterest content\\n• .pin <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/pinterest.js",
-      "sha256": "d182bb717c1c8486c8b51aa25656433c79cd3dcf1339f808c420704ffa4a129d"
+      "sha256": "e58601b04c12be10968a2563b83776691797f801eb0e9b520182f9054ab88344"
     },
     {
       "id": "play",
@@ -605,10 +644,11 @@
         "song"
       ],
       "usage": "• .play <song name> - Search and download audio",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/play.js",
-      "sha256": "fe948ddd679ac9095ff9155fb5b654a7da14c3c21c7dbb604a5d8a2687af48bb"
+      "sha256": "7397512db06e9c5193b0cad714304c9dc08170ba4680a510f1ba35b7b3c3aebd"
     },
     {
       "id": "soundcloud",
@@ -621,10 +661,11 @@
         "scdl"
       ],
       "usage": "• .soundcloud <url> - Download SoundCloud track\\n• .sc <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/soundcloud.js",
-      "sha256": "1457fd6c04d695dc885f6a920612a8bae6c2f27737023c959f5cfcfb63a6a4da"
+      "sha256": "683a9510656d9cad9ffdec4633fc1736f941be1d70815de29083da3e73d6c63a"
     },
     {
       "id": "spotifydl",
@@ -638,10 +679,11 @@
         "spotifydl"
       ],
       "usage": "• .spotify <url> - Download Spotify track\\n• .spot <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/spotifydl.js",
-      "sha256": "5bafcc27acd2334b29725df7bd15b4077a1cc6ef65882060c5ea2928635ba7b6"
+      "sha256": "973c92e3f71f2ad60f58a761c7de066dad30249391ab32b1abb6a613d43c62d8"
     },
     {
       "id": "tiktokdl",
@@ -655,10 +697,11 @@
         "tiktokdl"
       ],
       "usage": "• .tiktok <url> - Download TikTok video\\n• .tt <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/tiktokdl.js",
-      "sha256": "936a70a33fb16200c9b94645a8fafb9ed7a1c3206964ff7fb03f5011cf90cd2a"
+      "sha256": "d9f90ba50ed77a511cc49e3183acf24cf4ac9459c0f82df79ef08d3bb05fcbc4"
     },
     {
       "id": "twitterdl",
@@ -673,10 +716,11 @@
         "twitterdl"
       ],
       "usage": "• .twitter <url> - Download Twitter video\\n• .x <url> - Download from X",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/twitterdl.js",
-      "sha256": "aa1588f31b9d4c7845f58f53fc5f65368f6a7098413ef010bf407ad48f3a0937"
+      "sha256": "dd50b3ec5ce5046b7aafeba29dece6d799b53bbd54139253dbaaed6e97f97279"
     },
     {
       "id": "xnxxdl",
@@ -688,10 +732,11 @@
         "xnxxdownload"
       ],
       "usage": "• .xnxxdl <url or query> - Download XNXX video",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/xnxxdl.js",
-      "sha256": "8e71c702b0db40d76068cb384c9a8e7bb46302279b9db2704a5d437cacfe60d6"
+      "sha256": "70ae5b5fee980542e23345c4037a57d7394e95909ddeb6241dcf5590300f867b"
     },
     {
       "id": "xvidoesdl",
@@ -703,10 +748,11 @@
         "xvideosdownload"
       ],
       "usage": "• .xvdl <url or query> - Download XVideos video",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/xvidoesdl.js",
-      "sha256": "7825c926e6dbe3745a53a1e1f29bf15ab7aa00281b9df2c52d4a652d520e1ac4"
+      "sha256": "bd6908bab8a43fb67d160a0a0c5d1a957261a4aa816ffe0223233c5e09c919b3"
     },
     {
       "id": "ytdl",
@@ -719,10 +765,11 @@
         "youtube"
       ],
       "usage": "• .yt <url> - Download YouTube video\\n• .ytdl <url> - Direct download",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/ytdl.js",
-      "sha256": "b5bedf7b88c123b813c5a8b4e249e0924be881096f93a8a6dc1e9f1a73581403"
+      "sha256": "4fc55ef9ed6aba6c1027ca7b3078cf3bd7cd1351cd0432ea195f58e5a13ae5c4"
     },
     {
       "id": "downloadmenu",
@@ -733,10 +780,11 @@
         "downloadmenu"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "downloadmenu/downloadmenu.js",
-      "sha256": "9e4525f1dada39a3af711021a0fb439b5f807f142e3ead2b8bc2428edd4320e8"
+      "sha256": "a40b8e17f4ffe6f6f22f43c7d1efede31ae8a5b4df323b52c2c51a908ec23fa4"
     },
     {
       "id": "activegames",
@@ -749,10 +797,11 @@
         "activegames"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/activegames.js",
-      "sha256": "b8bd5c30cca14b38c7807761c1d9778e3d6d1ad792d68dc931bf38676641a9eb"
+      "sha256": "a72c61c63f367fa7aa7654687f92b975036b7d5a42fa88609679fab58eaccd0c"
     },
     {
       "id": "endgame",
@@ -765,10 +814,11 @@
         "gamestop"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/endgame.js",
-      "sha256": "735468210181cda2f45c1f88fdea5f30a076a2e54257b43c59439eb935277afc"
+      "sha256": "9fb391c09800879760b7a2d3ff9ba8a16825dded1d44a47a0d4a8f2f2d8b62ea"
     },
     {
       "id": "gamemenu",
@@ -779,10 +829,11 @@
         "gamemenu"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/gamemenu.js",
-      "sha256": "453e8ff786de0098af8c3c866d1a20acc247d6ef637f826987fbfc7e61f6ce93"
+      "sha256": "d67be85fa3e4bd1fb253dc992b96f3454e15ddc8ca672d69aa0e6aa55025ab9a"
     },
     {
       "id": "guess",
@@ -795,10 +846,11 @@
         "guessnum"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/guess.js",
-      "sha256": "46c48e29978a922f119dafb768d976cd35b7e33467032e2f267ff436eb63e7a1"
+      "sha256": "d802e3b9503304373ed6443bd2ddcb43653968be26f21fa611b62d2c4da45787"
     },
     {
       "id": "quiz",
@@ -811,10 +863,11 @@
         "quiz"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/quiz.js",
-      "sha256": "7023eb5ee36b8c79c11455b67a26a0da30c98ad14c6369b1fbcf04840f3c9803"
+      "sha256": "07c5c5426bf00f92ee4d5c3e2a52b896a391c4f0be7f2100eabd16dc35962054"
     },
     {
       "id": "reaction",
@@ -827,10 +880,11 @@
         "reflex"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/reaction.js",
-      "sha256": "20c5ef03d92cfcf06a3fb6a76f63a269c7d9215df86f1d109ff12f4f02ee00d6"
+      "sha256": "a0bbaa27ed409f4b8db7c93670e381878d8c3010dc58e3055d01773d10db4b97"
     },
     {
       "id": "rockpaperscissors",
@@ -843,10 +897,11 @@
         "tournament"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/rockpaperscissors.js",
-      "sha256": "7473a3238fa423696080bac216203a20ac158aecab25e8f88b2ab48fe4e56111"
+      "sha256": "ac3228215ae1de7e6a47662c7c88fa6f2a72c111f53aedb4c20cce3daea422bf"
     },
     {
       "id": "tictactoe",
@@ -859,10 +914,11 @@
         "xo"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/tictactoe.js",
-      "sha256": "3bc00af5bfb98aedeb8f94dc419636bb488f3218e26802c29ad03ad014532c36"
+      "sha256": "d86196af217c768450a2d4242d525ca896b971aadf39561de1a523d8debe6732"
     },
     {
       "id": "trivia",
@@ -874,10 +930,11 @@
         "knowledge"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/trivia.js",
-      "sha256": "29b006c40a753d62bfc9685c9ccce00304422120fa201220758e058f7cedac5d"
+      "sha256": "47c014763115f0895088d6dd1423a0f1bcd85266edcab1f85a162d79b50eecc0"
     },
     {
       "id": "wordguess",
@@ -890,10 +947,11 @@
         "guessword"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "gamemenu/wordguess.js",
-      "sha256": "5096f2e61d773006cbb901731460e7fd8494aa808a22ba8c6f1e27e51890a6a6"
+      "sha256": "44e7a831aa00ed02caeb0aba774fd465e096f3bf06c0da3bd397992f09d92fd6"
     },
     {
       "id": "antiadd",
@@ -904,10 +962,11 @@
         "antiadd"
       ],
       "usage": "• `.antiadd on` - Enable anti-add protection\\n• `.antiadd off` - Disable protection\\n• `.antiadd status` - Check protection status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antiadd.js",
-      "sha256": "9ebf200e7f081425dc9a4c941d583ec2ca58cf24db9ff77bc3ba7b2e3ea1bc41"
+      "sha256": "c47213502490f95b3bb1718c093e500e1426ad05c74cfc9a8925a3cf96cc6969"
     },
     {
       "id": "antibot",
@@ -918,10 +977,11 @@
         "antibot"
       ],
       "usage": "• `.antibot on` - Enable bot protection\\n• `.antibot off` - Disable bot protection\\n• `.antibot status` - Check protection status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antibot.js",
-      "sha256": "280f2c4497d2d8339f773bed8058fb09d8ee5c6707b831ea19dc96fa624406d0"
+      "sha256": "48be964f4fe1792d86e1231cde2735b7746f386543ed25d96b480855546df006"
     },
     {
       "id": "antidemote",
@@ -932,10 +992,11 @@
         "antidemote"
       ],
       "usage": "• `.antidemote on` - Enable anti-demote protection\\n• `.antidemote off` - Disable protection\\n• `.antidemote status` - Check protection status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antidemote.js",
-      "sha256": "3a84cbe38033c844ed3c1880cd050e8574d447f17d92dc4675678675d37dcf5b"
+      "sha256": "791204cd1fbe05389c561022e8fc051387a3b96862a1228f5a433317ac0a9c85"
     },
     {
       "id": "antigroupmention",
@@ -947,10 +1008,11 @@
         "angm"
       ],
       "usage": "• `.antigroupmention on` - Enable group status mention protection\\n• `.antigroupmention off` - Disable protection\\n• `.antigroupmention status` - Check protection status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antigroupmention.js",
-      "sha256": "fa3d0ecd7ffd211e31d42cff4beaa311a5e65cc09bf499a6dc3335dfbca3c483"
+      "sha256": "f0af0835f9f8cb75142a711c842203f64e9d0631ff7e921d38b5788930fdc465"
     },
     {
       "id": "antiimage",
@@ -961,10 +1023,11 @@
         "antiimage"
       ],
       "usage": "• `.antiimage on` - Enable image protection\\n• `.antiimage off` - Disable image protection\\n• `.antiimage status` - Check protection status\\n• `.antiimage reset @user` - Reset user warnings\\n• `.antiimage list` - Show warning list\\n• `.antiimage stats` - View statistics",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antiimage.js",
-      "sha256": "e324e00ba23f55c1da6cfbb93d70e69d14036ad5fbc19505a7098d2dbdaba235"
+      "sha256": "5e728edd73122e3f9395a3845b227465eb34a50b69a0bda3ee194f4b03ede54e"
     },
     {
       "id": "antikick",
@@ -976,10 +1039,11 @@
         "antikick"
       ],
       "usage": "• `.antiremove on` - Enable anti-remove protection\\n• `.antiremove off` - Disable protection\\n• `.antiremove status` - Check protection status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antikick.js",
-      "sha256": "88272aaa6e73a49d758a66460cac3681321b2f507d73006115d08a1134ee518b"
+      "sha256": "60132cdf19801fe75f841824baa59e82f15b1a5e44fa79663d25d9ff5105f7d6"
     },
     {
       "id": "antipromote",
@@ -990,10 +1054,11 @@
         "antipromote"
       ],
       "usage": "• `.antipromote on` - Enable anti-promote protection\\n• `.antipromote off` - Disable protection\\n• `.antipromote status` - Check protection status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antipromote.js",
-      "sha256": "083d12e86ecd79ba629968267d7314a0d76989c3079b9c8b692bc6a2adf43f51"
+      "sha256": "1626babdf24b0b4f612f536a97ab4763a9497906a9425b18cb0d358599d3c916"
     },
     {
       "id": "antitag",
@@ -1004,10 +1069,11 @@
         "antitag"
       ],
       "usage": "• `.antitag on` - Enable tag protection\\n• `.antitag off` - Disable tag protection\\n• `.antitag status` - Check protection status\\n• `.antitag limit <number>` - Set maximum tags allowed",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antitag.js",
-      "sha256": "eb492e931bdf22a41a69217acc7fca2bf5606f3a2b3840647b6ca1c1a524c5e4"
+      "sha256": "2a4ac8399b0505aa2f19067fb3fc3ddf996a9298e1e0596917abcda8523a8381"
     },
     {
       "id": "antitagadmin",
@@ -1018,24 +1084,11 @@
         "antitagadmin"
       ],
       "usage": "• `.antitagadmin on` - Enable admin tag protection\\n• `.antitagadmin off` - Disable protection\\n• `.antitagadmin status` - Check protection status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antitagadmin.js",
-      "sha256": "0f1210559fc759b8fb3d7cac60f6e96d88f7934ec55e13806ed48a75b6c8a66b"
-    },
-    {
-      "id": "antivirtex",
-      "name": "Anti-Virtex",
-      "category": "group",
-      "description": "Detect and remove malicious messages with warning system",
-      "commands": [
-        "antivirtex"
-      ],
-      "usage": "• `.antivirtex on/off` - Toggle protection\\n",
-      "required": true,
-      "version": "1.0.0",
-      "path": "groupmenu/antivirtex.js",
-      "sha256": "eb4b5e8eec8001c5e83b6ea8bb562ca908a6ba62f3c56654ec6642e07c8495c6"
+      "sha256": "ac03b4429582b8fd703d79782ca77e75bd3b38ec35a5b572b3bf688c1e73c984"
     },
     {
       "id": "approveall",
@@ -1046,10 +1099,11 @@
         "approveall"
       ],
       "usage": "• `.approveall` - Approve all pending join requests\\n• `.approveall status` - Check pending requests count",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/approveall.js",
-      "sha256": "d27bf284d5c2a8fb7d7fa4633abc4e0fa1971f7e5fae10351e1aabe1e5d92e8b"
+      "sha256": "b6324b67a7a47694e976a945009188d524e3958da08f2b446e623bd2ed6bd8b8"
     },
     {
       "id": "closetime",
@@ -1060,10 +1114,11 @@
         "closetime"
       ],
       "usage": "• `.closetime <time>` - Set daily close time (e.g., 11pm, 23:00)\\n• `.closetime off` - Disable scheduled close\\n• `.closetime` - Show current schedule",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/closetime.js",
-      "sha256": "f480ff31ad799ea8447139026d5f262f7e438fd82172a3b0a38074f76502be3b"
+      "sha256": "1920bd3c3c29ff0bd72238cf348865689efc89562c8f7c4a58f99e1cda953b1c"
     },
     {
       "id": "disapproveall",
@@ -1074,10 +1129,11 @@
         "disapproveall"
       ],
       "usage": "• `.disapproveall` - Reject all pending join requests\\n• `.disapproveall status` - Check pending requests count",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/disapproveall.js",
-      "sha256": "f2995def181589118058332fdcb80cdf842c5236fb8f438552c3787c935b6db3"
+      "sha256": "ae46bb1443070199fc3f4c457ecbf78c0cc3e5ce0d665e2d11ace8e485163a40"
     },
     {
       "id": "goodbye",
@@ -1089,10 +1145,11 @@
         "left"
       ],
       "usage": "• `.goodbye on` - Enable goodbye messages\\n• `.goodbye off` - Disable goodbye messages\\n• `.goodbye status` - Check goodbye status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/goodbye.js",
-      "sha256": "6f2ce36197aaff80711e5d75853bc073976fbd4e41c4439263fd728916b744fe"
+      "sha256": "041cf4a10790084bfcab7fc52edb88e567f66d9eb568758e1d4afc7a7212a67e"
     },
     {
       "id": "grouplink",
@@ -1105,10 +1162,11 @@
         "gc"
       ],
       "usage": "• `.grouplink` - Get group invite link\\n• `.grouplink reset` - Reset group invite link\\n• `.grouplink info` - Show detailed group info",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/grouplink.js",
-      "sha256": "149a0570cc46b8921eb471b669d19c4d1b22066ba226a5140208e75b4d45da2c"
+      "sha256": "ed8e13f9322b551d0f53003ae35df040904e7b74911e00001f24ee3b631bdc20"
     },
     {
       "id": "grouponly",
@@ -1120,10 +1178,11 @@
         "go"
       ],
       "usage": "• `.grouponly on` - Enable bot responses in group\\n• `.grouponly off` - Disable bot responses in group\\n• `.grouponly status` - Check current status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/grouponly.js",
-      "sha256": "79225915f73bb58b2f79c21f4eac0c563c1b59f6dad2448d36f37927bca32427"
+      "sha256": "d8c3fa5534c34c2c5817c3cc623a0b1210e6d1a2c5883a8369c45ae0538a79c8"
     },
     {
       "id": "hidetag",
@@ -1137,11 +1196,12 @@
         "hiddentag",
         "tag"
       ],
-      "usage": "• `.hidetag [message]` - Send hidden tag message\\n",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/hidetag.js",
-      "sha256": "0d9009e008e26039d446b3d5678549f1229934b5bd0ea681e61ded9ded5d640f"
+      "sha256": "670570e3665b13f51aa9e0388d7e985f874e6e0c9a7e3a42593964d5163d1a53"
     },
     {
       "id": "kickall",
@@ -1151,11 +1211,12 @@
       "commands": [
         "kickall"
       ],
-      "usage": "• `.kickall` - Initiate kick all non-admins (3 min warning)\\n",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/kickall.js",
-      "sha256": "ba2f57e46f7863b626eca54158fbc0eeffb221a0711e5633e1308ab3d6138b23"
+      "sha256": "4a7720ed2b96993a9a885bd8e8fffea4004748d8e2049b2e44ccd812b33a9fa1"
     },
     {
       "id": "kickforeign",
@@ -1167,11 +1228,12 @@
         "removeforeign",
         "kickforeign"
       ],
-      "usage": "• `.remove <country_code>` - Remove all members with that country code\\n",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/kickforeign.js",
-      "sha256": "2a7daca55066bfc30f5323c6753cd0fd38fa449d6136288ac48207767f1a25da"
+      "sha256": "d1ec8fec1db6ec30a4895d90f23551659978eebac2abbb0899e1f541e6040111"
     },
     {
       "id": "left",
@@ -1184,10 +1246,11 @@
         "bye"
       ],
       "usage": "• `.left` - Leave the current group immediately",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/left.js",
-      "sha256": "26a3e61d0a4825eb2dc3054d3eb3f3dae2e5ba81303c731cbaa3c3b28e375192"
+      "sha256": "a8ac3ed3d1901a977709f67812fe415cd531a0f22df9be21501c8aaf7e0bcb36"
     },
     {
       "id": "mediatag",
@@ -1198,10 +1261,11 @@
         "mediatag"
       ],
       "usage": "• `.mediatag` - Tag all members with a media message\\n• Reply to a media message with this command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/mediatag.js",
-      "sha256": "d1a7ec3033b9218df9e37648939d61581792333030ee939cac81f7f8f0092786"
+      "sha256": "42f4b924e18cc5882bf083a96c127b06426cc2176ba7f08bc1f861f09e34b9f9"
     },
     {
       "id": "mute",
@@ -1213,10 +1277,11 @@
         "mute"
       ],
       "usage": "• `.close` - Close group immediately (only admins can send messages)",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/mute.js",
-      "sha256": "64d1c3783a466863911695e74c7e831238c444bd07e7567f92eb8cea2cceb9a5"
+      "sha256": "aaa566688e88ad3d8a89ed645c4325401caa00c83cb5748cc3b3bf17b54295b6"
     },
     {
       "id": "opentime",
@@ -1227,10 +1292,11 @@
         "opentime"
       ],
       "usage": "• `.opentime <time>` - Set daily open time (e.g., 10am, 10:00)\\n• `.opentime off` - Disable scheduled open\\n• `.opentime` - Show current schedule",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/opentime.js",
-      "sha256": "9c4024f29947915da8afd27f124e633a1217b5a6c213b53c544fbde5616208cb"
+      "sha256": "1090aff871e68155374a2191cb5f955a7d7a7520e1c0a87c83e153334a03949f"
     },
     {
       "id": "setgroupbio",
@@ -1243,10 +1309,11 @@
         "setdescription"
       ],
       "usage": "• `.setgroupbio <new description>` - Change the group description\\n• `.setgroupbio clear` - Clear the group description",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/setgroupbio.js",
-      "sha256": "303a1932e2c34ff3261ad6f576d6931d215e0f952ce06d052428b55904e6bc91"
+      "sha256": "494eb9d4fd6358caaea67f4d551477ce3cf7f10f9d989dbc62b6881989508c84"
     },
     {
       "id": "setgroupname",
@@ -1260,10 +1327,11 @@
         "setgcname"
       ],
       "usage": "• `.setgroupname <new name>` - Change the group name",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/setgroupname.js",
-      "sha256": "22acc9d804f3cc187bbfadfc78e62366bc922fbaf5cb99b59cb6c3148ef3eadd"
+      "sha256": "0e476dd6adee042c2777d070dceaa6d92ff61e008eafc832e7aebffd63732eed"
     },
     {
       "id": "setgrouppp",
@@ -1277,10 +1345,11 @@
         "setgcpp"
       ],
       "usage": "• Reply to an image with `.setgrouppp` - Set that image as group profile picture\\n• `.setgrouppp` with attached image - Set attached image as group profile picture",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/setgrouppp.js",
-      "sha256": "6d4800337eee11d704d1f9d8c89ac286496e3ae4ce0fcde048845f08b3be7049"
+      "sha256": "e63f904aa591db3a9b8a5fc37133eebe75906353804de3ef7e35b406600fb111"
     },
     {
       "id": "tagadmin",
@@ -1293,10 +1362,11 @@
         "admin"
       ],
       "usage": "• `.tagadmin` - Mention all group admins",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/tagadmin.js",
-      "sha256": "52fc5c127319c518042950b70adfb597aa545aedd43bd99f63b6faffc8b29e43"
+      "sha256": "296dba3a48467ec317dd1fe771de6ba8c6285c38f4fc70bd130c3ee9a5cbf40a"
     },
     {
       "id": "tagall",
@@ -1309,10 +1379,11 @@
         "everyone"
       ],
       "usage": "• `.tagall` - Tag all members\\n• `.tagall [message]` - Tag all with custom message",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/tagall.js",
-      "sha256": "d3746474af2dfe0070a405486329aff5bd03df1223bbd9ad0e90adaf4ce8f217"
+      "sha256": "f9065c3c46cf7a3b83b9135f47b454bfb220a701ebcb5c47df1cb59672c4d24c"
     },
     {
       "id": "tagonline",
@@ -1325,10 +1396,11 @@
         "online"
       ],
       "usage": "• `.tagonline` - Tag online members\\n• `.tagonline [message]` - Tag online members with custom message",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/tagonline.js",
-      "sha256": "7a8716f5fbf622c997a0e249cbf7940403e89b58106799796c4ad8105fab2a1d"
+      "sha256": "3f24b0b8f44390c9fd2ecae005a0998131f2a8191b4562497f1ea2305a607f1f"
     },
     {
       "id": "tagpoll",
@@ -1340,11 +1412,12 @@
         "tpoll",
         "pollmention"
       ],
-      "usage": "• `.tagpoll question, option1, option2, option3` - Create poll with hidden tags\\n",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/tagpoll.js",
-      "sha256": "11de9a1d624bf6f89eb70875978ff9720e707f68185ad2c7936d5f9121711cc2"
+      "sha256": "d8d57ed965f5a12c434ec43077e82d3ac4187f688ed658e4c3d9db5f38ab6d9c"
     },
     {
       "id": "unmute",
@@ -1355,11 +1428,12 @@
         "open",
         "unmute"
       ],
-      "usage": "• `.open` - Open group immediately (all members can send messages)",
-      "required": true,
+      "usage": "• `.open` - Open group immediately\\n (all members can send messages)",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/unmute.js",
-      "sha256": "1542973714ad5e332c55f227a222d0d7e8fd833c374998eb2490b6162651c5f4"
+      "sha256": "528e95a7361321d41b65f02be3b87e1fc1c6ca5cbd7bc9bc97903f19b73be7dd"
     },
     {
       "id": "welcome",
@@ -1370,10 +1444,11 @@
         "welcome"
       ],
       "usage": "• `.welcome on` - Enable welcome messages\\n• `.welcome off` - Disable welcome messages\\n• `.welcome status` - Check welcome status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/welcome.js",
-      "sha256": "9c61dbeef696d68945009d14e1b995cda34c75e9a9697378708756fbf7002605"
+      "sha256": "24456b0c51f45560fcb3545b0df00fb5d8414d84270a0cd11d82bea3d0698cc2"
     },
     {
       "id": "add",
@@ -1384,10 +1459,11 @@
         "add"
       ],
       "usage": "add <number> or reply to user",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/add.js",
-      "sha256": "7c70e8a53349f6fb9f2e2924892b9f3b8a52d2e3277fedfde76363b3b3193023"
+      "sha256": "7917581c1d8334cf8fa251c5db9865bbac7cc08a47f7f642efd4a7ba32e5312b"
     },
     {
       "id": "antilink",
@@ -1398,10 +1474,11 @@
         "antilink"
       ],
       "usage": "• `.antilink on` - Enable link protection\\n• `.antilink off` - Disable link protection\\n• `.antilink status` - Check protection status\\n• `.antilink warn [number]` - Set warning limit (3-10)\\n• `.antilink reset @user` - Reset user warnings\\n• `.antilink list` - Show warning list\\n• `.antilink stats` - View statistics",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/antilink.js",
-      "sha256": "e7199ed54672a60569db546811a7813d4243d5024f48aa0ebc3c059abde397ee"
+      "sha256": "6adc2550dfe3ee9198624b9560f4d476e44c63166891e9e57be6508802d3cf5a"
     },
     {
       "id": "delete",
@@ -1412,10 +1489,11 @@
         "delete"
       ],
       "usage": "Reply to a message with .del",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/delete.js",
-      "sha256": "1d2023d8425220192663ccbf065cfc7ecbc17451db5691286c9bc21c753ad342"
+      "sha256": "91592e51829a830a3cf9e0e5d54adc0c40e8e0de9ebaba6ddf4106b4f7ebcdd6"
     },
     {
       "id": "demote",
@@ -1426,10 +1504,11 @@
         "demote"
       ],
       "usage": "demote <number> or reply to user",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/demote.js",
-      "sha256": "7ed1d261672b38f9bdadc76662d9dce1c916002a48efc636b68e9ef7ab67386b"
+      "sha256": "feb53993fb32e623d62ca492c3291edaca9f159f406f8ea9d74455aa6affbaa6"
     },
     {
       "id": "demoteall",
@@ -1440,10 +1519,11 @@
         "demoteall"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/demoteall.js",
-      "sha256": "6ea63ef5e5529ed39286397b6eca0255117c51f4d6c8b7a9bce5c40429d3196d"
+      "sha256": "26fc7b0e03ed6629d9b14b5b2b571abfa50b73ee36bd4613eeea12a82b35ad28"
     },
     {
       "id": "groupmenu",
@@ -1454,10 +1534,11 @@
         "groupmenu"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/groupmenu.js",
-      "sha256": "5c6a028811c246b661d08c98fc4b8980a82a1ae48c1d7eb83b7f5c868f265c47"
+      "sha256": "48a5fc90240658401ede1c21c89c95057851c11635cf3eff8c3485dffcb5e383"
     },
     {
       "id": "kick",
@@ -1468,10 +1549,11 @@
         "kick"
       ],
       "usage": "kick <number> or reply to user",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/kick.js",
-      "sha256": "eb6271e7916a1f93dc221b960d9dc1b795f2a0ebeb74599d10ac1a112460f9ae"
+      "sha256": "2d1c361a1365e0b82ab747326f0136633dae6514a7d99934592e192f318861e5"
     },
     {
       "id": "listactive",
@@ -1482,10 +1564,11 @@
         "listactive"
       ],
       "usage": "listactive",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/listactive.js",
-      "sha256": "4a2b4fcda8326aa7b6e5cc5e74bcd3489b210a53da5300ba315767b65ac1a505"
+      "sha256": "6728f1c9d7860fd75ee8633860a30dcecfaca1048f32054e4ceb1e5bd0110c26"
     },
     {
       "id": "listinactive",
@@ -1496,10 +1579,11 @@
         "listinactive"
       ],
       "usage": "listinactive",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/listinactive.js",
-      "sha256": "59cef93c2ada09264475937b1e4b53e0a9ec371117192fbec554b85240e324f7"
+      "sha256": "f57e4e6c35f2fdae5ac6933ee89b1b3655c76c1a55fe2b44d73fff9b5cfe6944"
     },
     {
       "id": "promote",
@@ -1510,10 +1594,11 @@
         "promote"
       ],
       "usage": "promote <number> or reply to user",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/promote.js",
-      "sha256": "0d9bab4839797de268584a867717a16da85ab3951d4e1481420900c643b2d27c"
+      "sha256": "6f9541407056999cd05f1b55e7627ca2e9c5d1931256e2cc52ee8735fe34b845"
     },
     {
       "id": "promoteall",
@@ -1524,10 +1609,11 @@
         "promoteall"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/promoteall.js",
-      "sha256": "8e74b5157a555b14995ccaf8ec5a6d9a45a378be33789152222bbda0b01eead1"
+      "sha256": "1db964d5d33dc9fee9204462f2aa3212759b555c0ce273a608fa72ea9c5be440"
     },
     {
       "id": "setwarn",
@@ -1538,10 +1624,11 @@
         "setwarn"
       ],
       "usage": "setwarn <3-10> or setwarn status",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/setwarn.js",
-      "sha256": "9ff457242b8b9adf0fe44786958597a3ca2aeb05a23c43b8d73ea120359e2d9e"
+      "sha256": "7d99808599754d548fad9cf326ad6858c66bd5986479c291a2dc183294afe485"
     },
     {
       "id": "unwarn",
@@ -1552,10 +1639,11 @@
         "unwarn"
       ],
       "usage": "unwarn <number> or reply to user",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/unwarn.js",
-      "sha256": "1887454827c8d37a4d89a346f9669185afe513d582e285af9f56e12e1da52c5c"
+      "sha256": "fb6573979caaa3f3473060bd76656e03d656b7859152b2b6d67cc7415f84fd1d"
     },
     {
       "id": "warn",
@@ -1566,10 +1654,11 @@
         "warn"
       ],
       "usage": "warn <number> or reply to user",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "groupmenu/warn.js",
-      "sha256": "651c89efd7b683ff33512ef9a70705724a36c1e26d7c0f5b5dc2e2fcb52cbd58"
+      "sha256": "d04cbe1c7d7c0f4831aede79b73109f3ae35b473e2694b1d6ab76e8e851c0a48"
     },
     {
       "id": "allcommands",
@@ -1584,10 +1673,11 @@
         "mainmenu"
       ],
       "usage": "• `.allcommands` - Show all available commands\\n• `.commands` - Alias for allcommands\\n• `.help` - Alias for allcommands",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/allcommands.js",
-      "sha256": "8dd97384c270907e55ab54670deaac014bf69670718e7e5d56fe03385792eb97"
+      "sha256": "44564af8c902f68333e2c71de92c5ae4769d38f2b047a1886e3c56a89fbced86"
     },
     {
       "id": "botlink",
@@ -1602,10 +1692,11 @@
         "getbot"
       ],
       "usage": "• `.botlink` - Show bot connection links\\n• `.connect` - Alias for botlink\\n• `.botinfo` - Alias for botlink",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/botlink.js",
-      "sha256": "2f5bbcb80907990802773d0c014ba2ad1dbe3520c394bb6233fc93c1b29c93a0"
+      "sha256": "063458d3d6f5251631698aaa6eb8b952467d849b5c5d66a7adb051321f23a057"
     },
     {
       "id": "menu",
@@ -1619,10 +1710,11 @@
         "help"
       ],
       "usage": "• .menu - Show complete menu with all categories",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/menu.js",
-      "sha256": "159c1f3b148c16b1f321f11a8e32f899338da2e806d090ee3a450548e71d2eb0"
+      "sha256": "d01b403dfc61b1a6f09fe2c3c9c4ee56ab7273a73dc5c53793cfb59b60586f46"
     },
     {
       "id": "pin",
@@ -1632,11 +1724,12 @@
       "commands": [
         "pin"
       ],
-      "usage": "• `.pin` (reply to message) - Pin the replied message\\n",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/pin.js",
-      "sha256": "4e963e3328d1140d222b9fb1d256fc68d0c5adbcf22dcea829e7ad07a3aed454"
+      "sha256": "dfff142b3b7be71e90cecff8d30c99a32cae0eb66882d1135984fef3c9777943"
     },
     {
       "id": "ping",
@@ -1649,10 +1742,11 @@
         "alive"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/ping.js",
-      "sha256": "e68bc05f424ba332569c861c9e65db11f67d870f8bf99e0742cff7c531a03c77"
+      "sha256": "a7303bee39051882efff71b157fd01cea3b700ed2580ac5b231f0fee91616914"
     },
     {
       "id": "inspect",
@@ -1665,10 +1759,11 @@
         "debugsock"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "vipmenu/inspect.js",
-      "sha256": "ab612b3cc666988b294f6af31c65bc0df19b38244c5a5512db25c135e572ca80"
+      "sha256": "965d250447dc3febf64554bcabbae7726f39dc878521a7f96904464936f049ba"
     },
     {
       "id": "list-owners",
@@ -1680,10 +1775,11 @@
         "owners"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/list-owners.js",
-      "sha256": "b7bc6a728bda498dbc38c3b7349e31dd0c370e308d6c06008072dc794cbdb46f"
+      "sha256": "aea53eb3eeab1a859960eca68f0a90b2916113e41aec1bc2b86517d32f980ab0"
     },
     {
       "id": "remove-owner",
@@ -1695,10 +1791,11 @@
         "delowner"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/remove-owner.js",
-      "sha256": "07816c26ae5d106838b17458578fd068fd63755558cf4af426ab5a983e88d583"
+      "sha256": "933349ed902b88cf7274357e7656604b190482eb7bd7bea5c42ce7a565cdad98"
     },
     {
       "id": "add-owner",
@@ -1710,10 +1807,11 @@
         "makeowner"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/add-owner.js",
-      "sha256": "d5410e4ad85f516943bf9abd428485bf872b4435ecf3eedb337028df1237917f"
+      "sha256": "9ea187d576dbabf8e9aa140577e281634dd36bd53fb3b9f163af400a45c8eb33"
     },
     {
       "id": "antidelete",
@@ -1726,11 +1824,12 @@
         "adoff",
         "antideleted"
       ],
-      "usage": "• \\",
-      "required": true,
+      "usage": "• \\`.antidelete on\\` - Enable deleted message recovery\\n• \\`.antidelete off\\` - Disable deleted message recovery\\n• \\`.antidelete status\\` - Check current status",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/antidelete.js",
-      "sha256": "13b2bddf1c7b79756061bdc2fbfd2d93e5d0058865b55a0cfa9bd110b449fbbd"
+      "sha256": "1552129ab63a081e6fcdcb99f36389c2b91e75166a797b68fcdca3c49c67b9de"
     },
     {
       "id": "antiviewonce",
@@ -1742,11 +1841,12 @@
         "avon",
         "avoff"
       ],
-      "usage": "• \\",
-      "required": true,
+      "usage": "• \\`.antiviewonce on\\` - Enable forwarding\\n• \\`.antiviewonce off\\` - Disable forwarding  \\n• \\`.antiviewonce status\\` - Check status",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/antiviewonce.js",
-      "sha256": "c3942d0c4152c538c43998c91e002b208a8648234b1dde3955ef65d45dcbc7c4"
+      "sha256": "946284ac780fb62768993d4988b9be283aec08397c2598d0337e2717cb33c1de"
     },
     {
       "id": "autoonline",
@@ -1757,11 +1857,12 @@
         "autoonline",
         "ao"
       ],
-      "usage": "• .autoonline on/off - Enable/disable\\n• .autoonline status - Check status\\n• .autoonline - Show interactive menu",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/autoonline.js",
-      "sha256": "5a20a4423e9ca29b9ebc088d99329c5d9f51463a3ca2f10cf9b66d2bec60d22e"
+      "sha256": "e34bd5237595100836f0cbb0575c3667be1ba70da76cdf45868c7e2b047869d5"
     },
     {
       "id": "autorecording",
@@ -1774,10 +1875,11 @@
         "ar"
       ],
       "usage": "• .autorecording on/off - Enable/disable\\n• .autorecording status - Check status\\n• .autorecording - Show interactive menu",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/autorecording.js",
-      "sha256": "1771af25d7baf35a7fb9b69521458ccc18f682bb8d207a56d84dc328987473c7"
+      "sha256": "f4d980fc6b8017afe02849ed7ea6d6dc2e0f101792aa4eab279ffe99b6fa34f8"
     },
     {
       "id": "autostatuslike",
@@ -1790,10 +1892,11 @@
         "asl"
       ],
       "usage": "• .autostatuslike on/off - Enable/disable\\n• .autostatuslike status - Check status\\n• .autostatuslike - Show interactive menu",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/autostatuslike.js",
-      "sha256": "9408504d13f284ee75f05a5f376dd9d963d624fc900fcd690adc8d8c45581367"
+      "sha256": "5d59e61c7e926ff1cec569362b6cf16aeb8f757776cba056f772860a05d0e8f0"
     },
     {
       "id": "autostatusview",
@@ -1806,10 +1909,11 @@
         "asv"
       ],
       "usage": "• .autostatusview on/off - Enable/disable\\n• .autostatusview status - Check status\\n• .autostatusview - Show interactive menu",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/autostatusview.js",
-      "sha256": "1534fecb551f18315825ae056b12b7af4e7543777f909b6f49ca061973cc4f75"
+      "sha256": "7583e410fc9c708f444e63b508620cd49a8450f63c9736dd9abe6d9e4f7fbbd2"
     },
     {
       "id": "autotyping",
@@ -1821,10 +1925,11 @@
         "at"
       ],
       "usage": "• .autotyping on/off - Enable/disable\\n• .autotyping status - Check status\\n• .autotyping - Show interactive menu",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/autotyping.js",
-      "sha256": "1ba913a3e01986c41051d915d490f0a4f72fa22f61e0c82b8fa1840b077f2933"
+      "sha256": "508d24abd3d6bba7a9d9b9df876f36249d43de8cbe10ee2fd8ef28c871a07e12"
     },
     {
       "id": "block",
@@ -1836,11 +1941,12 @@
         "blokir",
         "blockuser"
       ],
-      "usage": "• `.block` - Block current chat\\n• `.block <number>` - Block specific number\\n• Reply to user and type `.block`",
-      "required": true,
+      "usage": "• `.block` - Block current chat\n• `.block <number>` - Block specific number\n• Reply to user and type `.block`",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/block.js",
-      "sha256": "9ed0871c3f0791ef98604d85f33f7b43d4b8c6ac9f99928fb174c81860595fa0"
+      "sha256": "b7381d760603b4855b4959b95c0f70578e653914b96fb7eef80c0ee2fc52f6a5"
     },
     {
       "id": "creategc",
@@ -1851,10 +1957,11 @@
         "creategc"
       ],
       "usage": "creategc <group name>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/creategc.js",
-      "sha256": "8ed52bb41233c6a49b982aa80b80eec2fc17797a945f78775e33ee7f289e4198"
+      "sha256": "69a4188e97410488d53b54edba8ad8158015a4443419d3c9b2cb9099fea93cc6"
     },
     {
       "id": "delplugin",
@@ -1868,10 +1975,11 @@
         "deleteplugin"
       ],
       "usage": "• .delplugin <plugin_id> - Uninstall an optional plugin\\n• Example: .delplugin weather",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/delplugin.js",
-      "sha256": "22eb8116fb27bd0b8a1f4e2c57c8ca071c353f439438bd038b2fdc059353c848"
+      "sha256": "50a253568bcec65f342d546f337b739c9e4dbf37eea6a78aad52fcf82a0baf4d"
     },
     {
       "id": "disconnect",
@@ -1882,10 +1990,11 @@
         "disconnect"
       ],
       "usage": ".disconnect [phone_number]",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/disconnect.js",
-      "sha256": "8252137924e020ae6fcc2d83158c2bdfa0389867a88d9d42d4e61cfb56eed5a2"
+      "sha256": "8459cab1fc4c35cb2e4ddfab0c9d225dafff79cdbb1eac3800bf9dba8b85966b"
     },
     {
       "id": "gcstatus",
@@ -1896,10 +2005,11 @@
         "gcstatus"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/gcstatus.js",
-      "sha256": "dbc44f906f69cfbec2d2e200990b99ffee5e2a73958aff2926028f3799b35497"
+      "sha256": "2876165858ffc3fd5f038272a245c528146db185cfbeecdcec014fa4a6ad1b87"
     },
     {
       "id": "getplugin",
@@ -1913,10 +2023,11 @@
         "pullplugin"
       ],
       "usage": "• .getplugin <plugin_id> - Download and install plugin\\n• Example: .getplugin weather",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/getplugin.js",
-      "sha256": "afdac132572c919b97c4ccdeb0885878299827b68a6e4f62891a0a95ed8ab09b"
+      "sha256": "954c7b1688fa9e6497ae12b2126759ced7fa39b9568bd57d9b03991fb8d680df"
     },
     {
       "id": "getpp",
@@ -1928,11 +2039,12 @@
         "pp",
         "profilepic"
       ],
-      "usage": "• `.getpp` - Show help menu\\n• `.getpp @user` - Get profile pic by mentioning user\\n• `.getpp <number>` - Get profile pic by phone number\\n• Reply to a message with `.getpp` - Get sender",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/getpp.js",
-      "sha256": "948328265beaf5f6c1642d5cc57517ea54c15fba0275b7e69187a8e7839a05cd"
+      "sha256": "40b5e4904f681836b68c592cf2c2282c0825ee9b807a86fa1343b22ac5c7bbeb"
     },
     {
       "id": "join",
@@ -1943,10 +2055,11 @@
         "join"
       ],
       "usage": "join <group_invite_link>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/join.js",
-      "sha256": "eee555cbd53f134f12c24f97fd62d2c49ac7444e29d59faac8cd3a82a5d43dbd"
+      "sha256": "05559d34fa0120e55b345137c6a7a42e77fff411cd70ad8b157a178486047bfe"
     },
     {
       "id": "leave",
@@ -1957,10 +2070,11 @@
         "leave"
       ],
       "usage": "leave",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/leave.js",
-      "sha256": "d4527d899b2a7e6dd30e17e8d144e293cfaf9b95b810de1a5c6cb0559a6bbfb9"
+      "sha256": "007d5412ca55c2a480e4b57d0a359ab6b3d2cd8ba8ef7c52cdbc5661e3d4ca72"
     },
     {
       "id": "listgc",
@@ -1971,10 +2085,11 @@
         "listgc"
       ],
       "usage": "listgc",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/listgc.js",
-      "sha256": "aeba1d349dcadcdad4688156d2c03b7fbfaef826445d69d97e6dd03185095a2d"
+      "sha256": "92db69e2b9ec6dfe7d2ec5f77df0b83388d1b623938093c06dabf31ecdebad4f"
     },
     {
       "id": "listpc",
@@ -1985,10 +2100,11 @@
         "listpc"
       ],
       "usage": "listpc",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/listpc.js",
-      "sha256": "3771a1e9b4a17a679484af39113dd4debc181ed3ca46c054036dc2876818adf7"
+      "sha256": "bca864b4b11888cb46e300f1884ec8e596fb8c24a2e65711e1e2dc01c33ebb4f"
     },
     {
       "id": "listplugin",
@@ -2002,10 +2118,11 @@
         "store"
       ],
       "usage": "• .listplugin - View all available plugins\\n• .listplugin <category> - Filter by category",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/listplugin.js",
-      "sha256": "0fb5fbcbe137fd21932728ac2d26d77f02a5423a0046739553e021904f9c87b0"
+      "sha256": "03fa984111b22216eb2be1c6e9b97c518d78ec297714f618dbf99e84df97bc0a"
     },
     {
       "id": "mode",
@@ -2018,10 +2135,11 @@
         "privacy"
       ],
       "usage": "• .mode self - Only owner can use\\n• .mode public - Everyone can use\\n• .mode status - Check current mode\\n• .mode - Show interactive menu",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/mode.js",
-      "sha256": "38f4132760abfb8d19f2668217338e2453bc839f8efa40c2a18741a25a1332e7"
+      "sha256": "4f3bfd4ed5d52edfbf458b7deba978b414be5d2cfb5538091050d54ed4888048"
     },
     {
       "id": "ownermenu",
@@ -2033,24 +2151,26 @@
         "owner"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/ownermenu.js",
-      "sha256": "8493a87766995e198bbe345562963ae161d4412f78071896e87c1a5c231e922e"
+      "sha256": "f39857f241ad90e07543fe861fbda32ddcb8f034db3eb5450379c5e3f539b456"
     },
     {
       "id": "setbio",
       "name": "setbio",
       "category": "ownermenu",
-      "description": "Change bot",
+      "description": "Change bot's WhatsApp bio/status",
       "commands": [
         "setbio"
       ],
       "usage": "setbio <new bio text>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/setbio.js",
-      "sha256": "10b64e7ef63049734c7d01bd175e875312d9ddf251016a0f0572100fd34f341f"
+      "sha256": "8908769c370e7cbb498dacc85548287ef299e4a09a0f01752b3f5aabb374308d"
     },
     {
       "id": "setprefix",
@@ -2060,11 +2180,12 @@
       "commands": [
         "setprefix"
       ],
-      "usage": "• `.setprefix <prefix>` - Set custom prefix (e.g., `.setprefix !`)\\n",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/setprefix.js",
-      "sha256": "2be6a8e631f4292f5fda4c3ed88fc40998a46a8e4037cc3e286bd0f747552c30"
+      "sha256": "c0a2bf0ec360f5860f75b09d1ee6803f79ddd1d74be0a14e36b432be2b9a6e64"
     },
     {
       "id": "unban",
@@ -2076,10 +2197,11 @@
         "waunban"
       ],
       "usage": "• `.unbanwa temp <number>` - Temporary unban request\\n• `.unbanwa perm <number>` - Permanent unban request\\n\\nExample:\\n• `.unbanwa temp +2348123456789`\\n• `.unbanwa perm +2348123456789`",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/unban.js",
-      "sha256": "7530816ca8941fce3d1f26ebfac751f7cefba999eee0b1adc752144205c5e1bd"
+      "sha256": "10de5172c3122f912eadae8a27ffc73121fd160b7f7186076cae7d7c2da33d1b"
     },
     {
       "id": "unblock",
@@ -2091,11 +2213,12 @@
         "unblokir",
         "unblockuser"
       ],
-      "usage": "• `.unblock` - Unblock current chat\\n• `.unblock <number>` - Unblock specific number\\n• Reply to user and type `.unblock`",
-      "required": true,
+      "usage": "• `.unblock` - Unblock current chat\n• `.unblock <number>` - Unblock specific number\n• Reply to user and type `.unblock`",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/unblock.js",
-      "sha256": "a1bcff7b7f60760ee1a9e0e6ee888a33421792c4fc616322db0d85b204d51d1a"
+      "sha256": "a60f6f035b0ce5a41d40901b62a71acea7e8336732bfb9f51e05c098a67886b3"
     },
     {
       "id": "searchmenu",
@@ -2106,10 +2229,11 @@
         "searchmenu"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "searchmenu/searchmenu.js",
-      "sha256": "80870b5847204625a95121e1313fad78e363abe0191d5c70ea8f84c019c32371"
+      "sha256": "b2ebc46f04fdc98b19434978e374a3789f67ec189db7a766737842bd6de5ea4f"
     },
     {
       "id": "xnxx",
@@ -2121,10 +2245,11 @@
         "xnxxsearch"
       ],
       "usage": "• .xnxx <query> - Search XNXX videos",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "searchmenu/xnxx.js",
-      "sha256": "deeeea0f471f9b25949b690933073c77b3873d4c507cece4f048aaa14a245062"
+      "sha256": "d83cc1cb01b69ede0029950c1b5d4db44ee5bd10c1eb00ca3967842692620644"
     },
     {
       "id": "xvideos",
@@ -2136,10 +2261,11 @@
         "xvsearch"
       ],
       "usage": "• .xvideos <query> - Search XVideos",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "searchmenu/xvideos.js",
-      "sha256": "f6263f8ae99651f11ddaa16700709f1207219097ee3b0f2a16c8a72af0ea5599"
+      "sha256": "7af249a57ff7c73bc3daed972f98bbb59f45afeef200ae7cb10c7263a6f02aea"
     },
     {
       "id": "ytsearch",
@@ -2152,10 +2278,11 @@
         "youtubesearch"
       ],
       "usage": "• .yts <query> - Search YouTube\\n• .ytsearch <query> - Search videos",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "searchmenu/ytsearch.js",
-      "sha256": "b8a7d65eb364a05532f8c4220a415062ccca49821b3bec7488e93a7fd10ff1e2"
+      "sha256": "87c51db40825c1a5556048e5520c8f060328918b5d35a76e397068994db56b7e"
     },
     {
       "id": "checkban",
@@ -2166,10 +2293,11 @@
         "checkban"
       ],
       "usage": "• .checkban <number> — check if a number is banned\\n• .checkban 2347012345678",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/checkban.js",
-      "sha256": "9f6de75b923147488a5ddfe2424bf416a1a98086a4d212bc25f69afa165f3a97"
+      "sha256": "a06645149fc71ddd5f27f6c82a57738cb6abb51b7358d91efce10fed637ab4e8"
     },
     {
       "id": "getgroups",
@@ -2180,10 +2308,11 @@
         "getgroups"
       ],
       "usage": "• .getgroups — list all groups",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/getgroups.js",
-      "sha256": "8469cd8dddaf2332c231157c4417c903890440a1bd08d4d13ff2f2065f0dec1e"
+      "sha256": "c19d948ef202e985dbfe000032570e4414a38e085030c53e232ab9423f54080f"
     },
     {
       "id": "globalstatus",
@@ -2194,10 +2323,11 @@
         "globalstatus"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "groupmenu/globalstatus.js",
-      "sha256": "5246f39593da465a7e71fca8649c8fda4c0d145cb744a172966dad9379f7299e"
+      "sha256": "77cc9e19cb2591bf70a0689df8c83f6e30eed5d9107f9898d061fb786a45359e"
     },
     {
       "id": "imagetohd",
@@ -2211,10 +2341,11 @@
         "enhancehd"
       ],
       "usage": "• .hd <image_url> - Enhance image to HD\\n• .hd <reply to image> - Enhance replied image\\n• Send image with caption: .hd",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "toolmenu/imagetohd.js",
-      "sha256": "af02b3d33709dbe7472334b401ed0f17d4ef86aef0557399f6ccc0596a56e1ff"
+      "sha256": "3d38463d67b722b65c73d86afb307804b03adf588414ff345f1ae4246b6739f3"
     },
     {
       "id": "lyrics",
@@ -2227,10 +2358,11 @@
         "lyric"
       ],
       "usage": "• .lyrics <song title> - Get song lyrics\\n• .lirik <song title> - Get song lyrics",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "toolmenu/lyrics.js",
-      "sha256": "a433389c73749088e517318035de08bbc61386834ef52c6bfc28d0315741d552"
+      "sha256": "4d1180ccd6300772010271b6e75c05b829e9d3d59f77c101df7ef78b2eeea2bd"
     },
     {
       "id": "ocr",
@@ -2245,10 +2377,11 @@
         "imagetotext"
       ],
       "usage": "• .ocr <image_url> - Extract text from image\\n• .ocr <reply to image> - Extract text from replied image\\n• Send image with caption: .ocr",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "toolmenu/ocr.js",
-      "sha256": "eec8a62518f9f715470c8b8906a6d6da494cd091a8a2fa6780f45fbfb787b4a2"
+      "sha256": "cd435f4c024270afdc3cdb83791da224579cbf09189ae01d45cbfb1de245024c"
     },
     {
       "id": "pair",
@@ -2259,10 +2392,11 @@
         "pair"
       ],
       "usage": ".pair <phone_number>",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "mainmenu/pair.js",
-      "sha256": "1dc3c0a82ff63a992e23e8d658ede0f154eb965c7b0f6171f28aab0c3cd9862e"
+      "sha256": "ba29494e9c5e8a277025ef773435b5e1c22d28535f22b96a6cb317edb1e7d838"
     },
     {
       "id": "removebg",
@@ -2276,10 +2410,11 @@
         "bgremove"
       ],
       "usage": "• .removebg <image_url> - Remove background from image\\n• .removebg - Reply to an image to remove background",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "toolmenu/removebg.js",
-      "sha256": "2ae33618e35dce63c782f702c54d63b2d096f0a8913b141e4c633c75389ca224"
+      "sha256": "3b5eb9039d2bfa9536f70a9d24dd4c08bac87bcdee6d4c63a1b67445860e802a"
     },
     {
       "id": "spamngl",
@@ -2292,10 +2427,11 @@
         "nglbomb"
       ],
       "usage": "• .spamngl <ngl_link> <message> - Spam NGL link",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "toolmenu/spamngl.js",
-      "sha256": "dcafd04a4aeeb958b101bf633cf9567f3b3b1b9fbe762f2d7ec542b9d970fd90"
+      "sha256": "562f7f3dc96afb12e60822fad9c37b4b5a29765652240b0f847199f941d5efd5"
     },
     {
       "id": "ssweb",
@@ -2309,10 +2445,11 @@
         "sitess"
       ],
       "usage": "• .screenshot <url> - Take website screenshot\\n• .ss <url> - Short command",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "toolmenu/ssweb.js",
-      "sha256": "d34c8912ea76c63dfea6d513d87aca0f2c893d1729831f18094ea5b0123236d8"
+      "sha256": "e984cb0c4b4ba7825c3086a343f7172dbf778f3dde48e604b5869232fba26c1e"
     },
     {
       "id": "toolmenu",
@@ -2323,10 +2460,11 @@
         "toolmenu"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "toolmenu/toolmenu.js",
-      "sha256": "cfd9e685b8f7c06f81fd071a41f395b75a9ea05c118f6acc87d4b7cae8901951"
+      "sha256": "ffeca02082b55d4a0ebf022ed4e476e7dc7bd63c42787f4fad1444cbb2c022da"
     },
     {
       "id": "list-font",
@@ -2338,10 +2476,11 @@
         "fonts"
       ],
       "usage": "• `.listfont` - Show all available fonts",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/list-font.js",
-      "sha256": "73c45fc53e73a3fd4dc98a876c4be51163908f2f1d243336e628c7b15ea70170"
+      "sha256": "9b266c1895584125eede3edd95aa47c9ecb52ba0db3223d16d97a96baa5bce9f"
     },
     {
       "id": "set-font",
@@ -2353,10 +2492,11 @@
         "font"
       ],
       "usage": "• `.setfont <number>` - Set your preferred font style",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "ownermenu/set-font.js",
-      "sha256": "31f393b9194e67dabb07652fad74988747259e4f8b1e701460320179553c237b"
+      "sha256": "a70ee0830ea6b9a75a67905fe7bf835c4686c4909064a68979004c130024dab7"
     },
     {
       "id": "connectedusers",
@@ -2369,10 +2509,11 @@
         "activesessions"
       ],
       "usage": ".connectedusers - Display all connected users\\n.connectedusers cleanup - Clean up stale sessions",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "vipmenu/connectedusers.js",
-      "sha256": "fd776c1bd6b3682b3282a435edf8ef53d77b3abaddb29dbd1bdf5a262eb8c662"
+      "sha256": "9a02c0e46d89903ed843f76e9e8196f0a7d62450e1f670c045ac942580ed8503"
     },
     {
       "id": "vipadd",
@@ -2384,10 +2525,11 @@
         "vipclaim"
       ],
       "usage": "• `.vipadd <phone>` - Claim a connected user\\n• `.vipadd @user` - Claim by mention",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipadd.js",
-      "sha256": "1cc3fbcdbdd1e1bf2279fa0c0223dee5b49efeb06856522b2925fb9038f161f0"
+      "sha256": "c4d3bcd5d7e6fdd0dbc1dc33524778391bf2dddb905426b86db4d4da63d8ef72"
     },
     {
       "id": "vipadmin",
@@ -2400,10 +2542,11 @@
         "vipmanage"
       ],
       "usage": "• `.vipadmin` - View all VIP users and stats",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipadmin.js",
-      "sha256": "b6c20f85d67341ca787de43f4765c1449cbfb3156da59a520ba2def87da3e056"
+      "sha256": "728ffc5d9d5b32958228025e601fe7d9a980d2688b4ade84ef9292410b436ecf"
     },
     {
       "id": "vipallgroups",
@@ -2416,10 +2559,11 @@
         "allconnectedgroups"
       ],
       "usage": ".vipallgroups - Export all groups to file",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": true,
       "path": "vipmenu/vipallgroups.js",
-      "sha256": "cd0477fb133f841a9225a6a148bceebfc22157eb7775c4d80feec1bf54fa615b"
+      "sha256": "5f9eae4b6cf7cb78d64225919339f2a773b4f8fa6e57a9de80ade2a335df2ef2"
     },
     {
       "id": "vipdemote",
@@ -2430,10 +2574,11 @@
         "vipdemote"
       ],
       "usage": "• `.vipdemote <phone>` - Remove VIP status from user",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipdemote.js",
-      "sha256": "fa539bb6aa36980878f4361574fe0ef881d03ec6a4e6071e1b5c3e2a296c62ab"
+      "sha256": "fe9604690723581367ea59b7485e2b934a247d7200140e1217d43497847da290"
     },
     {
       "id": "vipdetails",
@@ -2445,10 +2590,11 @@
         "vipinfo"
       ],
       "usage": "• `.vipdetails <phone>` - View VIP user details",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipdetails.js",
-      "sha256": "0ba7c718da64c4fcdb908fd05d0cfb6fa199d90bb6a2be4cbcb55ac4113db9ee"
+      "sha256": "2b479f5901b3f6d70360b147fab65f6f8f9ef6d0913ee8b998701cc51f934aee"
     },
     {
       "id": "vipgroups",
@@ -2459,11 +2605,12 @@
         "vipgroups",
         "vipgrouplist"
       ],
-      "usage": "• `.vipgroups <phone>` - View user",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipgroups.js",
-      "sha256": "0c0dd37214d690280757f8db454b98502716892c8f3ce0bcb49ce48a3c3ae8c1"
+      "sha256": "77ef7a112bf66dcbf803d3e67ebf0fb31ad8a723c6c453d28bef693b48b382b4"
     },
     {
       "id": "viplist",
@@ -2476,10 +2623,11 @@
         "myusers"
       ],
       "usage": "• `.viplist` - View all your claimed users",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/viplist.js",
-      "sha256": "5b712546a978f0b1ee69b41f9a07f0e9ca9957b77f67403b6fd94783c7322749"
+      "sha256": "68b6c27fe5ebebf1b9005eda9faeb53da9f418ef8a698d679c80f3e58144d4fb"
     },
     {
       "id": "vipmenu",
@@ -2490,10 +2638,11 @@
         "vipmenu"
       ],
       "usage": "",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipmenu.js",
-      "sha256": "f774ec029ff6e761c3644077e6a474fbad87d35e9a7546254448682dc3fd2cea"
+      "sha256": "760cd7eb9d135b44ec7958c24efea067d4ab86b23423b1f2caf64332d9a1f5fc"
     },
     {
       "id": "vippromote",
@@ -2504,10 +2653,11 @@
         "vippromote"
       ],
       "usage": "• `.vippromote <phone>` - Promote user to VIP Level 1",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vippromote.js",
-      "sha256": "288ac77114a507c5c8081b9e8f8242c3bdc058d0616ea4dc734365d1cd94ec95"
+      "sha256": "d3950dbf56533f020aa562449de5b58bc0334101517a7abb61f3afcef1c621d1"
     },
     {
       "id": "vipreassign",
@@ -2519,10 +2669,11 @@
         "viptransfer"
       ],
       "usage": "• `.vipreassign <user_phone> <new_vip_phone>` - Reassign user ownership",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipreassign.js",
-      "sha256": "e6ebeccc8b72b46d67110c53e982fb9bdb52c4cec6a718659478c5ce80ebca68"
+      "sha256": "9624cf97a7f43c38735c6d81a9f4f833b32285c7436bb1162a74d25a943ce030"
     },
     {
       "id": "vipremove",
@@ -2534,10 +2685,11 @@
         "viprelease"
       ],
       "usage": "• `.vipremove <phone>` - Release a user you own",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipremove.js",
-      "sha256": "455a9cb0b398467c2d352f4990fab0411e763fbc23abebe32f2859fe7818124c"
+      "sha256": "adf7cce55cf90e4ffe26c05aeb1964c2c346d01f5565cd59c368ec7fdf904834"
     },
     {
       "id": "viptakeover",
@@ -2548,11 +2700,12 @@
         "viptakeover",
         "vipattack"
       ],
-      "usage": "• `.viptakeover <number>` - Takeover by selection (reply to vipgroups message)\\n",
-      "required": true,
+      "usage": "",
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/viptakeover.js",
-      "sha256": "448d4f2209e8278c804b159fa422b0761aef8ebc482c4cf4b13fb1e464145c41"
+      "sha256": "5332ff62f6ecef24a7c28aabf222f5f8229d6dd646d4a09ca84fc1347ea87e54"
     },
     {
       "id": "vipunclaim",
@@ -2564,85 +2717,86 @@
         "viprelease-admin"
       ],
       "usage": "• `.vipunclaim <phone>` - Force release user from VIP ownership",
-      "required": true,
       "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
       "path": "vipmenu/vipunclaim.js",
-      "sha256": "fbce05222938aa14f5c930c4b55016c936bd25351f9570131686bae98febe8fb"
+      "sha256": "433a1f4bbf32b494ba8e6a272b57052724e19ac10f086a2090803fe2beb2eaa0"
     }
   ],
   "lib_files": [
     {
-      "path": "lib/ai/index.js",
-      "sha256": "11426f4ae32cc73d4a6da017e93cff49cafbb2349080eee81ba8ac1f03a3933e"
+      "path": "ai/index.js",
+      "sha256": "7770e976a52812ac6b8d99a16842460d71a0d63df674546f412fbc2412d2c8fc"
     },
     {
-      "path": "lib/buggers/bug.js",
-      "sha256": "24d638260087b1c898c25aae08caffe89116c5512b573889b58bd653935abca5"
+      "path": "buggers/bug.js",
+      "sha256": "19688b9d91299c380e12e089f4ece0d3acba0102ca1a773cba60e86d702690e0"
     },
     {
-      "path": "lib/converters/media-converter.js",
-      "sha256": "7b0476b9ef89709d0ad98a4379dc91f072c689df9c3383f16d3070e381d672ab"
+      "path": "converters/media-converter.js",
+      "sha256": "aad3d4a2fed1023c604247c7b75b5403274ceed609fac158c31f0b20f9ca581c"
     },
     {
-      "path": "lib/downloaders/index.js",
-      "sha256": "bc8c986d894572b359b16d137f213750938ef1c8b06f338a584cb21221124000"
+      "path": "downloaders/index.js",
+      "sha256": "442ccf80a740582ba54cb5382101a6c683a40aae87f157d1bfd71bbf8718c8df"
     },
     {
-      "path": "lib/font-manager.js",
-      "sha256": "7db7ffb4e3583befd3d4985f1e0e9fe550b0e1718149c6adf87c07669381c2be"
+      "path": "font-manager.js",
+      "sha256": "f3a9d4cc57f115d5339aef14d3dddab04996c86f3a86e924de3188a5822b007b"
     },
     {
-      "path": "lib/game-managers/game-manager.js",
-      "sha256": "d6a4d619fbe6b0171c2cf668884c2fe89cfe4db3723033c3a45a7db669802158"
+      "path": "game-managers/game-manager.js",
+      "sha256": "a0e49c488a1410d51a06f9abb5c32a84dbf0fd54c2660aa5cdaf96ffb40960d4"
     },
     {
-      "path": "lib/game-managers/index.js",
-      "sha256": "bee4e3bd81365614595d24a5376c7d1ed500311949aec3ef7a423f84b6ea2ccd"
+      "path": "game-managers/index.js",
+      "sha256": "407b303a757d4225d7fabbc3df65b57fb8ebabb99d55d31d34c29fd7fe318eda"
     },
     {
-      "path": "lib/game-managers/math-quiz-game.js",
-      "sha256": "dc3c7d5c7b6bab87f4932f83d02e421e762147edb10584e888263369b847aaae"
+      "path": "game-managers/math-quiz-game.js",
+      "sha256": "c1232865e3bd759f4b92f9a62eca406cd2a07c3470d235d8b543d60b36bc278f"
     },
     {
-      "path": "lib/game-managers/number-guessing-game.js",
-      "sha256": "e648bfe08ff5c98ec92b818a3a8abd774db6a04f68beb1570107082df56061a3"
+      "path": "game-managers/number-guessing-game.js",
+      "sha256": "a008dc53dab11fbc4bac6fa782ecbff0f3d4383a496424a641e7747eb9835c87"
     },
     {
-      "path": "lib/game-managers/ReactionSpeedGame.js",
-      "sha256": "ed5da096baaf401f8250bc8c880682d565507f55600efc067fa6cdd591b04c58"
+      "path": "game-managers/ReactionSpeedGame.js",
+      "sha256": "7e6076491aef308587cf8e9199346d0aed128014d570805ff8c92ea012c02d0e"
     },
     {
-      "path": "lib/game-managers/rock-paper-scissors.js",
-      "sha256": "c7b127aa0ef6cbfa02d06c5fe4b57b260450b6e16465e109904d903c3befbb3a"
+      "path": "game-managers/rock-paper-scissors.js",
+      "sha256": "9696dcfb87b777e5499e32e281bbd2990c12cfbe42f49e2e53879b1c06f62e86"
     },
     {
-      "path": "lib/game-managers/tictactoe.js",
-      "sha256": "89fa6f8350e327367fb6a46671e1b2b0c7c731e38aaf036b485e1fc375cdd3d6"
+      "path": "game-managers/tictactoe.js",
+      "sha256": "95fecf0bb11d747168a9385123c8eb2e0017d86e50a9ba4965387d4dd9c9c91a"
     },
     {
-      "path": "lib/game-managers/TriviaGame.js",
-      "sha256": "e5abff8836e343dca4c6800877d25a61ab430aa7ad64a651a6fcc7e7d09c8410"
+      "path": "game-managers/TriviaGame.js",
+      "sha256": "1a0ebb1a05b79d3263d474ee1a1f26ca94ff22c58be4c04fe48f48e78177b1d8"
     },
     {
-      "path": "lib/game-managers/word-guessing-game.js",
-      "sha256": "4e6257852956ef7f8ba78d856f8a52808616cb8f84bf39e2136fa46f14e1500a"
+      "path": "game-managers/word-guessing-game.js",
+      "sha256": "40768bd2470d089e281a208da7a0ddb93dedf64df85b57463d8c67e4b55e8030"
     },
     {
-      "path": "lib/index.js",
-      "sha256": "a66b0e515c7f13d5324f21f86eb07a965910d93b95eda9ee767d9bfa14d836a1"
+      "path": "index.js",
+      "sha256": "3adb990e8607f7e7529de84434184f5ed11b32a8f50a89808fd9b6c4e023caf1"
     },
     {
-      "path": "lib/search/index.js",
-      "sha256": "2e9efe66f4fe7e6cc28fb802d117fcd790a5c02c9e82cbde851cdd80ee946449"
+      "path": "search/index.js",
+      "sha256": "9de588cff5c5fda987ba2bf8e415c4547f178638850464a7329a2a804d0642d6"
     },
     {
-      "path": "lib/tools/index.js",
-      "sha256": "2a8af40c23993e79f05ceb3d1b1579a9fb071f1ad804e3174a34da24487d46b0"
+      "path": "tools/index.js",
+      "sha256": "af0262cb9ffe093abda018514b761dfd3f6ef3e861fb0d099f7d2e8ac8717c77"
     }
   ],
   "default_files": [
     {
-      "path": "Defaults/images/menu.png",
+      "path": "images/menu.png",
       "sha256": "56dd3404138f1578a03b55b5d027d01c00ccb80ed48d6fd082673e97c99c4334"
     }
   ]
