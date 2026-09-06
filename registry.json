@@ -1,7 +1,7 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1788727581701,
+  "last_updated": 1788728416858,
   "total_plugins": 168,
   "required_count": 167,
   "optional_count": 1,
@@ -2138,7 +2138,7 @@
       "required": true,
       "adminOnly": false,
       "path": "ownermenu/listplugin.js",
-      "sha256": "03fa984111b22216eb2be1c6e9b97c518d78ec297714f618dbf99e84df97bc0a"
+      "sha256": "9c0374881f46e442edf19144588291b33c1d1bc6d36991748dc75a08fc89f0a0"
     },
     {
       "id": "mode",
