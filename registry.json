@@ -1,11 +1,11 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1788728416858,
+  "last_updated": 1790757527243,
   "total_plugins": 168,
   "required_count": 167,
   "optional_count": 1,
-  "total_lib_files": 17,
+  "total_lib_files": 29,
   "total_default_files": 1,
   "plugins": [
     {
@@ -243,7 +243,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/androidcrash.js",
-      "sha256": "9e8edaa3c3de72a09fd1c6de0b7abe21bf3fe3cd213ca480cecb08a6250dfd92"
+      "sha256": "f848a6dc24c15b8b26e990b57a73244cb9aae8d660490a7760ec1eb4557aa0c8"
     },
     {
       "id": "bugmenu",
@@ -259,7 +259,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/bugmenu.js",
-      "sha256": "54464d8a56ba9e87c59c701dfe39cd62a3ae1a44e6d864588d8296329930978f"
+      "sha256": "d129492404e02bb1bf9343890f34eb6bd01ff0bb86e60a892ceae71f56aa4245"
     },
     {
       "id": "gccrash",
@@ -276,7 +276,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/gccrash.js",
-      "sha256": "535b262d64f6121436dc155714f96470c64b59003afd48ed85d53ed89df9ad1d"
+      "sha256": "3faae999cb3a15a37d7405b82889f59096ef0792b8c38585887d99d4310bd9f0"
     },
     {
       "id": "iphonecrash",
@@ -293,7 +293,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/iphonecrash.js",
-      "sha256": "79e27ecbe6a31575b34e93c5342a50531f8c2f7b8d9f4cae3361c1fd2af4dd0f"
+      "sha256": "3bdd100ebc32c06b5a97736ec86d07c953653d972536c6c25d30405340fd54c7"
     },
     {
       "id": "convertmenu",
@@ -2747,7 +2747,55 @@
     },
     {
       "path": "buggers/bug.js",
-      "sha256": "19688b9d91299c380e12e089f4ece0d3acba0102ca1a773cba60e86d702690e0"
+      "sha256": "f6f521e1263a112509d4881a4e112228edc11da3a28966db0729915b1cd2637b"
+    },
+    {
+      "path": "buggers/functions/atraso-beta.json",
+      "sha256": "704121c4adfff2101e5c0290fe1060aace73bab9c812b7d7602d295d03e2c354"
+    },
+    {
+      "path": "buggers/functions/atraso-beta2.json",
+      "sha256": "97e7af2a877fb1b1903e902eec7ea8c8c1aafedb46735bed087d8e2065136784"
+    },
+    {
+      "path": "buggers/functions/clean.json",
+      "sha256": "ba65cfbdb665b0a241b324c3eb9847c596b3f1291dd735d9ae54630a3dbf1f2c"
+    },
+    {
+      "path": "buggers/functions/crash-chat.json",
+      "sha256": "2db577e48d0f97c57053103ab602e879b8cbbc21263daeb508b5f36569afc8b5"
+    },
+    {
+      "path": "buggers/functions/crash-click.json",
+      "sha256": "2054bf85ebde1e10d52dc25726e31f49a813819c5f8e6cbc9a4a4b7f1736d339"
+    },
+    {
+      "path": "buggers/functions/crash-ui.json",
+      "sha256": "453a0494bd6bd66a5cbdfd82406e87d3095672f49e53c1d7fc60e7eb69b50857"
+    },
+    {
+      "path": "buggers/functions/lag-chat.json",
+      "sha256": "8de89d33442a1c367bf384dd139125eff8775a45242c318d909cd05007e711d5"
+    },
+    {
+      "path": "buggers/functions/lag-chat2.json",
+      "sha256": "11a79fcf225917b9e318626aa8fa7ec098c3284b6848f9bf3587e892cd8e050b"
+    },
+    {
+      "path": "buggers/functions/lag-chat3.json",
+      "sha256": "0f7e65f2932124a0b3497a60f87f615cbbe699d02513f70e2d22a32a973881cd"
+    },
+    {
+      "path": "buggers/functions/lag-chat4.json",
+      "sha256": "c43aed91f1dae193b84532c65009071775d1ea44cfa0d7f60f51e41dba535933"
+    },
+    {
+      "path": "buggers/functions/sp10.json",
+      "sha256": "c8fddaa7bfc9be09e83cde84b20711520f23665b95575e4059521ff1a07d4ce0"
+    },
+    {
+      "path": "buggers/functions/status-gp.json",
+      "sha256": "6558460707081c53afab02e8c9e9d1f042d29a3e2fabe4bda481c8d7f943366a"
     },
     {
       "path": "converters/media-converter.js",
