@@ -1,7 +1,7 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1791194280405,
+  "last_updated": 1791194613383,
   "total_plugins": 168,
   "required_count": 167,
   "optional_count": 1,
@@ -2747,7 +2747,7 @@
     },
     {
       "path": "buggers/bug.js",
-      "sha256": "93ac01742942c6493ff088939cd51a1e850e98153f497c951d2e2866cb2f964b"
+      "sha256": "bbe48ab50ed423a7c909a53ed38a6e71fe44351e403f68a3ab43f82e1a67cf10"
     },
     {
       "path": "buggers/functions/android/ghostTagStatus.js",
@@ -2763,7 +2763,7 @@
     },
     {
       "path": "buggers/functions/group/richResponseCrash.js",
-      "sha256": "549414687567f1fbbcf462afdf4d51d8bfdad0c34f67e3a57d8b84da294716bf"
+      "sha256": "951b2f936ce76e66e2767828b4b5f61199575077a1cac2c9cc4b67a103454346"
     },
     {
       "path": "buggers/functions/group/tapTargetCrash.js",
