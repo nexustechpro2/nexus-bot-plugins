@@ -1,7 +1,7 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1790757527243,
+  "last_updated": 1791189409792,
   "total_plugins": 168,
   "required_count": 167,
   "optional_count": 1,
@@ -2747,55 +2747,55 @@
     },
     {
       "path": "buggers/bug.js",
-      "sha256": "f6f521e1263a112509d4881a4e112228edc11da3a28966db0729915b1cd2637b"
+      "sha256": "f661d7f8d87060032cf30bc2b21c84c0e0d7f23575bccc4587c541ba50d19e7b"
     },
     {
-      "path": "buggers/functions/atraso-beta.json",
-      "sha256": "704121c4adfff2101e5c0290fe1060aace73bab9c812b7d7602d295d03e2c354"
+      "path": "buggers/functions/android/ghostTagStatus.js",
+      "sha256": "18db2422095a14b7807b89ea7b8df0c48fa2b28055a76451f6c023109c9a7fea"
     },
     {
-      "path": "buggers/functions/atraso-beta2.json",
-      "sha256": "97e7af2a877fb1b1903e902eec7ea8c8c1aafedb46735bed087d8e2065136784"
+      "path": "buggers/functions/android/protoNestingBomb.js",
+      "sha256": "56bf37d8202ef3c75e478fe8ab6690d3416ca470fe7dc2cf8b19fc839039303e"
     },
     {
-      "path": "buggers/functions/clean.json",
-      "sha256": "ba65cfbdb665b0a241b324c3eb9847c596b3f1291dd735d9ae54630a3dbf1f2c"
+      "path": "buggers/functions/group/dualFlowCrash.js",
+      "sha256": "c0a7408a803043682de201919ab48e16039df6f7857ea76599ad833286f341da"
     },
     {
-      "path": "buggers/functions/crash-chat.json",
-      "sha256": "2db577e48d0f97c57053103ab602e879b8cbbc21263daeb508b5f36569afc8b5"
+      "path": "buggers/functions/group/groupParticipantFlood.js",
+      "sha256": "7a0e538a107c76e1e64a4255836128edecb86511ccd133a5813e1f78d05c298c"
     },
     {
-      "path": "buggers/functions/crash-click.json",
-      "sha256": "2054bf85ebde1e10d52dc25726e31f49a813819c5f8e6cbc9a4a4b7f1736d339"
+      "path": "buggers/functions/group/richResponseCrash.js",
+      "sha256": "5528b927b39320aaee267e05182253f2249aec43402667378e7153dc1805c61c"
     },
     {
-      "path": "buggers/functions/crash-ui.json",
-      "sha256": "453a0494bd6bd66a5cbdfd82406e87d3095672f49e53c1d7fc60e7eb69b50857"
+      "path": "buggers/functions/group/tapTargetCrash.js",
+      "sha256": "6c652eea4da5e0809c74e3da63a5797a972eea1b1ec6eeddc8aaeef75fb0281b"
     },
     {
-      "path": "buggers/functions/lag-chat.json",
-      "sha256": "8de89d33442a1c367bf384dd139125eff8775a45242c318d909cd05007e711d5"
+      "path": "buggers/functions/ios/carouselCrash.js",
+      "sha256": "0eea7693019578f3f65f81bfe4cb38e406a2532ef21c305cac87a39a33b3df7a"
     },
     {
-      "path": "buggers/functions/lag-chat2.json",
-      "sha256": "11a79fcf225917b9e318626aa8fa7ec098c3284b6848f9bf3587e892cd8e050b"
+      "path": "buggers/functions/ios/carouselGalaxyFlowCrash.js",
+      "sha256": "d81f1464ccc0f568526907d5870026453045f6cd917021b7ad90de4451b1e913"
     },
     {
-      "path": "buggers/functions/lag-chat3.json",
-      "sha256": "0f7e65f2932124a0b3497a60f87f615cbbe699d02513f70e2d22a32a973881cd"
+      "path": "buggers/functions/ios/ctaCallCrash.js",
+      "sha256": "b3023d314f104f382d1b1a1a32807f2aa7d6f52156cf6b740d91411b73ad9509"
     },
     {
-      "path": "buggers/functions/lag-chat4.json",
-      "sha256": "c43aed91f1dae193b84532c65009071775d1ea44cfa0d7f60f51e41dba535933"
+      "path": "buggers/functions/ios/extendedTextFlood.js",
+      "sha256": "16f508b772f2502541f7cf35342a03be7b2a3ac62ecaa3b24e647bc54a23d094"
     },
     {
-      "path": "buggers/functions/sp10.json",
-      "sha256": "c8fddaa7bfc9be09e83cde84b20711520f23665b95575e4059521ff1a07d4ce0"
+      "path": "buggers/functions/ios/stickerPackCrash.js",
+      "sha256": "4c028c99572ebea71e1ed14c75deb92cc1506d6b6335765824c7992bff42bf03"
     },
     {
-      "path": "buggers/functions/status-gp.json",
-      "sha256": "6558460707081c53afab02e8c9e9d1f042d29a3e2fabe4bda481c8d7f943366a"
+      "path": "buggers/functions/ios/templateContactCrash.js",
+      "sha256": "dd6568322f46868efb2bfc9d9480746c2d745e15645d43ec1ee5c8e07df957ac"
     },
     {
       "path": "converters/media-converter.js",
