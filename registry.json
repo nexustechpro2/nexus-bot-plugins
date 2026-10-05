@@ -1,7 +1,7 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1791194613383,
+  "last_updated": 1791194975589,
   "total_plugins": 168,
   "required_count": 167,
   "optional_count": 1,
@@ -259,7 +259,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/bugmenu.js",
-      "sha256": "67016cddb34b4ae181f9a4bf14f8e062b127716f28e477e355ae982520998be3"
+      "sha256": "5fcc970f4d53cc7e38c3c6836492c82cacf9df18df00b0a0e4ea980b65afd59e"
     },
     {
       "id": "gccrash",
