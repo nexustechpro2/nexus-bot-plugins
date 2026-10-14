@@ -1,7 +1,7 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1791194975589,
+  "last_updated": 1791974357502,
   "total_plugins": 168,
   "required_count": 167,
   "optional_count": 1,
@@ -74,7 +74,7 @@
       "required": true,
       "adminOnly": false,
       "path": "aimenu/describe.js",
-      "sha256": "a1c3dee14fa7ea54f072abab4eede5ac7a620d31aa2d9ad1b2ee2f5e5b3ef458"
+      "sha256": "d8dada430ddcfb40cb13578890a52d42379f39341c4074ec965862584abe186a"
     },
     {
       "id": "felo",
@@ -325,7 +325,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/smeme.js",
-      "sha256": "6f00c291db15dd0ce6473632c6338f833910e5199c72f6bbfdb47571469e9236"
+      "sha256": "cf270ce1bcf831ed1d2481b6dbd8a80be67e01781849d24886360d04586d5c99"
     },
     {
       "id": "sticker",
@@ -340,7 +340,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/sticker.js",
-      "sha256": "c0dda3ff7b48a3fa3eec8f56d244fc6d024752f07d3efc6b66fa9c424d8bf872"
+      "sha256": "3b9782e1ec546e94a8e124dca848524f50f58d000eab9b4025810025125602bc"
     },
     {
       "id": "take",
@@ -355,7 +355,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/take.js",
-      "sha256": "30edc11bc950e791efb3aa2e1881e2b2016e3d5ce2b6bd8193c634647c30cccf"
+      "sha256": "01dbb33b4591ffc625c53617cfab47207f8e65d9f7857a9a7efb621c16b7ebdd"
     },
     {
       "id": "telesticker",
@@ -385,7 +385,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/toaudio.js",
-      "sha256": "19e06a247ae2ab9011e63fb5454af4ba5f3be668d5bdf03d1d3585dba53c2f9d"
+      "sha256": "994334806bf64b0eeb1f67577abd38dbdef9ad38a99ce19167d27de1744868cb"
     },
     {
       "id": "togif",
@@ -400,7 +400,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/togif.js",
-      "sha256": "43b545cf863a4bf1afad5d1d4fd46cffc270d3c0b79cf184604f2e41c3eee6a3"
+      "sha256": "77c8099a074db25f468401c5cda3d85d5a0f6fdeda29fd568bf31490fbb7330d"
     },
     {
       "id": "toimage",
@@ -415,7 +415,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/toimage.js",
-      "sha256": "57d3218625ae89c9d2ef33bb80db52db0fc7a2ddaa1f0b98b43d56953ad334ce"
+      "sha256": "8fcaf6e7f41d63c85d2b21a54c7460cf288c43b7da94e5da12b21ebe1ba5e7bb"
     },
     {
       "id": "tomp3",
@@ -430,7 +430,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/tomp3.js",
-      "sha256": "89364a9662be47bb99493bddc12d3bbc94e5f492ce90acc133f27f250a22d5b2"
+      "sha256": "d170a11a0dac764d901bfbd4c0a88e37e268d0cb5313fe4126f0f31b81dc689b"
     },
     {
       "id": "tourl",
@@ -445,7 +445,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/tourl.js",
-      "sha256": "837161641151092b3d7754816056551fff0453837f2e3e160178d92527a0b79b"
+      "sha256": "fad6398667276225b4c103fd4460c11b0b2dc05098b109a266601b57a9366299"
     },
     {
       "id": "tovideo",
@@ -460,7 +460,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/tovideo.js",
-      "sha256": "7587423ace30f16ec03f82fb1588576aea0dc29f919806797c2e9d02b749fefd"
+      "sha256": "79191e42dc50e4e220909d816c999baa903d1a4f7c583ba5c56899ff0bb7e8b7"
     },
     {
       "id": "tovn",
@@ -475,7 +475,7 @@
       "required": true,
       "adminOnly": false,
       "path": "convertmenu/tovn.js",
-      "sha256": "eda342ef7d1d20d76cd07982f5d0e721064444631735cbaad4fc6fc0010c43c5"
+      "sha256": "0efa20314825be85c12f5386a02d513e06774adb05116922d03d96ed6051eade"
     },
     {
       "id": "applemusicdl",
@@ -493,7 +493,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/applemusicdl.js",
-      "sha256": "6e34eae9f85b9fdc33ffc1d9005818dd4f6fa36b06b81433b9d46f581dd5e8a9"
+      "sha256": "507cba5b1df75abeac8ab4f4e395906e4c139e73a3851e12ce07f37372bbdbd9"
     },
     {
       "id": "capcutdl",
@@ -511,7 +511,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/capcutdl.js",
-      "sha256": "98888165b7c462331dd2002155837dd3144b3bbd4fd0f5eb4b90a4e35775450f"
+      "sha256": "e200b019de6045bb4d754bd386a0ebd131383a7e8424244eb506886812f9e685"
     },
     {
       "id": "download",
@@ -545,7 +545,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/fbdl.js",
-      "sha256": "6c2737359a36ac43b765e2870271603409b3ba77683dd8f01561b21de507cf83"
+      "sha256": "ff1927508c9e8a6b4671590b49e268feb7f76f8a2f5966212f9ec98301ef7a8f"
     },
     {
       "id": "gdrive",
@@ -580,7 +580,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/igdl.js",
-      "sha256": "5070dfc4080cc61745b958567564a14b5b54d658ad710016389971a78deb2756"
+      "sha256": "4e13aa883489a384b713f665ac95a03152984ba57153c06cac04f8483f97dddd"
     },
     {
       "id": "mediafire",
@@ -616,7 +616,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/movies.js",
-      "sha256": "a9c0f47417283c542f13ffee3ed3291a2f12cec6f66713b7c9e103f185ca6365"
+      "sha256": "ad2a6261bf445018628ea817563af1140d51cb416f11bb44d1a3187c12790a37"
     },
     {
       "id": "pinterest",
@@ -701,7 +701,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/tiktokdl.js",
-      "sha256": "d9f90ba50ed77a511cc49e3183acf24cf4ac9459c0f82df79ef08d3bb05fcbc4"
+      "sha256": "5d1b32ce1494f1baf1c8498ddae3d97ad3b2792cd4c1e5ba2ea13bceec064570"
     },
     {
       "id": "twitterdl",
@@ -720,7 +720,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/twitterdl.js",
-      "sha256": "dd50b3ec5ce5046b7aafeba29dece6d799b53bbd54139253dbaaed6e97f97279"
+      "sha256": "dc398e087eec4edf40626e06af35109b5f64a93247c882c147273129c94f4f3c"
     },
     {
       "id": "xnxxdl",
@@ -769,7 +769,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/ytdl.js",
-      "sha256": "4fc55ef9ed6aba6c1027ca7b3078cf3bd7cd1351cd0432ea195f58e5a13ae5c4"
+      "sha256": "e9cbd58757b367934421ccc438b1335205f5a7ec15679235fbe2a96c5c89c142"
     },
     {
       "id": "downloadmenu",
@@ -1349,7 +1349,7 @@
       "required": true,
       "adminOnly": true,
       "path": "groupmenu/setgrouppp.js",
-      "sha256": "e63f904aa591db3a9b8a5fc37133eebe75906353804de3ef7e35b406600fb111"
+      "sha256": "184eb1a74c17c26472f4d8b2715a65b38649a2046d1699ffdadb36e10445f623"
     },
     {
       "id": "tagadmin",
@@ -1862,7 +1862,7 @@
       "required": true,
       "adminOnly": false,
       "path": "ownermenu/autoonline.js",
-      "sha256": "e34bd5237595100836f0cbb0575c3667be1ba70da76cdf45868c7e2b047869d5"
+      "sha256": "526de9eeaf1cb444609bb9faf502cedd1b44839141963874e0d9f95ff6752d7c"
     },
     {
       "id": "autorecording",
@@ -1879,7 +1879,7 @@
       "required": true,
       "adminOnly": false,
       "path": "ownermenu/autorecording.js",
-      "sha256": "f4d980fc6b8017afe02849ed7ea6d6dc2e0f101792aa4eab279ffe99b6fa34f8"
+      "sha256": "7c239d80278e21b45bc94c44826a075c6d7c76cc8b5f6b1156073cd26f297b39"
     },
     {
       "id": "autostatuslike",
@@ -1896,7 +1896,7 @@
       "required": true,
       "adminOnly": false,
       "path": "ownermenu/autostatuslike.js",
-      "sha256": "5d59e61c7e926ff1cec569362b6cf16aeb8f757776cba056f772860a05d0e8f0"
+      "sha256": "483e8862edbfeb432e091167c6b93a94e31f178b64c617a68d9b917b2714c2f0"
     },
     {
       "id": "autostatusview",
@@ -1913,7 +1913,7 @@
       "required": true,
       "adminOnly": false,
       "path": "ownermenu/autostatusview.js",
-      "sha256": "7583e410fc9c708f444e63b508620cd49a8450f63c9736dd9abe6d9e4f7fbbd2"
+      "sha256": "c88b3ebae05e99b5b145726be792dbc013e3c6ab3cfb8c55bb24b5bf1b1f1a48"
     },
     {
       "id": "autotyping",
@@ -1929,7 +1929,7 @@
       "required": true,
       "adminOnly": false,
       "path": "ownermenu/autotyping.js",
-      "sha256": "508d24abd3d6bba7a9d9b9df876f36249d43de8cbe10ee2fd8ef28c871a07e12"
+      "sha256": "f0b38c0b4a0218254e91533f918823ff09f0008b54bbc1f2b47d6e322567d4d7"
     },
     {
       "id": "block",
@@ -2025,7 +2025,7 @@
       "required": true,
       "adminOnly": false,
       "path": "groupmenu/gcstatus.js",
-      "sha256": "2876165858ffc3fd5f038272a245c528146db185cfbeecdcec014fa4a6ad1b87"
+      "sha256": "d3c72f80709e3aa190d317dd0445015f1beef7a3733a1e444bd225eddd0e20b0"
     },
     {
       "id": "getplugin",
@@ -2155,7 +2155,7 @@
       "required": true,
       "adminOnly": false,
       "path": "ownermenu/mode.js",
-      "sha256": "4f3bfd4ed5d52edfbf458b7deba978b414be5d2cfb5538091050d54ed4888048"
+      "sha256": "3491ca32628d54f74bdc4ddfbe334a4d39a567db7c5d13854ba5dfa413cbbeb6"
     },
     {
       "id": "ownermenu",
@@ -2265,7 +2265,7 @@
       "required": true,
       "adminOnly": false,
       "path": "searchmenu/xnxx.js",
-      "sha256": "d83cc1cb01b69ede0029950c1b5d4db44ee5bd10c1eb00ca3967842692620644"
+      "sha256": "0ab9bb3f5c063988aedb10155f7889a73ecad08f46ea03538c6785fd8cb2525a"
     },
     {
       "id": "xvideos",
@@ -2281,7 +2281,7 @@
       "required": true,
       "adminOnly": false,
       "path": "searchmenu/xvideos.js",
-      "sha256": "7af249a57ff7c73bc3daed972f98bbb59f45afeef200ae7cb10c7263a6f02aea"
+      "sha256": "0a53b6b9b9f9ea49b1ea6ddb6fa5eb790b9e75a1d82def2bc00a325512cd44e4"
     },
     {
       "id": "ytsearch",
@@ -2298,7 +2298,7 @@
       "required": true,
       "adminOnly": false,
       "path": "searchmenu/ytsearch.js",
-      "sha256": "87c51db40825c1a5556048e5520c8f060328918b5d35a76e397068994db56b7e"
+      "sha256": "c92db7aa6b86267dea194a66a7b9d8ccee3f34bdc1a3aeac4df3dded741740c5"
     },
     {
       "id": "checkban",
@@ -2313,7 +2313,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/checkban.js",
-      "sha256": "a06645149fc71ddd5f27f6c82a57738cb6abb51b7358d91efce10fed637ab4e8"
+      "sha256": "63b718cf17e957aef7aac20113c048ecc2254152dfe7436fc431f7eb6dc1d491"
     },
     {
       "id": "getgroups",
@@ -2343,7 +2343,7 @@
       "required": true,
       "adminOnly": false,
       "path": "groupmenu/globalstatus.js",
-      "sha256": "77cc9e19cb2591bf70a0689df8c83f6e30eed5d9107f9898d061fb786a45359e"
+      "sha256": "8592cc918b59d9cf341652b2ed010dd0573186e711c1a3d43edff2958579dc6f"
     },
     {
       "id": "imagetohd",
@@ -2397,7 +2397,7 @@
       "required": true,
       "adminOnly": false,
       "path": "toolmenu/ocr.js",
-      "sha256": "cd435f4c024270afdc3cdb83791da224579cbf09189ae01d45cbfb1de245024c"
+      "sha256": "a4013a5a2c5454e62f9ae6cf3f23bfce982d00fc793f705548e1a40645ba94ba"
     },
     {
       "id": "pair",
@@ -2751,11 +2751,11 @@
     },
     {
       "path": "buggers/functions/android/ghostTagStatus.js",
-      "sha256": "18db2422095a14b7807b89ea7b8df0c48fa2b28055a76451f6c023109c9a7fea"
+      "sha256": "5e4a7fe833efe02826c3329f5b3e5aca1faa1eb0556b947d8f83591f124664ba"
     },
     {
       "path": "buggers/functions/android/protoNestingBomb.js",
-      "sha256": "56bf37d8202ef3c75e478fe8ab6690d3416ca470fe7dc2cf8b19fc839039303e"
+      "sha256": "4297ab2f325abb911bf6de4b39ae7a3569ed27624b603f75e9e1a9055100a6de"
     },
     {
       "path": "buggers/functions/group/groupParticipantFlood.js",
@@ -2763,7 +2763,7 @@
     },
     {
       "path": "buggers/functions/group/richResponseCrash.js",
-      "sha256": "951b2f936ce76e66e2767828b4b5f61199575077a1cac2c9cc4b67a103454346"
+      "sha256": "b6cdbdf2c6e39e9524c0153049e2de5fe111bf50ef343ee3fbf3f2544b2c2646"
     },
     {
       "path": "buggers/functions/group/tapTargetCrash.js",
@@ -2771,11 +2771,11 @@
     },
     {
       "path": "buggers/functions/ios/carouselCrash.js",
-      "sha256": "0eea7693019578f3f65f81bfe4cb38e406a2532ef21c305cac87a39a33b3df7a"
+      "sha256": "ef2eb32dadb457a04068758e1cfb0cece49e08f3642f3190253c504fca9f8eaa"
     },
     {
       "path": "buggers/functions/ios/carouselGalaxyFlowCrash.js",
-      "sha256": "d81f1464ccc0f568526907d5870026453045f6cd917021b7ad90de4451b1e913"
+      "sha256": "8d065abf1d9888dcfa79d643c168d65db6b8e51ab0e9f5b3f6271d5e93ae2eb4"
     },
     {
       "path": "buggers/functions/ios/ctaCallCrash.js",
@@ -2791,7 +2791,7 @@
     },
     {
       "path": "buggers/functions/ios/templateContactCrash.js",
-      "sha256": "dd6568322f46868efb2bfc9d9480746c2d745e15645d43ec1ee5c8e07df957ac"
+      "sha256": "81d99febd98b2c9fbb17f17545466e0efb004f55af77d2669ba2b5fb83c63d14"
     },
     {
       "path": "converters/media-converter.js",
