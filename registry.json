@@ -1,11 +1,11 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1791974357502,
-  "total_plugins": 168,
-  "required_count": 167,
+  "last_updated": 1793353766972,
+  "total_plugins": 181,
+  "required_count": 180,
   "optional_count": 1,
-  "total_lib_files": 28,
+  "total_lib_files": 74,
   "total_default_files": 1,
   "plugins": [
     {
@@ -212,7 +212,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/channel.js",
-      "sha256": "3629845bbdbf8f10c8d7c09150d0ffdcf540edc6cadc671fefad467fe20c5321"
+      "sha256": "9a3a555bfe90ad3c066ba1d3c494b3fb45d6a40f06ae717c48361b46303284ee"
     },
     {
       "id": "vv",
@@ -227,7 +227,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/vv.js",
-      "sha256": "3aa185e5589f95c72df2ada26ef68f33083fd6224cd5b82f548f7c7e3e1cc402"
+      "sha256": "2b8e28c439adfcca422efcde9209df1a1b8b034aa6a2ee013a11b270c4fdeb16"
     },
     {
       "id": "androidcrash",
@@ -243,7 +243,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/androidcrash.js",
-      "sha256": "e39ba027e51d6c6d533c005680b8827e84a1e959f43d77f5f3c491d41f1fcf36"
+      "sha256": "b47766a85c45fdc343233ca8919ea09afadda6885325a96924954c1b74f0dc79"
     },
     {
       "id": "bugmenu",
@@ -259,7 +259,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/bugmenu.js",
-      "sha256": "5fcc970f4d53cc7e38c3c6836492c82cacf9df18df00b0a0e4ea980b65afd59e"
+      "sha256": "5e2a1f03d10adccaaf14aba78f232704c6eded3603e32d38c0a2ac8b5863766d"
     },
     {
       "id": "gccrash",
@@ -276,7 +276,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/gccrash.js",
-      "sha256": "3bf7571f975bd9294e97f8a8dad5bcee2df728cbadb51bef11976f6bff5728e4"
+      "sha256": "3ce41d3c614475d668913f6991b5855c8bc8668858340c9d021672d0191ea170"
     },
     {
       "id": "iphonecrash",
@@ -293,7 +293,7 @@
       "required": true,
       "adminOnly": false,
       "path": "bugmenu/iphonecrash.js",
-      "sha256": "3f46ffca04bcd04f83947c9395a8928bba0c0b37c20f33d1165a172b54bff169"
+      "sha256": "0ca1f1589939c46d0d8918cddd55c97ca4815423ecf17ce5c0b8ba6848e95917"
     },
     {
       "id": "convertmenu",
@@ -493,7 +493,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/applemusicdl.js",
-      "sha256": "507cba5b1df75abeac8ab4f4e395906e4c139e73a3851e12ce07f37372bbdbd9"
+      "sha256": "93cd1adbab011d6ad8b26779d924b8b2791a474fb01f728ee02e60fa501b9a64"
     },
     {
       "id": "capcutdl",
@@ -511,7 +511,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/capcutdl.js",
-      "sha256": "e200b019de6045bb4d754bd386a0ebd131383a7e8424244eb506886812f9e685"
+      "sha256": "536c039507a54142b7119867ecd3509acab2ef195ea1d3b209a67174b426fd68"
     },
     {
       "id": "download",
@@ -528,7 +528,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/download.js",
-      "sha256": "ac9beccd48b503d722bdeb17561086d07846a18b42b48d85cacf0643a0f8e42b"
+      "sha256": "9e4ef5e789d4a28426f51cb9666fcaf53a177ab7fd1ba2370a1d0f63aca80b2b"
     },
     {
       "id": "fbdl",
@@ -545,7 +545,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/fbdl.js",
-      "sha256": "ff1927508c9e8a6b4671590b49e268feb7f76f8a2f5966212f9ec98301ef7a8f"
+      "sha256": "af8db4d0a4c10550c6a522566d08e920471d3611c9d7b0f91841dd699a7a8384"
     },
     {
       "id": "gdrive",
@@ -562,7 +562,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/gdrive.js",
-      "sha256": "8e547312b2ffa0684e5fdf9e68ec32b172442687e3e8927c66410cf3015b0ed3"
+      "sha256": "f4c0a85d6aa3bbac2d6fd51ae2785a56e76a37690443de152e8b00c7c7da9e9a"
     },
     {
       "id": "igdl",
@@ -580,7 +580,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/igdl.js",
-      "sha256": "4e13aa883489a384b713f665ac95a03152984ba57153c06cac04f8483f97dddd"
+      "sha256": "c8f902bb9cde103f6d5cb2e2ea405c867cffad9a8010bc281b42fd81fb279989"
     },
     {
       "id": "mediafire",
@@ -597,7 +597,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/mediafire.js",
-      "sha256": "c819ea9ebd8b278738bd308eeb9106c796ef6bb57186a7511e0a60a347cf8dd7"
+      "sha256": "ff03f15dabb942691f3a9bea1535bb21113c28729104ab2f3fb2ed81aafcf9c9"
     },
     {
       "id": "movies",
@@ -616,7 +616,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/movies.js",
-      "sha256": "ad2a6261bf445018628ea817563af1140d51cb416f11bb44d1a3187c12790a37"
+      "sha256": "4e62f48dc12e28cad04393c98d1e75bbe3a30e598d7140e2b8263c23ad34fce5"
     },
     {
       "id": "pinterest",
@@ -632,7 +632,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/pinterest.js",
-      "sha256": "e58601b04c12be10968a2563b83776691797f801eb0e9b520182f9054ab88344"
+      "sha256": "cff02bdcfa766306c58c2e28e4ee224f181e9f498dc0a9bef68081d800417edc"
     },
     {
       "id": "play",
@@ -648,7 +648,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/play.js",
-      "sha256": "7397512db06e9c5193b0cad714304c9dc08170ba4680a510f1ba35b7b3c3aebd"
+      "sha256": "f9aec4c7b0a6d4aa325adad4b8150e048c396b8c5f3d970659eeb2af6b2925df"
     },
     {
       "id": "soundcloud",
@@ -665,7 +665,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/soundcloud.js",
-      "sha256": "683a9510656d9cad9ffdec4633fc1736f941be1d70815de29083da3e73d6c63a"
+      "sha256": "c6594659f6bf627c127908193bf042f21e6779dda0c268529eb6b1554664c1e3"
     },
     {
       "id": "spotifydl",
@@ -683,7 +683,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/spotifydl.js",
-      "sha256": "973c92e3f71f2ad60f58a761c7de066dad30249391ab32b1abb6a613d43c62d8"
+      "sha256": "8d3c5d95aab218d4711397a6a30d4db5ab487233160b4ad6f9efd5d88624353c"
     },
     {
       "id": "tiktokdl",
@@ -701,7 +701,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/tiktokdl.js",
-      "sha256": "5d1b32ce1494f1baf1c8498ddae3d97ad3b2792cd4c1e5ba2ea13bceec064570"
+      "sha256": "6b187189e73abe7faa820f05bbcde79f21385500a0968ce1f3ba323544d52fd5"
     },
     {
       "id": "twitterdl",
@@ -720,7 +720,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/twitterdl.js",
-      "sha256": "dc398e087eec4edf40626e06af35109b5f64a93247c882c147273129c94f4f3c"
+      "sha256": "95f2bf1042c2b495e09994bda42da00f79318689c4984d17d2056f3b2e1b032f"
     },
     {
       "id": "xnxxdl",
@@ -736,7 +736,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/xnxxdl.js",
-      "sha256": "70ae5b5fee980542e23345c4037a57d7394e95909ddeb6241dcf5590300f867b"
+      "sha256": "2db294fadd22c7b9e86d2b57295f565e59e0d3970ba82f7bfe82ee77b1d1a675"
     },
     {
       "id": "xvidoesdl",
@@ -752,7 +752,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/xvidoesdl.js",
-      "sha256": "bd6908bab8a43fb67d160a0a0c5d1a957261a4aa816ffe0223233c5e09c919b3"
+      "sha256": "47c1fb0d347675947edc95f6572676c3a8c922f0c2ba2d71a5015c313d91f244"
     },
     {
       "id": "ytdl",
@@ -769,7 +769,7 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/ytdl.js",
-      "sha256": "e9cbd58757b367934421ccc438b1335205f5a7ec15679235fbe2a96c5c89c142"
+      "sha256": "4118676d5c8564a7999a3a6aaa1015a69ca365bb8930ff4045ab332d9fd7d35c"
     },
     {
       "id": "downloadmenu",
@@ -784,41 +784,139 @@
       "required": true,
       "adminOnly": false,
       "path": "downloadmenu/downloadmenu.js",
-      "sha256": "a40b8e17f4ffe6f6f22f43c7d1efede31ae8a5b4df323b52c2c51a908ec23fa4"
+      "sha256": "1251971cc02bcd0981c0436c39947362d5f24f3827d97054d8b7f19600dcf54f"
+    },
+    {
+      "id": "2048",
+      "name": "2048",
+      "category": "gamemenu",
+      "description": "🔢 2048 — Slide and merge tiles to reach 2048!",
+      "commands": [
+        "2048"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/2048.js",
+      "sha256": "2a006fe19df3f33f9c8f015a2a77134e90f22ad871f48478709403db708ed5eb"
     },
     {
       "id": "activegames",
-      "name": "games",
+      "name": "activegames",
       "category": "gamemenu",
-      "description": "🎮 Show active games and gaming statistics",
+      "description": "🎮 Show active games in this chat and available game list",
       "commands": [
+        "activegames",
         "games",
-        "gamelist",
-        "activegames"
+        "gamelist"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
       "path": "gamemenu/activegames.js",
-      "sha256": "a72c61c63f367fa7aa7654687f92b975036b7d5a42fa88609679fab58eaccd0c"
+      "sha256": "cf475b8ce79ccefe30b5c7b84cabf7e3122ada837e8583bd566afd134ff2af24"
+    },
+    {
+      "id": "connect4",
+      "name": "connect4",
+      "category": "gamemenu",
+      "description": "🔴 Connect Four — Drop pieces to connect 4 in a row. vs bot or vs friend!",
+      "commands": [
+        "connect4",
+        "c4",
+        "connectfour"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/connect4.js",
+      "sha256": "967e4e4e3d312067d515f0e872f57f1fa683f3ce64e0ef97788a7ab065f85c7e"
+    },
+    {
+      "id": "dino",
+      "name": "dino",
+      "category": "gamemenu",
+      "description": "🦕 Dino Run — Jump over obstacles and survive!",
+      "commands": [
+        "dino",
+        "dinosaur",
+        "dinorun"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/dino.js",
+      "sha256": "d0cfad7ff8876e7eb3ae24ae49a693e2e386d127f37c54660968e253b9d7c902"
+    },
+    {
+      "id": "emojidecode",
+      "name": "emojidecode",
+      "category": "gamemenu",
+      "description": "🎭 Emoji Decode — Decode the emoji clues and type the answer first!",
+      "commands": [
+        "emojidecode",
+        "emoji",
+        "decode"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/emojidecode.js",
+      "sha256": "23dd2101f2ae28a8ef7220cd31672a6538b097e87d5768a1a4f2e61f2af41fa6"
     },
     {
       "id": "endgame",
       "name": "endgame",
       "category": "gamemenu",
-      "description": "🛑 End active games in this group",
+      "description": "🛑 End the active game in this chat (host only)",
       "commands": [
         "endgame",
-        "stopgame",
-        "gamestop"
+        "stopgame"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
       "path": "gamemenu/endgame.js",
-      "sha256": "9fb391c09800879760b7a2d3ff9ba8a16825dded1d44a47a0d4a8f2f2d8b62ea"
+      "sha256": "d8adc1cc08e61619bdb88aa59cea7d732a6e3db70e7d0586dfc8b83ca9c3086b"
+    },
+    {
+      "id": "flappy",
+      "name": "flappy",
+      "category": "gamemenu",
+      "description": "🐦 Flappy Bird — Tap to fly, avoid the pipes!",
+      "commands": [
+        "flappy",
+        "flappybird"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/flappy.js",
+      "sha256": "8eda4907ca73004cf333899c156f2a5839d1540cce2c5a331c15faef5182515d"
+    },
+    {
+      "id": "galaxy",
+      "name": "galaxy",
+      "category": "gamemenu",
+      "description": "🚀 Galaxy Shooter — Blast enemies in space!",
+      "commands": [
+        "galaxy",
+        "shooter",
+        "spaceshooter"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/galaxy.js",
+      "sha256": "8df247b522159bf881f13fdc1aa8d68502e54cddbdb973f78be1391df73870ef"
     },
     {
       "id": "gamemenu",
@@ -833,81 +931,174 @@
       "required": true,
       "adminOnly": false,
       "path": "gamemenu/gamemenu.js",
-      "sha256": "d67be85fa3e4bd1fb253dc992b96f3454e15ddc8ca672d69aa0e6aa55025ab9a"
+      "sha256": "017a47592924b0c0547bb3988d04c95b8e8bbfb3b1f2ab1a6ec4a250aeab2b51"
     },
     {
-      "id": "guess",
-      "name": "numguess",
+      "id": "letterblitz",
+      "name": "letterblitz",
       "category": "gamemenu",
-      "description": "🔢 Start a number guessing game - Guess the secret number!",
+      "description": "🔠 Letter Blitz — Type words starting with the given letter. Longer = more points!",
       "commands": [
-        "numguess",
-        "numberguess",
-        "guessnum"
+        "letterblitz",
+        "lb",
+        "blitz"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
-      "path": "gamemenu/guess.js",
-      "sha256": "d802e3b9503304373ed6443bd2ddcb43653968be26f21fa611b62d2c4da45787"
+      "path": "gamemenu/letterblitz.js",
+      "sha256": "3433a18a0b521df87d67a1c97bbf9f90e8df9cab745ac9622572b1a88634f7e5"
     },
     {
-      "id": "quiz",
-      "name": "mathquiz",
+      "id": "memory",
+      "name": "memory",
       "category": "gamemenu",
-      "description": "🧮 Start a math quiz game - Test your calculation skills!",
+      "description": "🃏 Memory Cards — Flip and match all pairs!",
       "commands": [
-        "mathquiz",
-        "math",
-        "quiz"
+        "memory",
+        "memorycard"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
-      "path": "gamemenu/quiz.js",
-      "sha256": "07c5c5426bf00f92ee4d5c3e2a52b896a391c4f0be7f2100eabd16dc35962054"
+      "path": "gamemenu/memory.js",
+      "sha256": "2f8925db3e7570f52abd0e6ce86ee0efa0d61bf9146978bb3821eb6a642e0a36"
     },
     {
-      "id": "reaction",
-      "name": "reaction",
+      "id": "mines",
+      "name": "mines",
       "category": "gamemenu",
-      "description": "⚡ Start a reaction speed game - Test your lightning reflexes!",
+      "description": "💣 Minesweeper — Clear the board without hitting a mine!",
       "commands": [
-        "reaction",
-        "speed",
-        "reflex"
+        "mines",
+        "minesweeper"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
-      "path": "gamemenu/reaction.js",
-      "sha256": "a0bbaa27ed409f4b8db7c93670e381878d8c3010dc58e3055d01773d10db4b97"
+      "path": "gamemenu/mines.js",
+      "sha256": "d8a44aa08fa4f64af0fa1c7465bfdf5289ca9fd7c79ab379a7cd3dd8a3e49351"
     },
     {
-      "id": "rockpaperscissors",
+      "id": "pong",
+      "name": "pong",
+      "category": "gamemenu",
+      "description": "🏓 Pong — Deflect the ball by typing L/C/R. Miss 5 times and you lose!",
+      "commands": [
+        "pong"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/pong.js",
+      "sha256": "58c04e5338ff00437a8d8570e9b1a46835e119edd1f8ead09358f5b451f178a5"
+    },
+    {
+      "id": "reverseit",
+      "name": "reverseit",
+      "category": "gamemenu",
+      "description": "🔄 Reverse It — Bot sends a word backwards, type it forward first!",
+      "commands": [
+        "reverseit",
+        "reverse",
+        "rev"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/reverseit.js",
+      "sha256": "8609b229d5cec8c7427dde299dd25427024695a81d506c559b3f4abea721ebde"
+    },
+    {
+      "id": "rps",
       "name": "rps",
       "category": "gamemenu",
-      "description": "✂️ Start a Rock Paper Scissors tournament - Battle for supremacy!",
+      "description": "✂️ Rock Paper Scissors — Tournament style. vs bot or group battle!",
       "commands": [
         "rps",
-        "rockpaperscissors",
-        "tournament"
+        "rockpaperscissors"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
-      "path": "gamemenu/rockpaperscissors.js",
-      "sha256": "ac3228215ae1de7e6a47662c7c88fa6f2a72c111f53aedb4c20cce3daea422bf"
+      "path": "gamemenu/rps.js",
+      "sha256": "730d83ca9ddc7ff16ca8a0f3aaf2866c3889e84ce6567aed76757cd13f4b0209"
+    },
+    {
+      "id": "russianroulette",
+      "name": "russianroulette",
+      "category": "gamemenu",
+      "description": "🔫 Russian Roulette — Take turns pulling the trigger. Last one standing wins!",
+      "commands": [
+        "russianroulette",
+        "roulette",
+        "rr"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/russianroulette.js",
+      "sha256": "43fed58f269155632f6fedb8ff1d5a982f7917c8c43071d1666f2fb6985597cf"
+    },
+    {
+      "id": "snake",
+      "name": "snake",
+      "category": "gamemenu",
+      "description": "🐍 Snake — Eat to grow, avoid the walls!",
+      "commands": [
+        "snake"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/snake.js",
+      "sha256": "21c2c1082d4fbb6e64a8503ce3d43c7a2b4366f13b8b551d2f6298b5391c73a1"
+    },
+    {
+      "id": "speedtype",
+      "name": "speedtype",
+      "category": "gamemenu",
+      "description": "⌨️ Speed Type — Type the given sentence as fast and accurately as possible!",
+      "commands": [
+        "speedtype",
+        "type",
+        "typing"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/speedtype.js",
+      "sha256": "221cd712587239f83da484170dabd744f69608fb3c6f8c0bce3ecb568a4a9777"
+    },
+    {
+      "id": "tetris",
+      "name": "tetris",
+      "category": "gamemenu",
+      "description": "🧱 Tetris — Stack and clear lines!",
+      "commands": [
+        "tetris"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "gamemenu/tetris.js",
+      "sha256": "cdccc6b2aa77721755832b75cae5718d1304ddce1c16456b32501fb814a5d1f2"
     },
     {
       "id": "tictactoe",
       "name": "tictactoe",
       "category": "gamemenu",
-      "description": "⭕ Start a TicTacToe game - Classic 3x3 grid battle vs human or bot!",
+      "description": "⭕ TicTacToe — Classic 3x3 grid. Play vs bot or challenge a friend!",
       "commands": [
         "tictactoe",
         "ttt",
@@ -918,40 +1109,56 @@
       "required": true,
       "adminOnly": false,
       "path": "gamemenu/tictactoe.js",
-      "sha256": "d86196af217c768450a2d4242d525ca896b971aadf39561de1a523d8debe6732"
+      "sha256": "10ed7c324f6edeec16c00b1663242ebaa24dcba7bca1abdd720aba5fafa13dae"
     },
     {
-      "id": "trivia",
-      "name": "trivia",
+      "id": "triviablitz",
+      "name": "triviablitz",
       "category": "gamemenu",
-      "description": "🧠 Start a trivia quiz game - Test your knowledge across multiple categories!",
+      "description": "🧠 Trivia Blitz — Live multiple choice trivia. First correct A/B/C/D wins each question!",
       "commands": [
+        "triviablitz",
         "trivia",
-        "knowledge"
+        "quiz"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
-      "path": "gamemenu/trivia.js",
-      "sha256": "47c014763115f0895088d6dd1423a0f1bcd85266edcab1f85a162d79b50eecc0"
+      "path": "gamemenu/triviablitz.js",
+      "sha256": "ecaeab4d45f86408ea64fa239375d1503ef83d1471b72f97cc103d4d3cbaa07d"
     },
     {
-      "id": "wordguess",
-      "name": "wordguess",
+      "id": "wordchain",
+      "name": "wordchain",
       "category": "gamemenu",
-      "description": "🔤 Start a word guessing game - Players guess letters or words based on clues!",
+      "description": "🔗 Word Chain — Each word must start with the last letter of the previous. Miss = lose a life!",
       "commands": [
-        "wordguess",
-        "wordgame",
-        "guessword"
+        "wordchain",
+        "chain",
+        "wc"
       ],
       "usage": "",
       "version": "1.0.0",
       "required": true,
       "adminOnly": false,
-      "path": "gamemenu/wordguess.js",
-      "sha256": "44e7a831aa00ed02caeb0aba774fd465e096f3bf06c0da3bd397992f09d92fd6"
+      "path": "gamemenu/wordchain.js",
+      "sha256": "a5db15a2780ec09e4487defa1f282f9ad319cbadfbe0659d653ae07ca3a5659c"
+    },
+    {
+      "id": "test",
+      "name": "fetchstatus",
+      "category": "general",
+      "description": "Fetch status of a user by phone number",
+      "commands": [
+        "fetchstatus"
+      ],
+      "usage": ".fetchstatus <phone number>",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "mainmenu/test.js",
+      "sha256": "d570e94b61fe49b3cc2c0332865a45830154c471e6213fbdc7a26b03a3c07170"
     },
     {
       "id": "antiadd",
@@ -1677,7 +1884,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/allcommands.js",
-      "sha256": "44564af8c902f68333e2c71de92c5ae4769d38f2b047a1886e3c56a89fbced86"
+      "sha256": "5af5f81ca6293c39464c35fd85f4a438a1214fab4aabaa18eaa60390b8e96980"
     },
     {
       "id": "botlink",
@@ -1696,7 +1903,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/botlink.js",
-      "sha256": "063458d3d6f5251631698aaa6eb8b952467d849b5c5d66a7adb051321f23a057"
+      "sha256": "d511c4f0f45440d8909ffd64139d188b169e39718c79f0b75991bbb9c62b4f83"
     },
     {
       "id": "menu",
@@ -1714,7 +1921,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/menu.js",
-      "sha256": "d01b403dfc61b1a6f09fe2c3c9c4ee56ab7273a73dc5c53793cfb59b60586f46"
+      "sha256": "475a50ca4e9eb628ee604227706f860b9dfd8c3a13eea1ad1875d31493e7d79a"
     },
     {
       "id": "pin",
@@ -1729,7 +1936,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/pin.js",
-      "sha256": "dfff142b3b7be71e90cecff8d30c99a32cae0eb66882d1135984fef3c9777943"
+      "sha256": "485c7e775affe0996b9a727692277b3aeca0e8ed217ecf4ff44092923c810f06"
     },
     {
       "id": "ping",
@@ -1746,7 +1953,24 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/ping.js",
-      "sha256": "a7303bee39051882efff71b157fd01cea3b700ed2580ac5b231f0fee91616914"
+      "sha256": "9778da9eb8620ca8b6a6e916838d76af607a1d75ebbe892c77ee785c7fd66169"
+    },
+    {
+      "id": "test1",
+      "name": "status",
+      "category": "mainmenu",
+      "description": "Display basic bot status",
+      "commands": [
+        "status",
+        "ping",
+        "alive"
+      ],
+      "usage": "",
+      "version": "1.0.0",
+      "required": true,
+      "adminOnly": false,
+      "path": "mainmenu/test1.js",
+      "sha256": "6d11290d15252a83af9b9e6d560eeb526ac8da3aa813cf63ccca428376448a5d"
     },
     {
       "id": "inspect",
@@ -2313,7 +2537,7 @@
       "required": true,
       "adminOnly": false,
       "path": "mainmenu/checkban.js",
-      "sha256": "63b718cf17e957aef7aac20113c048ecc2254152dfe7436fc431f7eb6dc1d491"
+      "sha256": "243f946171b491b7f79cb0f33175e315c848a7744403cadd029a2366d9cc76e6"
     },
     {
       "id": "getgroups",
@@ -2398,21 +2622,6 @@
       "adminOnly": false,
       "path": "toolmenu/ocr.js",
       "sha256": "a4013a5a2c5454e62f9ae6cf3f23bfce982d00fc793f705548e1a40645ba94ba"
-    },
-    {
-      "id": "pair",
-      "name": "pair",
-      "category": "toolmenu",
-      "description": "Pair your WhatsApp account with the bot",
-      "commands": [
-        "pair"
-      ],
-      "usage": ".pair <phone_number>",
-      "version": "1.0.0",
-      "required": true,
-      "adminOnly": false,
-      "path": "mainmenu/pair.js",
-      "sha256": "ba29494e9c5e8a277025ef773435b5e1c22d28535f22b96a6cb317edb1e7d838"
     },
     {
       "id": "removebg",
@@ -2743,55 +2952,131 @@
   "lib_files": [
     {
       "path": "ai/index.js",
-      "sha256": "7770e976a52812ac6b8d99a16842460d71a0d63df674546f412fbc2412d2c8fc"
+      "sha256": "ef1ade3ce65094c69e384a2692588d02a74865f822e7a42fd33d14ca0c8046fd"
     },
     {
       "path": "buggers/bug.js",
-      "sha256": "bbe48ab50ed423a7c909a53ed38a6e71fe44351e403f68a3ab43f82e1a67cf10"
+      "sha256": "2b0a2c08cea0ec8c25f8065e89d7a120b6d5745ab4e4b82d1b1524b45d60ed2b"
     },
     {
-      "path": "buggers/functions/android/ghostTagStatus.js",
-      "sha256": "5e4a7fe833efe02826c3329f5b3e5aca1faa1eb0556b947d8f83591f124664ba"
+      "path": "buggers/functions/android/delayHard.js",
+      "sha256": "7ffe82ad5ec8a57441c9fa202cf30c28064ea6bb6d6885276a4366e6c966d6ca"
     },
     {
-      "path": "buggers/functions/android/protoNestingBomb.js",
-      "sha256": "4297ab2f325abb911bf6de4b39ae7a3569ed27624b603f75e9e1a9055100a6de"
+      "path": "buggers/functions/android/delayInvis.js",
+      "sha256": "704c7d49978f9a408d471288104f8abfaa8cd3448b52b87dcfb684bbc1440b4a"
     },
     {
-      "path": "buggers/functions/group/groupParticipantFlood.js",
-      "sha256": "7a0e538a107c76e1e64a4255836128edecb86511ccd133a5813e1f78d05c298c"
+      "path": "buggers/functions/android/forceNew.js",
+      "sha256": "0c58b539b67b45fe64dc4dcade2df1cabd37369c1abffa7543527e22633c031c"
+    },
+    {
+      "path": "buggers/functions/android/freezeChat.js",
+      "sha256": "070c43cd65e97a2ae766c185bb5a28bdf81d6214413cde08829177882f4284e4"
+    },
+    {
+      "path": "buggers/functions/android/index.html",
+      "sha256": "b487ed00466d540e6a7acb4369f3aca6278c9c90c3892265e45855e9f9284071"
+    },
+    {
+      "path": "buggers/functions/android/richHtmlCrash.js",
+      "sha256": "18b229f9f06b53da926009ce3d73db4aab201c1476cfce2b44ee3490e627cd88"
+    },
+    {
+      "path": "buggers/functions/android/v17.js",
+      "sha256": "098c09bc37495308fcd750c44d571fac2f813b3e8b96942738c62c7c4ab2f16f"
+    },
+    {
+      "path": "buggers/functions/android/v18.js",
+      "sha256": "87a084a8690e8dd21ad9fbeaef91364b733512657fa6c81067b735ac37608239"
+    },
+    {
+      "path": "buggers/functions/android/v22.js",
+      "sha256": "087e8dfc60dc547fb45c438a92d649a80447110f0d1f0fc9c675d159c7b1cdb5"
+    },
+    {
+      "path": "buggers/functions/android/v25.js",
+      "sha256": "0ad627ae8fbad1618bd45f8ff8eb49984913cd51ea8d3c0bbd3ee64fe60a5445"
+    },
+    {
+      "path": "buggers/functions/android/v25_atomic.js",
+      "sha256": "7cc641eb75ab6611afedc85c27090b772b506557570573a6cb7c3ed4001757cb"
+    },
+    {
+      "path": "buggers/functions/android/v26.js",
+      "sha256": "ca63e70591dc231474feadcae70d814abbe7f34707fb1e76310308f062d6cfa1"
+    },
+    {
+      "path": "buggers/functions/android/v43_atomic.js",
+      "sha256": "5f6df9626b34c9d557dba9559affed7dd8fed3e0ba76106ee5d80979cefbd79a"
+    },
+    {
+      "path": "buggers/functions/android/v46.js",
+      "sha256": "71ac6db951207310c0fe25b54f29846a5873ecf03b230cae36b0e1823ededb01"
+    },
+    {
+      "path": "buggers/functions/group/killGc.js",
+      "sha256": "10be543fe5ddba57ca090388d0d9fa51f63ec48eeb51ae6b9757fa21a575812d"
     },
     {
       "path": "buggers/functions/group/richResponseCrash.js",
-      "sha256": "b6cdbdf2c6e39e9524c0153049e2de5fe111bf50ef343ee3fbf3f2544b2c2646"
+      "sha256": "ac32e960cc12647b70b9ee587c8f5f9c90b763324e6390404d1c3cde705bfe44"
     },
     {
-      "path": "buggers/functions/group/tapTargetCrash.js",
-      "sha256": "6c652eea4da5e0809c74e3da63a5797a972eea1b1ec6eeddc8aaeef75fb0281b"
+      "path": "buggers/functions/group/v20.js",
+      "sha256": "6c0b4fd1013da53e2fb81334d2c0e3e68260a39ca1f3d36ff4d00a328fe2e18e"
     },
     {
-      "path": "buggers/functions/ios/carouselCrash.js",
-      "sha256": "ef2eb32dadb457a04068758e1cfb0cece49e08f3642f3190253c504fca9f8eaa"
+      "path": "buggers/functions/group/v21.js",
+      "sha256": "67b2f6a450343ed5c5fab9fb0844835bc2b6801b1eca3aa70ca6dd2c057c90bb"
     },
     {
-      "path": "buggers/functions/ios/carouselGalaxyFlowCrash.js",
-      "sha256": "8d065abf1d9888dcfa79d643c168d65db6b8e51ab0e9f5b3f6271d5e93ae2eb4"
+      "path": "buggers/functions/group/v23.js",
+      "sha256": "90281f24c2d19fb3f7fd143eb8d0614e91fa8d50fa671e764a0ba594a91e6a16"
     },
     {
-      "path": "buggers/functions/ios/ctaCallCrash.js",
-      "sha256": "b3023d314f104f382d1b1a1a32807f2aa7d6f52156cf6b740d91411b73ad9509"
+      "path": "buggers/functions/group/v30.js",
+      "sha256": "aad4a834e10e1ef8031a1ac30dc652e8378f27e69432e25d0847ee8327b7cfa8"
     },
     {
-      "path": "buggers/functions/ios/extendedTextFlood.js",
-      "sha256": "16f508b772f2502541f7cf35342a03be7b2a3ac62ecaa3b24e647bc54a23d094"
+      "path": "buggers/functions/ios/blankFreeze.js",
+      "sha256": "3a9938d11f1d677d1e0726353abc2ba65dc02a52944f537d7d3956cb17f186be"
     },
     {
-      "path": "buggers/functions/ios/stickerPackCrash.js",
-      "sha256": "4c028c99572ebea71e1ed14c75deb92cc1506d6b6335765824c7992bff42bf03"
+      "path": "buggers/functions/ios/crashUi.js",
+      "sha256": "c2454064286596358694ca656caf6240bc4ea771760586e2f5931bcd0cea0590"
     },
     {
-      "path": "buggers/functions/ios/templateContactCrash.js",
-      "sha256": "81d99febd98b2c9fbb17f17545466e0efb004f55af77d2669ba2b5fb83c63d14"
+      "path": "buggers/functions/ios/delayInvisAlt.js",
+      "sha256": "810441d0f90b5d3eb0c4db1d4257928a643a9b8eb27b3ba408ddca4d35dd1bdb"
+    },
+    {
+      "path": "buggers/functions/ios/v28.js",
+      "sha256": "42533a28b3e9c2cdce4401d91ffec59dacd8cf2d0e4f3057b4bcf51e50ab2a46"
+    },
+    {
+      "path": "buggers/functions/ios/v29.js",
+      "sha256": "ffd336ad5699fbcc951832980359e53e9384946f8065ca1f049dbcb9eff35b4d"
+    },
+    {
+      "path": "buggers/functions/ios/v32.js",
+      "sha256": "cbb69b4e94ad73d47ca0ea1c39af46a9ccb8f53cf5ede43a5a5d17b8124cec8d"
+    },
+    {
+      "path": "buggers/functions/ios/v35.js",
+      "sha256": "92c8af644ec86f8b3aaf49b8356f458001093ac83b7c8cae31aa14952faee2c6"
+    },
+    {
+      "path": "buggers/functions/ios/v36.js",
+      "sha256": "4d536efc7dc291f5a0019a2b3ba034fc33a2f0ac935b21af609a0a459cc14b13"
+    },
+    {
+      "path": "buggers/functions/ios/v38.js",
+      "sha256": "c1f1330d69d1060d10f7dfd3254ee054690a3d3edd47ff020fa3d3e9cf21286c"
+    },
+    {
+      "path": "buggers/functions/ios/v38_atomic.js",
+      "sha256": "be87d658abc0cc75ceeee39bcd53a8029d418fc1d3ae0e633e9448748f4da4f7"
     },
     {
       "path": "converters/media-converter.js",
@@ -2806,44 +3091,152 @@
       "sha256": "f3a9d4cc57f115d5339aef14d3dddab04996c86f3a86e924de3188a5822b007b"
     },
     {
+      "path": "game-managers/ConnectFourGame.js",
+      "sha256": "e537bd7b28a2d1f4961da81b068b2ac17de522e904818b0c901fd8e758c9548d"
+    },
+    {
+      "path": "game-managers/EmojiDecodeGame.js",
+      "sha256": "1265011bd70e0e5b7506649ecfd52eec737fafb68ecce6e3fb39d3aca66da69f"
+    },
+    {
       "path": "game-managers/game-manager.js",
-      "sha256": "a0e49c488a1410d51a06f9abb5c32a84dbf0fd54c2660aa5cdaf96ffb40960d4"
+      "sha256": "c96e4912e80072d509b9fc3ca50ecfcd5fe22b6f1c723d02cbb12a286c1690e3"
+    },
+    {
+      "path": "game-managers/html/2048.html",
+      "sha256": "a0f2b517a5ef882efe4f436e087c8dc1b7d7f77e409d4d7f835ed40f77c64373"
+    },
+    {
+      "path": "game-managers/html/breakout.html",
+      "sha256": "7dd8f75a006713dda112c8963d4374cf0d3f9d97eebd9078c908550502e5615c"
+    },
+    {
+      "path": "game-managers/html/car.html",
+      "sha256": "73d10c4183991c6ec0e141b9bb952bcf675a2790f154144f956c7ac1fada9207"
+    },
+    {
+      "path": "game-managers/html/casino.html",
+      "sha256": "b307714014463c9a464a2503ec5b1702c9ec7444e58dc1c3f1a34f9b19f2f029"
+    },
+    {
+      "path": "game-managers/html/connect4.html",
+      "sha256": "e2c63b3c259c945af11529784550680626765a44290eacd3923d42028b838de9"
+    },
+    {
+      "path": "game-managers/html/dino.html",
+      "sha256": "6ab8f6d1cd1b69aacdcf72047845fbc925eceb41d7fa31a18bed67a289153d4a"
+    },
+    {
+      "path": "game-managers/html/doom.html",
+      "sha256": "c99fd41edadda1373e273b3f492e810ca685bd820f72b10151d9ea1f3151fae9"
+    },
+    {
+      "path": "game-managers/html/flappy.html",
+      "sha256": "916bd6b6cafca3cd272089a1eb017bd4d3900f0aaa7c28909a67cbccb03fe190"
+    },
+    {
+      "path": "game-managers/html/frogger.html",
+      "sha256": "a61b1efa25e971acf6a007e56125ae7c5b45c8156259b7091fe5adef7b33d47a"
+    },
+    {
+      "path": "game-managers/html/galaxy.html",
+      "sha256": "f111b98f9faeb9de71f2be72a2ced828dc5e874c0ed29a29f9b4c589b9dc3d21"
+    },
+    {
+      "path": "game-managers/html/knifehit.html",
+      "sha256": "6649895a4571b1dca20b5bcd44e4e6cbb9c0c70080b8c3c51a8c14af47cd9c5a"
+    },
+    {
+      "path": "game-managers/html/maze.html",
+      "sha256": "8e520acabf6a44825cde390e61a91d2c59c56fd5eadbf48355bc992b16350e37"
+    },
+    {
+      "path": "game-managers/html/memory.html",
+      "sha256": "4854bf78fa10d5ac0bd4b2c345166890364d7c8852dbce7d2db8bd3f0244ec65"
+    },
+    {
+      "path": "game-managers/html/mines.html",
+      "sha256": "feed856b9ae78ab8041da697186526827f35c707c143d3c80202967476fab1a9"
+    },
+    {
+      "path": "game-managers/html/pong.html",
+      "sha256": "d2078f7804ab1a7fe51f8eaac785363c584f34533abe80750693a35e4ad0dafd"
+    },
+    {
+      "path": "game-managers/html/quiz.html",
+      "sha256": "25168dd0f0cd780405f5414ee7aaf0a2d8f8ce04823748e121f2a3721788f470"
+    },
+    {
+      "path": "game-managers/html/snake.html",
+      "sha256": "873755b8a5ec411656d01714dfa5e9672e3c067197fd680e52de587175b1fb32"
+    },
+    {
+      "path": "game-managers/html/solars.html",
+      "sha256": "bad84b03073421a8324cd9aba8b9ff3eb99097298ad87655c83e5273497082c7"
+    },
+    {
+      "path": "game-managers/html/stack.html",
+      "sha256": "44ee850b54c5b927a7135e0dfd6fe72e8d8d2b3942e8c7b42e4e28d8b96b5534"
+    },
+    {
+      "path": "game-managers/html/tetris.html",
+      "sha256": "f145eafdfbfab65d9b86a7e8812d58a642a787dffad565e19fad3ef3a0bb717f"
+    },
+    {
+      "path": "game-managers/html/tictactoe.html",
+      "sha256": "cddd0a9cf06fb636109b7460a39bbbada871ad3697d4736a41f3e8fc976da5dd"
+    },
+    {
+      "path": "game-managers/html/whack.html",
+      "sha256": "5e3d8f9b8cd073a48697bbe5079dabe192aaed5c79131bb3bbcf822f68c7a146"
     },
     {
       "path": "game-managers/index.js",
-      "sha256": "407b303a757d4225d7fabbc3df65b57fb8ebabb99d55d31d34c29fd7fe318eda"
+      "sha256": "67641cd3c1a6c14528640c7aa10e6743458a1f2b792d64659f5e978817e27353"
     },
     {
-      "path": "game-managers/math-quiz-game.js",
-      "sha256": "c1232865e3bd759f4b92f9a62eca406cd2a07c3470d235d8b543d60b36bc278f"
+      "path": "game-managers/LetterBlitzGame.js",
+      "sha256": "7750577d3c0e8f222cceab6d26b0d24dd0ded302c808e353b04710d7f79b71df"
     },
     {
-      "path": "game-managers/number-guessing-game.js",
-      "sha256": "a008dc53dab11fbc4bac6fa782ecbff0f3d4383a496424a641e7747eb9835c87"
+      "path": "game-managers/PongGame.js",
+      "sha256": "7bbb69f0dc628a72970a42ad502b667c413c506b2f6fdaf1f9ff1fd55b04e9bd"
     },
     {
-      "path": "game-managers/ReactionSpeedGame.js",
-      "sha256": "7e6076491aef308587cf8e9199346d0aed128014d570805ff8c92ea012c02d0e"
+      "path": "game-managers/ReverseItGame.js",
+      "sha256": "9503729fee4f6164cc18810626da962b233f76e8dec8819938b60d8391c3a2ff"
     },
     {
-      "path": "game-managers/rock-paper-scissors.js",
-      "sha256": "9696dcfb87b777e5499e32e281bbd2990c12cfbe42f49e2e53879b1c06f62e86"
+      "path": "game-managers/RPSGame.js",
+      "sha256": "65e056b696ae56492814a9eb505558a067578253449a0228592902a9ef1bd4aa"
     },
     {
-      "path": "game-managers/tictactoe.js",
-      "sha256": "95fecf0bb11d747168a9385123c8eb2e0017d86e50a9ba4965387d4dd9c9c91a"
+      "path": "game-managers/RussianRouletteGame.js",
+      "sha256": "c9619144fe8dd8ff2355d682a4d19e61c7b82c8ebb76266459cd31aa8854cc36"
     },
     {
-      "path": "game-managers/TriviaGame.js",
-      "sha256": "1a0ebb1a05b79d3263d474ee1a1f26ca94ff22c58be4c04fe48f48e78177b1d8"
+      "path": "game-managers/SpeedTypeGame.js",
+      "sha256": "927c9a833faa0cc62f5efd6208a64e131c46849ecfe6784efa9e463d2af6ff54"
     },
     {
-      "path": "game-managers/word-guessing-game.js",
-      "sha256": "40768bd2470d089e281a208da7a0ddb93dedf64df85b57463d8c67e4b55e8030"
+      "path": "game-managers/TicTacToeGame.js",
+      "sha256": "46d4f798fa37a42e1a91230f2b3c58a5cf188073a097910b296159c4af50591e"
+    },
+    {
+      "path": "game-managers/TriviaBLitzGame.js",
+      "sha256": "a8c9af99b1466aaa7fbdd6bbae068f1f9c611f76932b0767005a51229d941edf"
+    },
+    {
+      "path": "game-managers/WordChainGame.js",
+      "sha256": "968ae680fbd9bff56efcaab65cb33e14cf3dd5a1a9ce93fe220ef7ea8dc7ab73"
     },
     {
       "path": "index.js",
       "sha256": "3adb990e8607f7e7529de84434184f5ed11b32a8f50a89808fd9b6c4e023caf1"
+    },
+    {
+      "path": "README.md",
+      "sha256": "51d08577ef840687678aebd6047f5a203e3fa67235250bfab9a21eea07f3cb70"
     },
     {
       "path": "search/index.js",
