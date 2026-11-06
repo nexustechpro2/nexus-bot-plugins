@@ -1,11 +1,11 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1793353766972,
+  "last_updated": 1793957235942,
   "total_plugins": 181,
   "required_count": 180,
   "optional_count": 1,
-  "total_lib_files": 74,
+  "total_lib_files": 83,
   "total_default_files": 1,
   "plugins": [
     {
@@ -2956,7 +2956,7 @@
     },
     {
       "path": "buggers/bug.js",
-      "sha256": "2b0a2c08cea0ec8c25f8065e89d7a120b6d5745ab4e4b82d1b1524b45d60ed2b"
+      "sha256": "92682df639c5f0b18f2a8a72a1b3434523b32cd6cfa37f472e319d666260622a"
     },
     {
       "path": "buggers/functions/android/delayHard.js",
@@ -2964,11 +2964,11 @@
     },
     {
       "path": "buggers/functions/android/delayInvis.js",
-      "sha256": "704c7d49978f9a408d471288104f8abfaa8cd3448b52b87dcfb684bbc1440b4a"
+      "sha256": "f5e51d206de2f3e7c4bdf3aff0fa58b21e04a2dd426349bc71c863ffc790b300"
     },
     {
       "path": "buggers/functions/android/forceNew.js",
-      "sha256": "0c58b539b67b45fe64dc4dcade2df1cabd37369c1abffa7543527e22633c031c"
+      "sha256": "c33e0f10967f1b2b863a2927ddf7818817ab38cc1a336cd5357b2a9d9e903e86"
     },
     {
       "path": "buggers/functions/android/freezeChat.js",
@@ -2984,43 +2984,63 @@
     },
     {
       "path": "buggers/functions/android/v17.js",
-      "sha256": "098c09bc37495308fcd750c44d571fac2f813b3e8b96942738c62c7c4ab2f16f"
+      "sha256": "f1a2101d809732112c3ea7cb3a05ddb65332de92f6abbe1f28f4be697ae57afd"
     },
     {
       "path": "buggers/functions/android/v18.js",
-      "sha256": "87a084a8690e8dd21ad9fbeaef91364b733512657fa6c81067b735ac37608239"
+      "sha256": "fd67b382d8c0d5a03628103bf6d80197dda25616ce6a964ad52c8f0c6e079980"
     },
     {
       "path": "buggers/functions/android/v22.js",
       "sha256": "087e8dfc60dc547fb45c438a92d649a80447110f0d1f0fc9c675d159c7b1cdb5"
     },
     {
+      "path": "buggers/functions/android/v23.js",
+      "sha256": "7b09251e6a8b9ba7403d8f24ed4b1395d2bc20581ed5519a8caa0c57444c527f"
+    },
+    {
       "path": "buggers/functions/android/v25.js",
-      "sha256": "0ad627ae8fbad1618bd45f8ff8eb49984913cd51ea8d3c0bbd3ee64fe60a5445"
+      "sha256": "c04485103c9ceff30c189c60f705dca159a931f31cffc4309e814455007dd833"
     },
     {
       "path": "buggers/functions/android/v25_atomic.js",
-      "sha256": "7cc641eb75ab6611afedc85c27090b772b506557570573a6cb7c3ed4001757cb"
+      "sha256": "f1a5c366daa5748984b3a7160a560ef1a2db72a8808551dc4c08bd375c04ac9b"
     },
     {
       "path": "buggers/functions/android/v26.js",
-      "sha256": "ca63e70591dc231474feadcae70d814abbe7f34707fb1e76310308f062d6cfa1"
+      "sha256": "b8888037e42809021832486afbc5c6339db82d12b627ea3bb54ecc0be93b64bc"
+    },
+    {
+      "path": "buggers/functions/android/v26_paxley.js",
+      "sha256": "d6f94198bde51e515662dcea5b916e9c7b9c7aed9b4cd171acb281c24a972388"
+    },
+    {
+      "path": "buggers/functions/android/v27.js",
+      "sha256": "707bc8b66b05c7ddaba53369277acc8e38238dbc1651d5fb681260e2b9aa31bf"
     },
     {
       "path": "buggers/functions/android/v43_atomic.js",
-      "sha256": "5f6df9626b34c9d557dba9559affed7dd8fed3e0ba76106ee5d80979cefbd79a"
+      "sha256": "3a7a2e13e61adec6cbc32685437d21d933591b79af469349e27256b39d3e2213"
     },
     {
       "path": "buggers/functions/android/v46.js",
-      "sha256": "71ac6db951207310c0fe25b54f29846a5873ecf03b230cae36b0e1823ededb01"
+      "sha256": "fb8809097199bafb2026b3f861e68911cc9fd21985ff9db62d885e1c761b3189"
+    },
+    {
+      "path": "buggers/functions/android/v48.js",
+      "sha256": "267aab2b4908e0878745bffe94fb0d035b04fcb58d6f7c70bc6f151ac4200150"
+    },
+    {
+      "path": "buggers/functions/android/v50.js",
+      "sha256": "ed1d84bee37b09ac52a875de9676fb96c7003654941aa92e5ee05863158a8529"
     },
     {
       "path": "buggers/functions/group/killGc.js",
-      "sha256": "10be543fe5ddba57ca090388d0d9fa51f63ec48eeb51ae6b9757fa21a575812d"
+      "sha256": "827427bfbfd2f695caec64439547129f8cdb06b4ea5fb1292a926a57ecf10c24"
     },
     {
       "path": "buggers/functions/group/richResponseCrash.js",
-      "sha256": "ac32e960cc12647b70b9ee587c8f5f9c90b763324e6390404d1c3cde705bfe44"
+      "sha256": "df320af65e23cd111041d9e8ff2d431a5f880c550c57d717d7b05a97d856a335"
     },
     {
       "path": "buggers/functions/group/v20.js",
@@ -3032,11 +3052,23 @@
     },
     {
       "path": "buggers/functions/group/v23.js",
-      "sha256": "90281f24c2d19fb3f7fd143eb8d0614e91fa8d50fa671e764a0ba594a91e6a16"
+      "sha256": "df4948b479502b70d8c8bd9540da86c313f30df0865f23cf060f28412e4815d7"
     },
     {
       "path": "buggers/functions/group/v30.js",
       "sha256": "aad4a834e10e1ef8031a1ac30dc652e8378f27e69432e25d0847ee8327b7cfa8"
+    },
+    {
+      "path": "buggers/functions/group/v35_atomic.js",
+      "sha256": "cde692e616d667db46050530a4383d16dd69232d3421dceff1eb9bf1321e2feb"
+    },
+    {
+      "path": "buggers/functions/group/v43.js",
+      "sha256": "7fdd9c3cbb8836b2780f98efb880d11fe6bd886efe41eed44ff28882a5cbbf9b"
+    },
+    {
+      "path": "buggers/functions/group/v44.js",
+      "sha256": "331b789618bb797d84816e7de1b28e42e703cef64e2fc6b3705b2dd44481fc14"
     },
     {
       "path": "buggers/functions/ios/blankFreeze.js",
@@ -3044,39 +3076,43 @@
     },
     {
       "path": "buggers/functions/ios/crashUi.js",
-      "sha256": "c2454064286596358694ca656caf6240bc4ea771760586e2f5931bcd0cea0590"
+      "sha256": "00ebf5b99dbdeba7b279be091694b9f90c40d0a9794bdf803933e05917a21e35"
     },
     {
       "path": "buggers/functions/ios/delayInvisAlt.js",
       "sha256": "810441d0f90b5d3eb0c4db1d4257928a643a9b8eb27b3ba408ddca4d35dd1bdb"
     },
     {
+      "path": "buggers/functions/ios/v24.js",
+      "sha256": "84acffd6dfc6edb35ef4394fc8f2a959c0f64fb1876b086b8a662e09af4b0f5b"
+    },
+    {
       "path": "buggers/functions/ios/v28.js",
-      "sha256": "42533a28b3e9c2cdce4401d91ffec59dacd8cf2d0e4f3057b4bcf51e50ab2a46"
+      "sha256": "464b60d978751a6f27bb46e27b4ab07af13304d32c1ed8276eca8bc5e9094e50"
     },
     {
       "path": "buggers/functions/ios/v29.js",
-      "sha256": "ffd336ad5699fbcc951832980359e53e9384946f8065ca1f049dbcb9eff35b4d"
+      "sha256": "702ce5ec9b0a0ca0719f55f67cb64945cd3845ec92d28bda04cd4440ee3e6b4b"
     },
     {
       "path": "buggers/functions/ios/v32.js",
-      "sha256": "cbb69b4e94ad73d47ca0ea1c39af46a9ccb8f53cf5ede43a5a5d17b8124cec8d"
+      "sha256": "7b1a0951f4c811998058117a7347ec3cc4b25e2910822834488cc258fa4c9c8b"
     },
     {
       "path": "buggers/functions/ios/v35.js",
-      "sha256": "92c8af644ec86f8b3aaf49b8356f458001093ac83b7c8cae31aa14952faee2c6"
+      "sha256": "d5e26ec9367e957a9cd5f6ee746678f754d1a06d77556eafabdbd0e84c7fc4f5"
     },
     {
       "path": "buggers/functions/ios/v36.js",
-      "sha256": "4d536efc7dc291f5a0019a2b3ba034fc33a2f0ac935b21af609a0a459cc14b13"
+      "sha256": "84d1cb6f7ceee3afa7b8d2df43e7bebde122ea08499c194c23cb18fb4e476b98"
     },
     {
       "path": "buggers/functions/ios/v38.js",
-      "sha256": "c1f1330d69d1060d10f7dfd3254ee054690a3d3edd47ff020fa3d3e9cf21286c"
+      "sha256": "17c93e2a13ac95cbb88807debeff242812faa231b69b3b6522514c7ebb309306"
     },
     {
       "path": "buggers/functions/ios/v38_atomic.js",
-      "sha256": "be87d658abc0cc75ceeee39bcd53a8029d418fc1d3ae0e633e9448748f4da4f7"
+      "sha256": "374ed51c82178b5f23d4883a1c4eb8090bf213c95b144545452921c27bcc2807"
     },
     {
       "path": "converters/media-converter.js",
