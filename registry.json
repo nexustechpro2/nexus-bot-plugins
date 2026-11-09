@@ -1,11 +1,11 @@
 {
   "registry_version": "2.0.0",
   "generated_at": 1788705153035,
-  "last_updated": 1793957235942,
+  "last_updated": 1794229676219,
   "total_plugins": 181,
   "required_count": 180,
   "optional_count": 1,
-  "total_lib_files": 83,
+  "total_lib_files": 82,
   "total_default_files": 1,
   "plugins": [
     {
@@ -2956,7 +2956,7 @@
     },
     {
       "path": "buggers/bug.js",
-      "sha256": "92682df639c5f0b18f2a8a72a1b3434523b32cd6cfa37f472e319d666260622a"
+      "sha256": "cf9b4b8d80cc0e237a95eaac2bdc41a79fa89a87cc1e2c6dd9113c1851d94363"
     },
     {
       "path": "buggers/functions/android/delayHard.js",
@@ -2964,7 +2964,7 @@
     },
     {
       "path": "buggers/functions/android/delayInvis.js",
-      "sha256": "f5e51d206de2f3e7c4bdf3aff0fa58b21e04a2dd426349bc71c863ffc790b300"
+      "sha256": "a9b15002387258c1d184859f69da09aab9b0ceb136dfaddf0b15cf7a3609afbb"
     },
     {
       "path": "buggers/functions/android/forceNew.js",
@@ -2975,20 +2975,16 @@
       "sha256": "070c43cd65e97a2ae766c185bb5a28bdf81d6214413cde08829177882f4284e4"
     },
     {
-      "path": "buggers/functions/android/index.html",
-      "sha256": "b487ed00466d540e6a7acb4369f3aca6278c9c90c3892265e45855e9f9284071"
-    },
-    {
-      "path": "buggers/functions/android/richHtmlCrash.js",
-      "sha256": "18b229f9f06b53da926009ce3d73db4aab201c1476cfce2b44ee3490e627cd88"
+      "path": "buggers/functions/android/htmlCrash.js",
+      "sha256": "014d339540230d0664dc7d2cee3e0b88a86a9070bbdf50ccad79b5ec8e19c8ad"
     },
     {
       "path": "buggers/functions/android/v17.js",
-      "sha256": "f1a2101d809732112c3ea7cb3a05ddb65332de92f6abbe1f28f4be697ae57afd"
+      "sha256": "3d83e7c19135d51a08f880db2754a7a9c3baa3c434a27e7e8c8a38b04addcda6"
     },
     {
       "path": "buggers/functions/android/v18.js",
-      "sha256": "fd67b382d8c0d5a03628103bf6d80197dda25616ce6a964ad52c8f0c6e079980"
+      "sha256": "9f0df7641056dfb489a26fc619899f8126ca37a9311a1d547fa3b80cf9f219e2"
     },
     {
       "path": "buggers/functions/android/v22.js",
@@ -2996,7 +2992,7 @@
     },
     {
       "path": "buggers/functions/android/v23.js",
-      "sha256": "7b09251e6a8b9ba7403d8f24ed4b1395d2bc20581ed5519a8caa0c57444c527f"
+      "sha256": "763abf190ff13f3f2f245c77e10359c67fc96309d6cad70e78ead34fa4de22fb"
     },
     {
       "path": "buggers/functions/android/v25.js",
@@ -3024,7 +3020,7 @@
     },
     {
       "path": "buggers/functions/android/v46.js",
-      "sha256": "fb8809097199bafb2026b3f861e68911cc9fd21985ff9db62d885e1c761b3189"
+      "sha256": "8066a502ac67aed78e9ad9e728a254ae5de2cc70b33383696eb0f79399f8f6b4"
     },
     {
       "path": "buggers/functions/android/v48.js",
@@ -3040,7 +3036,7 @@
     },
     {
       "path": "buggers/functions/group/richResponseCrash.js",
-      "sha256": "df320af65e23cd111041d9e8ff2d431a5f880c550c57d717d7b05a97d856a335"
+      "sha256": "fe8382e554004c13866280a686756a6d3b90e8008539da440190f43c71e74b7e"
     },
     {
       "path": "buggers/functions/group/v20.js",
@@ -3064,7 +3060,7 @@
     },
     {
       "path": "buggers/functions/group/v43.js",
-      "sha256": "7fdd9c3cbb8836b2780f98efb880d11fe6bd886efe41eed44ff28882a5cbbf9b"
+      "sha256": "b361a8a2559bc579701e93facec9c3318e39c27d6884799977cf19250817d436"
     },
     {
       "path": "buggers/functions/group/v44.js",
@@ -3096,7 +3092,7 @@
     },
     {
       "path": "buggers/functions/ios/v32.js",
-      "sha256": "7b1a0951f4c811998058117a7347ec3cc4b25e2910822834488cc258fa4c9c8b"
+      "sha256": "e8093a8ff0641078a81be27736c76d6064935f1a9cdc7ed5283def5ef73363ae"
     },
     {
       "path": "buggers/functions/ios/v35.js",
@@ -3104,7 +3100,7 @@
     },
     {
       "path": "buggers/functions/ios/v36.js",
-      "sha256": "84d1cb6f7ceee3afa7b8d2df43e7bebde122ea08499c194c23cb18fb4e476b98"
+      "sha256": "4ad4d4a94d6f6cd3a63e0df53643a13b491487104b513f6c82ef7cbf44e98409"
     },
     {
       "path": "buggers/functions/ios/v38.js",
@@ -3112,7 +3108,7 @@
     },
     {
       "path": "buggers/functions/ios/v38_atomic.js",
-      "sha256": "374ed51c82178b5f23d4883a1c4eb8090bf213c95b144545452921c27bcc2807"
+      "sha256": "7c5f5ab955a9eee0d5a39a7c926de368f7aa7e8fd497d33d9d21340b3eba36a3"
     },
     {
       "path": "converters/media-converter.js",
